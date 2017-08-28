@@ -1,0 +1,3033 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'update',
+1 verbose cli   '--scripts-prepend-node-path=auto' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 silly mapToRegistry name body-parser
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry data Result {
+7 silly mapToRegistry   raw: 'body-parser',
+7 silly mapToRegistry   scope: null,
+7 silly mapToRegistry   escapedName: 'body-parser',
+7 silly mapToRegistry   name: 'body-parser',
+7 silly mapToRegistry   rawSpec: '',
+7 silly mapToRegistry   spec: 'latest',
+7 silly mapToRegistry   type: 'tag' }
+8 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+9 silly mapToRegistry name client-sessions
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'client-sessions',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'client-sessions',
+12 silly mapToRegistry   name: 'client-sessions',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/client-sessions
+14 silly mapToRegistry name cookie-parser
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry data Result {
+17 silly mapToRegistry   raw: 'cookie-parser',
+17 silly mapToRegistry   scope: null,
+17 silly mapToRegistry   escapedName: 'cookie-parser',
+17 silly mapToRegistry   name: 'cookie-parser',
+17 silly mapToRegistry   rawSpec: '',
+17 silly mapToRegistry   spec: 'latest',
+17 silly mapToRegistry   type: 'tag' }
+18 silly mapToRegistry uri https://registry.npmjs.org/cookie-parser
+19 silly mapToRegistry name cookie-session
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry data Result {
+22 silly mapToRegistry   raw: 'cookie-session',
+22 silly mapToRegistry   scope: null,
+22 silly mapToRegistry   escapedName: 'cookie-session',
+22 silly mapToRegistry   name: 'cookie-session',
+22 silly mapToRegistry   rawSpec: '',
+22 silly mapToRegistry   spec: 'latest',
+22 silly mapToRegistry   type: 'tag' }
+23 silly mapToRegistry uri https://registry.npmjs.org/cookie-session
+24 silly mapToRegistry name debug
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry data Result {
+27 silly mapToRegistry   raw: 'debug',
+27 silly mapToRegistry   scope: null,
+27 silly mapToRegistry   escapedName: 'debug',
+27 silly mapToRegistry   name: 'debug',
+27 silly mapToRegistry   rawSpec: '',
+27 silly mapToRegistry   spec: 'latest',
+27 silly mapToRegistry   type: 'tag' }
+28 silly mapToRegistry uri https://registry.npmjs.org/debug
+29 silly mapToRegistry name ejs
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry data Result {
+32 silly mapToRegistry   raw: 'ejs',
+32 silly mapToRegistry   scope: null,
+32 silly mapToRegistry   escapedName: 'ejs',
+32 silly mapToRegistry   name: 'ejs',
+32 silly mapToRegistry   rawSpec: '',
+32 silly mapToRegistry   spec: 'latest',
+32 silly mapToRegistry   type: 'tag' }
+33 silly mapToRegistry uri https://registry.npmjs.org/ejs
+34 silly mapToRegistry name email-verification
+35 silly mapToRegistry using default registry
+36 silly mapToRegistry registry https://registry.npmjs.org/
+37 silly mapToRegistry data Result {
+37 silly mapToRegistry   raw: 'email-verification',
+37 silly mapToRegistry   scope: null,
+37 silly mapToRegistry   escapedName: 'email-verification',
+37 silly mapToRegistry   name: 'email-verification',
+37 silly mapToRegistry   rawSpec: '',
+37 silly mapToRegistry   spec: 'latest',
+37 silly mapToRegistry   type: 'tag' }
+38 silly mapToRegistry uri https://registry.npmjs.org/email-verification
+39 silly mapToRegistry name express
+40 silly mapToRegistry using default registry
+41 silly mapToRegistry registry https://registry.npmjs.org/
+42 silly mapToRegistry data Result {
+42 silly mapToRegistry   raw: 'express',
+42 silly mapToRegistry   scope: null,
+42 silly mapToRegistry   escapedName: 'express',
+42 silly mapToRegistry   name: 'express',
+42 silly mapToRegistry   rawSpec: '',
+42 silly mapToRegistry   spec: 'latest',
+42 silly mapToRegistry   type: 'tag' }
+43 silly mapToRegistry uri https://registry.npmjs.org/express
+44 silly mapToRegistry name line-reader
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'line-reader',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'line-reader',
+47 silly mapToRegistry   name: 'line-reader',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/line-reader
+49 silly mapToRegistry name morgan
+50 silly mapToRegistry using default registry
+51 silly mapToRegistry registry https://registry.npmjs.org/
+52 silly mapToRegistry data Result {
+52 silly mapToRegistry   raw: 'morgan',
+52 silly mapToRegistry   scope: null,
+52 silly mapToRegistry   escapedName: 'morgan',
+52 silly mapToRegistry   name: 'morgan',
+52 silly mapToRegistry   rawSpec: '',
+52 silly mapToRegistry   spec: 'latest',
+52 silly mapToRegistry   type: 'tag' }
+53 silly mapToRegistry uri https://registry.npmjs.org/morgan
+54 silly mapToRegistry name mysql
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry data Result {
+57 silly mapToRegistry   raw: 'mysql',
+57 silly mapToRegistry   scope: null,
+57 silly mapToRegistry   escapedName: 'mysql',
+57 silly mapToRegistry   name: 'mysql',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag' }
+58 silly mapToRegistry uri https://registry.npmjs.org/mysql
+59 silly mapToRegistry name nodemailer
+60 silly mapToRegistry using default registry
+61 silly mapToRegistry registry https://registry.npmjs.org/
+62 silly mapToRegistry data Result {
+62 silly mapToRegistry   raw: 'nodemailer',
+62 silly mapToRegistry   scope: null,
+62 silly mapToRegistry   escapedName: 'nodemailer',
+62 silly mapToRegistry   name: 'nodemailer',
+62 silly mapToRegistry   rawSpec: '',
+62 silly mapToRegistry   spec: 'latest',
+62 silly mapToRegistry   type: 'tag' }
+63 silly mapToRegistry uri https://registry.npmjs.org/nodemailer
+64 silly mapToRegistry name serve-favicon
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry data Result {
+67 silly mapToRegistry   raw: 'serve-favicon',
+67 silly mapToRegistry   scope: null,
+67 silly mapToRegistry   escapedName: 'serve-favicon',
+67 silly mapToRegistry   name: 'serve-favicon',
+67 silly mapToRegistry   rawSpec: '',
+67 silly mapToRegistry   spec: 'latest',
+67 silly mapToRegistry   type: 'tag' }
+68 silly mapToRegistry uri https://registry.npmjs.org/serve-favicon
+69 silly mapToRegistry name xoauth2
+70 silly mapToRegistry using default registry
+71 silly mapToRegistry registry https://registry.npmjs.org/
+72 silly mapToRegistry data Result {
+72 silly mapToRegistry   raw: 'xoauth2',
+72 silly mapToRegistry   scope: null,
+72 silly mapToRegistry   escapedName: 'xoauth2',
+72 silly mapToRegistry   name: 'xoauth2',
+72 silly mapToRegistry   rawSpec: '',
+72 silly mapToRegistry   spec: 'latest',
+72 silly mapToRegistry   type: 'tag' }
+73 silly mapToRegistry uri https://registry.npmjs.org/xoauth2
+74 silly mapToRegistry name bcrypt
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry data Result {
+77 silly mapToRegistry   raw: 'bcrypt',
+77 silly mapToRegistry   scope: null,
+77 silly mapToRegistry   escapedName: 'bcrypt',
+77 silly mapToRegistry   name: 'bcrypt',
+77 silly mapToRegistry   rawSpec: '',
+77 silly mapToRegistry   spec: 'latest',
+77 silly mapToRegistry   type: 'tag' }
+78 silly mapToRegistry uri https://registry.npmjs.org/bcrypt
+79 verbose request uri https://registry.npmjs.org/client-sessions
+80 verbose request no auth needed
+81 info attempt registry request try #1 at 1:47:10 AM
+82 verbose request id c530a272436b2b75
+83 verbose etag W/"590f2b77-75f0"
+84 verbose lastModified Sun, 07 May 2017 14:13:11 GMT
+85 http request GET https://registry.npmjs.org/client-sessions
+86 verbose request uri https://registry.npmjs.org/cookie-parser
+87 verbose request no auth needed
+88 info attempt registry request try #1 at 1:47:10 AM
+89 verbose etag W/"599ff988-6b56"
+90 verbose lastModified Fri, 25 Aug 2017 10:18:48 GMT
+91 http request GET https://registry.npmjs.org/cookie-parser
+92 verbose request uri https://registry.npmjs.org/body-parser
+93 verbose request no auth needed
+94 info attempt registry request try #1 at 1:47:10 AM
+95 verbose etag W/"59a19dd5-21269"
+96 verbose lastModified Sat, 26 Aug 2017 16:12:05 GMT
+97 http request GET https://registry.npmjs.org/body-parser
+98 verbose request uri https://registry.npmjs.org/debug
+99 verbose request no auth needed
+100 info attempt registry request try #1 at 1:47:10 AM
+101 verbose etag W/"59a1dd2a-17d7f"
+102 verbose lastModified Sat, 26 Aug 2017 20:42:18 GMT
+103 http request GET https://registry.npmjs.org/debug
+104 verbose request uri https://registry.npmjs.org/cookie-session
+105 verbose request no auth needed
+106 info attempt registry request try #1 at 1:47:10 AM
+107 verbose etag W/"598cd13f-67fb"
+108 verbose lastModified Thu, 10 Aug 2017 21:33:51 GMT
+109 http request GET https://registry.npmjs.org/cookie-session
+110 verbose request uri https://registry.npmjs.org/ejs
+111 verbose request no auth needed
+112 info attempt registry request try #1 at 1:47:10 AM
+113 verbose etag W/"599be395-112b1"
+114 verbose lastModified Tue, 22 Aug 2017 07:56:05 GMT
+115 http request GET https://registry.npmjs.org/ejs
+116 verbose request uri https://registry.npmjs.org/email-verification
+117 verbose request no auth needed
+118 info attempt registry request try #1 at 1:47:10 AM
+119 verbose etag W/"5950eb0f-b116"
+120 verbose lastModified Mon, 26 Jun 2017 11:07:59 GMT
+121 http request GET https://registry.npmjs.org/email-verification
+122 verbose request uri https://registry.npmjs.org/line-reader
+123 verbose request no auth needed
+124 info attempt registry request try #1 at 1:47:10 AM
+125 verbose etag W/"591dfef9-3e8c"
+126 verbose lastModified Thu, 18 May 2017 20:07:21 GMT
+127 http request GET https://registry.npmjs.org/line-reader
+128 verbose request uri https://registry.npmjs.org/morgan
+129 verbose request no auth needed
+130 info attempt registry request try #1 at 1:47:10 AM
+131 verbose etag W/"599a726b-da2e"
+132 verbose lastModified Mon, 21 Aug 2017 05:40:59 GMT
+133 http request GET https://registry.npmjs.org/morgan
+134 verbose request uri https://registry.npmjs.org/serve-favicon
+135 verbose request no auth needed
+136 info attempt registry request try #1 at 1:47:10 AM
+137 verbose etag W/"599a3a97-87b2"
+138 verbose lastModified Mon, 21 Aug 2017 01:42:47 GMT
+139 http request GET https://registry.npmjs.org/serve-favicon
+140 verbose request uri https://registry.npmjs.org/mysql
+141 verbose request no auth needed
+142 info attempt registry request try #1 at 1:47:10 AM
+143 verbose etag W/"59a1e550-233f4"
+144 verbose lastModified Sat, 26 Aug 2017 21:17:04 GMT
+145 http request GET https://registry.npmjs.org/mysql
+146 verbose request uri https://registry.npmjs.org/xoauth2
+147 verbose request no auth needed
+148 info attempt registry request try #1 at 1:47:10 AM
+149 verbose etag W/"57f3a03a-3a3f"
+150 verbose lastModified Tue, 04 Oct 2016 12:27:38 GMT
+151 http request GET https://registry.npmjs.org/xoauth2
+152 verbose request uri https://registry.npmjs.org/nodemailer
+153 verbose request no auth needed
+154 info attempt registry request try #1 at 1:47:10 AM
+155 verbose etag W/"599ffaa3-4188c"
+156 verbose lastModified Fri, 25 Aug 2017 10:23:31 GMT
+157 http request GET https://registry.npmjs.org/nodemailer
+158 verbose request uri https://registry.npmjs.org/bcrypt
+159 verbose request no auth needed
+160 info attempt registry request try #1 at 1:47:10 AM
+161 verbose etag W/"59a0ee2c-17ef6"
+162 verbose lastModified Sat, 26 Aug 2017 03:42:36 GMT
+163 http request GET https://registry.npmjs.org/bcrypt
+164 verbose request uri https://registry.npmjs.org/express
+165 verbose request no auth needed
+166 info attempt registry request try #1 at 1:47:10 AM
+167 verbose etag W/"59a1dd28-8ebfe"
+168 verbose lastModified Sat, 26 Aug 2017 20:42:16 GMT
+169 http request GET https://registry.npmjs.org/express
+170 http 304 https://registry.npmjs.org/cookie-parser
+171 verbose headers { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+171 verbose headers   via: '1.1 varnish',
+171 verbose headers   'cache-control': 'max-age=300',
+171 verbose headers   etag: 'W/"599ff988-6b56"',
+171 verbose headers   age: '39',
+171 verbose headers   connection: 'keep-alive',
+171 verbose headers   'x-served-by': 'cache-hhn1528-HHN',
+171 verbose headers   'x-cache': 'HIT',
+171 verbose headers   'x-cache-hits': '1',
+171 verbose headers   'x-timer': 'S1503791229.246637,VS0,VE0',
+171 verbose headers   vary: 'Accept-Encoding, Accept' }
+172 silly get cb [ 304,
+172 silly get   { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+172 silly get     via: '1.1 varnish',
+172 silly get     'cache-control': 'max-age=300',
+172 silly get     etag: 'W/"599ff988-6b56"',
+172 silly get     age: '39',
+172 silly get     connection: 'keep-alive',
+172 silly get     'x-served-by': 'cache-hhn1528-HHN',
+172 silly get     'x-cache': 'HIT',
+172 silly get     'x-cache-hits': '1',
+172 silly get     'x-timer': 'S1503791229.246637,VS0,VE0',
+172 silly get     vary: 'Accept-Encoding, Accept' } ]
+173 verbose etag https://registry.npmjs.org/cookie-parser from cache
+174 verbose get saving cookie-parser to C:\Users\Maleta\AppData\Roaming\npm-cache\registry.npmjs.org\cookie-parser\.cache.json
+175 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+176 http 304 https://registry.npmjs.org/ejs
+177 verbose headers { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+177 verbose headers   via: '1.1 varnish',
+177 verbose headers   'cache-control': 'max-age=300',
+177 verbose headers   etag: 'W/"599be395-112b1"',
+177 verbose headers   age: '89',
+177 verbose headers   connection: 'keep-alive',
+177 verbose headers   'x-served-by': 'cache-hhn1545-HHN',
+177 verbose headers   'x-cache': 'HIT',
+177 verbose headers   'x-cache-hits': '2',
+177 verbose headers   'x-timer': 'S1503791229.264520,VS0,VE0',
+177 verbose headers   vary: 'Accept-Encoding, Accept' }
+178 silly get cb [ 304,
+178 silly get   { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+178 silly get     via: '1.1 varnish',
+178 silly get     'cache-control': 'max-age=300',
+178 silly get     etag: 'W/"599be395-112b1"',
+178 silly get     age: '89',
+178 silly get     connection: 'keep-alive',
+178 silly get     'x-served-by': 'cache-hhn1545-HHN',
+178 silly get     'x-cache': 'HIT',
+178 silly get     'x-cache-hits': '2',
+178 silly get     'x-timer': 'S1503791229.264520,VS0,VE0',
+178 silly get     vary: 'Accept-Encoding, Accept' } ]
+179 verbose etag https://registry.npmjs.org/ejs from cache
+180 verbose get saving ejs to C:\Users\Maleta\AppData\Roaming\npm-cache\registry.npmjs.org\ejs\.cache.json
+181 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+182 http 304 https://registry.npmjs.org/debug
+183 verbose headers { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+183 verbose headers   via: '1.1 varnish',
+183 verbose headers   'cache-control': 'max-age=300',
+183 verbose headers   etag: 'W/"59a1dd2a-17d7f"',
+183 verbose headers   age: '264',
+183 verbose headers   connection: 'keep-alive',
+183 verbose headers   'x-served-by': 'cache-hhn1542-HHN',
+183 verbose headers   'x-cache': 'HIT',
+183 verbose headers   'x-cache-hits': '11',
+183 verbose headers   'x-timer': 'S1503791229.260466,VS0,VE0',
+183 verbose headers   vary: 'Accept-Encoding, Accept' }
+184 silly get cb [ 304,
+184 silly get   { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+184 silly get     via: '1.1 varnish',
+184 silly get     'cache-control': 'max-age=300',
+184 silly get     etag: 'W/"59a1dd2a-17d7f"',
+184 silly get     age: '264',
+184 silly get     connection: 'keep-alive',
+184 silly get     'x-served-by': 'cache-hhn1542-HHN',
+184 silly get     'x-cache': 'HIT',
+184 silly get     'x-cache-hits': '11',
+184 silly get     'x-timer': 'S1503791229.260466,VS0,VE0',
+184 silly get     vary: 'Accept-Encoding, Accept' } ]
+185 verbose etag https://registry.npmjs.org/debug from cache
+186 verbose get saving debug to C:\Users\Maleta\AppData\Roaming\npm-cache\registry.npmjs.org\debug\.cache.json
+187 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+188 http 304 https://registry.npmjs.org/body-parser
+189 verbose headers { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+189 verbose headers   via: '1.1 varnish',
+189 verbose headers   'cache-control': 'max-age=300',
+189 verbose headers   etag: 'W/"59a19dd5-21269"',
+189 verbose headers   age: '164',
+189 verbose headers   connection: 'keep-alive',
+189 verbose headers   'x-served-by': 'cache-hhn1551-HHN',
+189 verbose headers   'x-cache': 'HIT',
+189 verbose headers   'x-cache-hits': '2',
+189 verbose headers   'x-timer': 'S1503791229.260798,VS0,VE0',
+189 verbose headers   vary: 'Accept-Encoding, Accept' }
+190 silly get cb [ 304,
+190 silly get   { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+190 silly get     via: '1.1 varnish',
+190 silly get     'cache-control': 'max-age=300',
+190 silly get     etag: 'W/"59a19dd5-21269"',
+190 silly get     age: '164',
+190 silly get     connection: 'keep-alive',
+190 silly get     'x-served-by': 'cache-hhn1551-HHN',
+190 silly get     'x-cache': 'HIT',
+190 silly get     'x-cache-hits': '2',
+190 silly get     'x-timer': 'S1503791229.260798,VS0,VE0',
+190 silly get     vary: 'Accept-Encoding, Accept' } ]
+191 verbose etag https://registry.npmjs.org/body-parser from cache
+192 verbose get saving body-parser to C:\Users\Maleta\AppData\Roaming\npm-cache\registry.npmjs.org\body-parser\.cache.json
+193 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+194 http 304 https://registry.npmjs.org/serve-favicon
+195 verbose headers { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+195 verbose headers   via: '1.1 varnish',
+195 verbose headers   'cache-control': 'max-age=300',
+195 verbose headers   etag: 'W/"599a3a97-87b2"',
+195 verbose headers   age: '286',
+195 verbose headers   connection: 'keep-alive',
+195 verbose headers   'x-served-by': 'cache-hhn1541-HHN',
+195 verbose headers   'x-cache': 'HIT',
+195 verbose headers   'x-cache-hits': '1',
+195 verbose headers   'x-timer': 'S1503791229.264629,VS0,VE0',
+195 verbose headers   vary: 'Accept-Encoding, Accept' }
+196 silly get cb [ 304,
+196 silly get   { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+196 silly get     via: '1.1 varnish',
+196 silly get     'cache-control': 'max-age=300',
+196 silly get     etag: 'W/"599a3a97-87b2"',
+196 silly get     age: '286',
+196 silly get     connection: 'keep-alive',
+196 silly get     'x-served-by': 'cache-hhn1541-HHN',
+196 silly get     'x-cache': 'HIT',
+196 silly get     'x-cache-hits': '1',
+196 silly get     'x-timer': 'S1503791229.264629,VS0,VE0',
+196 silly get     vary: 'Accept-Encoding, Accept' } ]
+197 verbose etag https://registry.npmjs.org/serve-favicon from cache
+198 verbose get saving serve-favicon to C:\Users\Maleta\AppData\Roaming\npm-cache\registry.npmjs.org\serve-favicon\.cache.json
+199 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+200 http 304 https://registry.npmjs.org/client-sessions
+201 verbose headers { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+201 verbose headers   via: '1.1 varnish',
+201 verbose headers   'cache-control': 'max-age=300',
+201 verbose headers   etag: 'W/"590f2b77-75f0"',
+201 verbose headers   age: '0',
+201 verbose headers   connection: 'keep-alive',
+201 verbose headers   'x-served-by': 'cache-hhn1530-HHN',
+201 verbose headers   'x-cache': 'MISS',
+201 verbose headers   'x-cache-hits': '0',
+201 verbose headers   'x-timer': 'S1503791229.269569,VS0,VE3',
+201 verbose headers   vary: 'Accept-Encoding, Accept' }
+202 silly get cb [ 304,
+202 silly get   { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+202 silly get     via: '1.1 varnish',
+202 silly get     'cache-control': 'max-age=300',
+202 silly get     etag: 'W/"590f2b77-75f0"',
+202 silly get     age: '0',
+202 silly get     connection: 'keep-alive',
+202 silly get     'x-served-by': 'cache-hhn1530-HHN',
+202 silly get     'x-cache': 'MISS',
+202 silly get     'x-cache-hits': '0',
+202 silly get     'x-timer': 'S1503791229.269569,VS0,VE3',
+202 silly get     vary: 'Accept-Encoding, Accept' } ]
+203 verbose etag https://registry.npmjs.org/client-sessions from cache
+204 verbose get saving client-sessions to C:\Users\Maleta\AppData\Roaming\npm-cache\registry.npmjs.org\client-sessions\.cache.json
+205 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+206 http 304 https://registry.npmjs.org/express
+207 verbose headers { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+207 verbose headers   via: '1.1 varnish',
+207 verbose headers   'cache-control': 'max-age=300',
+207 verbose headers   etag: 'W/"59a1dd28-8ebfe"',
+207 verbose headers   age: '131',
+207 verbose headers   connection: 'keep-alive',
+207 verbose headers   'x-served-by': 'cache-hhn1532-HHN',
+207 verbose headers   'x-cache': 'HIT',
+207 verbose headers   'x-cache-hits': '1',
+207 verbose headers   'x-timer': 'S1503791229.273557,VS0,VE0',
+207 verbose headers   vary: 'Accept-Encoding, Accept' }
+208 silly get cb [ 304,
+208 silly get   { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+208 silly get     via: '1.1 varnish',
+208 silly get     'cache-control': 'max-age=300',
+208 silly get     etag: 'W/"59a1dd28-8ebfe"',
+208 silly get     age: '131',
+208 silly get     connection: 'keep-alive',
+208 silly get     'x-served-by': 'cache-hhn1532-HHN',
+208 silly get     'x-cache': 'HIT',
+208 silly get     'x-cache-hits': '1',
+208 silly get     'x-timer': 'S1503791229.273557,VS0,VE0',
+208 silly get     vary: 'Accept-Encoding, Accept' } ]
+209 verbose etag https://registry.npmjs.org/express from cache
+210 verbose get saving express to C:\Users\Maleta\AppData\Roaming\npm-cache\registry.npmjs.org\express\.cache.json
+211 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+212 http 304 https://registry.npmjs.org/nodemailer
+213 verbose headers { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+213 verbose headers   via: '1.1 varnish',
+213 verbose headers   'cache-control': 'max-age=300',
+213 verbose headers   etag: 'W/"599ffaa3-4188c"',
+213 verbose headers   age: '149',
+213 verbose headers   connection: 'keep-alive',
+213 verbose headers   'x-served-by': 'cache-hhn1537-HHN',
+213 verbose headers   'x-cache': 'HIT',
+213 verbose headers   'x-cache-hits': '1',
+213 verbose headers   'x-timer': 'S1503791229.280900,VS0,VE0',
+213 verbose headers   vary: 'Accept-Encoding, Accept' }
+214 silly get cb [ 304,
+214 silly get   { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+214 silly get     via: '1.1 varnish',
+214 silly get     'cache-control': 'max-age=300',
+214 silly get     etag: 'W/"599ffaa3-4188c"',
+214 silly get     age: '149',
+214 silly get     connection: 'keep-alive',
+214 silly get     'x-served-by': 'cache-hhn1537-HHN',
+214 silly get     'x-cache': 'HIT',
+214 silly get     'x-cache-hits': '1',
+214 silly get     'x-timer': 'S1503791229.280900,VS0,VE0',
+214 silly get     vary: 'Accept-Encoding, Accept' } ]
+215 verbose etag https://registry.npmjs.org/nodemailer from cache
+216 verbose get saving nodemailer to C:\Users\Maleta\AppData\Roaming\npm-cache\registry.npmjs.org\nodemailer\.cache.json
+217 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+218 http 304 https://registry.npmjs.org/morgan
+219 verbose headers { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+219 verbose headers   via: '1.1 varnish',
+219 verbose headers   'cache-control': 'max-age=300',
+219 verbose headers   etag: 'W/"599a726b-da2e"',
+219 verbose headers   age: '61',
+219 verbose headers   connection: 'keep-alive',
+219 verbose headers   'x-served-by': 'cache-hhn1523-HHN',
+219 verbose headers   'x-cache': 'HIT',
+219 verbose headers   'x-cache-hits': '1',
+219 verbose headers   'x-timer': 'S1503791229.289681,VS0,VE0',
+219 verbose headers   vary: 'Accept-Encoding, Accept' }
+220 silly get cb [ 304,
+220 silly get   { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+220 silly get     via: '1.1 varnish',
+220 silly get     'cache-control': 'max-age=300',
+220 silly get     etag: 'W/"599a726b-da2e"',
+220 silly get     age: '61',
+220 silly get     connection: 'keep-alive',
+220 silly get     'x-served-by': 'cache-hhn1523-HHN',
+220 silly get     'x-cache': 'HIT',
+220 silly get     'x-cache-hits': '1',
+220 silly get     'x-timer': 'S1503791229.289681,VS0,VE0',
+220 silly get     vary: 'Accept-Encoding, Accept' } ]
+221 verbose etag https://registry.npmjs.org/morgan from cache
+222 verbose get saving morgan to C:\Users\Maleta\AppData\Roaming\npm-cache\registry.npmjs.org\morgan\.cache.json
+223 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+224 http 304 https://registry.npmjs.org/bcrypt
+225 verbose headers { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+225 verbose headers   via: '1.1 varnish',
+225 verbose headers   'cache-control': 'max-age=300',
+225 verbose headers   etag: 'W/"59a0ee2c-17ef6"',
+225 verbose headers   age: '82',
+225 verbose headers   connection: 'keep-alive',
+225 verbose headers   'x-served-by': 'cache-hhn1526-HHN',
+225 verbose headers   'x-cache': 'HIT',
+225 verbose headers   'x-cache-hits': '1',
+225 verbose headers   'x-timer': 'S1503791229.324103,VS0,VE0',
+225 verbose headers   vary: 'Accept-Encoding, Accept' }
+226 silly get cb [ 304,
+226 silly get   { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+226 silly get     via: '1.1 varnish',
+226 silly get     'cache-control': 'max-age=300',
+226 silly get     etag: 'W/"59a0ee2c-17ef6"',
+226 silly get     age: '82',
+226 silly get     connection: 'keep-alive',
+226 silly get     'x-served-by': 'cache-hhn1526-HHN',
+226 silly get     'x-cache': 'HIT',
+226 silly get     'x-cache-hits': '1',
+226 silly get     'x-timer': 'S1503791229.324103,VS0,VE0',
+226 silly get     vary: 'Accept-Encoding, Accept' } ]
+227 verbose etag https://registry.npmjs.org/bcrypt from cache
+228 verbose get saving bcrypt to C:\Users\Maleta\AppData\Roaming\npm-cache\registry.npmjs.org\bcrypt\.cache.json
+229 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+230 http 304 https://registry.npmjs.org/xoauth2
+231 verbose headers { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+231 verbose headers   via: '1.1 varnish',
+231 verbose headers   'cache-control': 'max-age=300',
+231 verbose headers   etag: 'W/"57f3a03a-3a3f"',
+231 verbose headers   age: '0',
+231 verbose headers   connection: 'keep-alive',
+231 verbose headers   'x-served-by': 'cache-hhn1546-HHN',
+231 verbose headers   'x-cache': 'MISS',
+231 verbose headers   'x-cache-hits': '0',
+231 verbose headers   'x-timer': 'S1503791229.286001,VS0,VE44',
+231 verbose headers   vary: 'Accept-Encoding, Accept' }
+232 silly get cb [ 304,
+232 silly get   { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+232 silly get     via: '1.1 varnish',
+232 silly get     'cache-control': 'max-age=300',
+232 silly get     etag: 'W/"57f3a03a-3a3f"',
+232 silly get     age: '0',
+232 silly get     connection: 'keep-alive',
+232 silly get     'x-served-by': 'cache-hhn1546-HHN',
+232 silly get     'x-cache': 'MISS',
+232 silly get     'x-cache-hits': '0',
+232 silly get     'x-timer': 'S1503791229.286001,VS0,VE44',
+232 silly get     vary: 'Accept-Encoding, Accept' } ]
+233 verbose etag https://registry.npmjs.org/xoauth2 from cache
+234 verbose get saving xoauth2 to C:\Users\Maleta\AppData\Roaming\npm-cache\registry.npmjs.org\xoauth2\.cache.json
+235 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+236 http 304 https://registry.npmjs.org/mysql
+237 verbose headers { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+237 verbose headers   via: '1.1 varnish',
+237 verbose headers   'cache-control': 'max-age=300',
+237 verbose headers   etag: 'W/"59a1e550-233f4"',
+237 verbose headers   age: '0',
+237 verbose headers   connection: 'keep-alive',
+237 verbose headers   'x-served-by': 'cache-hhn1550-HHN',
+237 verbose headers   'x-cache': 'HIT',
+237 verbose headers   'x-cache-hits': '1',
+237 verbose headers   'x-timer': 'S1503791229.325845,VS0,VE44',
+237 verbose headers   vary: 'Accept-Encoding, Accept' }
+238 silly get cb [ 304,
+238 silly get   { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+238 silly get     via: '1.1 varnish',
+238 silly get     'cache-control': 'max-age=300',
+238 silly get     etag: 'W/"59a1e550-233f4"',
+238 silly get     age: '0',
+238 silly get     connection: 'keep-alive',
+238 silly get     'x-served-by': 'cache-hhn1550-HHN',
+238 silly get     'x-cache': 'HIT',
+238 silly get     'x-cache-hits': '1',
+238 silly get     'x-timer': 'S1503791229.325845,VS0,VE44',
+238 silly get     vary: 'Accept-Encoding, Accept' } ]
+239 verbose etag https://registry.npmjs.org/mysql from cache
+240 verbose get saving mysql to C:\Users\Maleta\AppData\Roaming\npm-cache\registry.npmjs.org\mysql\.cache.json
+241 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+242 http 304 https://registry.npmjs.org/cookie-session
+243 verbose headers { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+243 verbose headers   via: '1.1 varnish',
+243 verbose headers   'cache-control': 'max-age=300',
+243 verbose headers   etag: 'W/"598cd13f-67fb"',
+243 verbose headers   age: '0',
+243 verbose headers   connection: 'keep-alive',
+243 verbose headers   'x-served-by': 'cache-hhn1526-HHN',
+243 verbose headers   'x-cache': 'HIT',
+243 verbose headers   'x-cache-hits': '1',
+243 verbose headers   'x-timer': 'S1503791229.262238,VS0,VE407',
+243 verbose headers   vary: 'Accept-Encoding, Accept' }
+244 silly get cb [ 304,
+244 silly get   { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+244 silly get     via: '1.1 varnish',
+244 silly get     'cache-control': 'max-age=300',
+244 silly get     etag: 'W/"598cd13f-67fb"',
+244 silly get     age: '0',
+244 silly get     connection: 'keep-alive',
+244 silly get     'x-served-by': 'cache-hhn1526-HHN',
+244 silly get     'x-cache': 'HIT',
+244 silly get     'x-cache-hits': '1',
+244 silly get     'x-timer': 'S1503791229.262238,VS0,VE407',
+244 silly get     vary: 'Accept-Encoding, Accept' } ]
+245 verbose etag https://registry.npmjs.org/cookie-session from cache
+246 verbose get saving cookie-session to C:\Users\Maleta\AppData\Roaming\npm-cache\registry.npmjs.org\cookie-session\.cache.json
+247 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+248 http 304 https://registry.npmjs.org/line-reader
+249 verbose headers { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+249 verbose headers   via: '1.1 varnish',
+249 verbose headers   'cache-control': 'max-age=300',
+249 verbose headers   etag: 'W/"591dfef9-3e8c"',
+249 verbose headers   age: '0',
+249 verbose headers   connection: 'keep-alive',
+249 verbose headers   'x-served-by': 'cache-hhn1520-HHN',
+249 verbose headers   'x-cache': 'MISS',
+249 verbose headers   'x-cache-hits': '0',
+249 verbose headers   'x-timer': 'S1503791229.265110,VS0,VE453',
+249 verbose headers   vary: 'Accept-Encoding, Accept' }
+250 silly get cb [ 304,
+250 silly get   { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+250 silly get     via: '1.1 varnish',
+250 silly get     'cache-control': 'max-age=300',
+250 silly get     etag: 'W/"591dfef9-3e8c"',
+250 silly get     age: '0',
+250 silly get     connection: 'keep-alive',
+250 silly get     'x-served-by': 'cache-hhn1520-HHN',
+250 silly get     'x-cache': 'MISS',
+250 silly get     'x-cache-hits': '0',
+250 silly get     'x-timer': 'S1503791229.265110,VS0,VE453',
+250 silly get     vary: 'Accept-Encoding, Accept' } ]
+251 verbose etag https://registry.npmjs.org/line-reader from cache
+252 verbose get saving line-reader to C:\Users\Maleta\AppData\Roaming\npm-cache\registry.npmjs.org\line-reader\.cache.json
+253 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+254 http 304 https://registry.npmjs.org/email-verification
+255 verbose headers { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+255 verbose headers   via: '1.1 varnish',
+255 verbose headers   'cache-control': 'max-age=300',
+255 verbose headers   etag: 'W/"5950eb0f-b116"',
+255 verbose headers   age: '0',
+255 verbose headers   connection: 'keep-alive',
+255 verbose headers   'x-served-by': 'cache-hhn1548-HHN',
+255 verbose headers   'x-cache': 'MISS',
+255 verbose headers   'x-cache-hits': '0',
+255 verbose headers   'x-timer': 'S1503791229.263952,VS0,VE466',
+255 verbose headers   vary: 'Accept-Encoding, Accept' }
+256 silly get cb [ 304,
+256 silly get   { date: 'Sat, 26 Aug 2017 23:47:09 GMT',
+256 silly get     via: '1.1 varnish',
+256 silly get     'cache-control': 'max-age=300',
+256 silly get     etag: 'W/"5950eb0f-b116"',
+256 silly get     age: '0',
+256 silly get     connection: 'keep-alive',
+256 silly get     'x-served-by': 'cache-hhn1548-HHN',
+256 silly get     'x-cache': 'MISS',
+256 silly get     'x-cache-hits': '0',
+256 silly get     'x-timer': 'S1503791229.263952,VS0,VE466',
+256 silly get     vary: 'Accept-Encoding, Accept' } ]
+257 verbose etag https://registry.npmjs.org/email-verification from cache
+258 verbose get saving email-verification to C:\Users\Maleta\AppData\Roaming\npm-cache\registry.npmjs.org\email-verification\.cache.json
+259 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+260 verbose outdated not updating cookie-session because it's currently at the maximum version that matches its specified semver range
+261 verbose outdated not updating debug because it's currently at the maximum version that matches its specified semver range
+262 info outdated updating [ { dep:
+262 info outdated      { package: [Object],
+262 info outdated        path: 'F:\\WebStormProject\'s\\Project 1',
+262 info outdated        parent: [Object],
+262 info outdated        isMissing: true },
+262 info outdated     depname: 'bcrypt',
+262 info outdated     current: undefined,
+262 info outdated     wanted: '1.0.3',
+262 info outdated     latest: '1.0.3',
+262 info outdated     req: '^1.0.2',
+262 info outdated     what: 'bcrypt@1.0.3' } ]
+263 silly loadCurrentTree Starting
+264 silly install loadCurrentTree
+265 silly install readLocalPackageData
+266 silly fetchPackageMetaData bcrypt@1.0.3
+267 silly fetchNamedPackageData bcrypt
+268 silly mapToRegistry name bcrypt
+269 silly mapToRegistry using default registry
+270 silly mapToRegistry registry https://registry.npmjs.org/
+271 silly mapToRegistry data Result {
+271 silly mapToRegistry   raw: 'bcrypt',
+271 silly mapToRegistry   scope: null,
+271 silly mapToRegistry   escapedName: 'bcrypt',
+271 silly mapToRegistry   name: 'bcrypt',
+271 silly mapToRegistry   rawSpec: '',
+271 silly mapToRegistry   spec: 'latest',
+271 silly mapToRegistry   type: 'tag' }
+272 silly mapToRegistry uri https://registry.npmjs.org/bcrypt
+273 verbose get https://registry.npmjs.org/bcrypt not expired, no request
+274 silly install normalizeTree
+275 silly loadCurrentTree Finishing
+276 silly loadIdealTree Starting
+277 silly install loadIdealTree
+278 silly cloneCurrentTree Starting
+279 silly install cloneCurrentTreeToIdealTree
+280 silly cloneCurrentTree Finishing
+281 silly loadShrinkwrap Starting
+282 silly install loadShrinkwrap
+283 silly loadShrinkwrap Finishing
+284 silly loadAllDepsIntoIdealTree Starting
+285 silly install loadAllDepsIntoIdealTree
+286 silly resolveWithNewModule bcrypt@1.0.3 checking installable status
+287 silly cache add args [ 'bcrypt@1.0.3', null ]
+288 verbose cache add spec bcrypt@1.0.3
+289 silly cache add parsed spec Result {
+289 silly cache add   raw: 'bcrypt@1.0.3',
+289 silly cache add   scope: null,
+289 silly cache add   escapedName: 'bcrypt',
+289 silly cache add   name: 'bcrypt',
+289 silly cache add   rawSpec: '1.0.3',
+289 silly cache add   spec: '1.0.3',
+289 silly cache add   type: 'version' }
+290 silly addNamed bcrypt@1.0.3
+291 verbose addNamed "1.0.3" is a plain semver version for bcrypt
+292 silly mapToRegistry name bcrypt
+293 silly mapToRegistry using default registry
+294 silly mapToRegistry registry https://registry.npmjs.org/
+295 silly mapToRegistry data Result {
+295 silly mapToRegistry   raw: 'bcrypt',
+295 silly mapToRegistry   scope: null,
+295 silly mapToRegistry   escapedName: 'bcrypt',
+295 silly mapToRegistry   name: 'bcrypt',
+295 silly mapToRegistry   rawSpec: '',
+295 silly mapToRegistry   spec: 'latest',
+295 silly mapToRegistry   type: 'tag' }
+296 silly mapToRegistry uri https://registry.npmjs.org/bcrypt
+297 verbose addNameVersion registry:https://registry.npmjs.org/bcrypt not in flight; fetching
+298 verbose get https://registry.npmjs.org/bcrypt not expired, no request
+299 silly cache afterAdd bcrypt@1.0.3
+300 verbose afterAdd C:\Users\Maleta\AppData\Roaming\npm-cache\bcrypt\1.0.3\package\package.json not in flight; writing
+301 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+302 verbose afterAdd C:\Users\Maleta\AppData\Roaming\npm-cache\bcrypt\1.0.3\package\package.json written
+303 silly fetchNamedPackageData nan
+304 silly mapToRegistry name nan
+305 silly mapToRegistry using default registry
+306 silly mapToRegistry registry https://registry.npmjs.org/
+307 silly mapToRegistry data Result {
+307 silly mapToRegistry   raw: 'nan',
+307 silly mapToRegistry   scope: null,
+307 silly mapToRegistry   escapedName: 'nan',
+307 silly mapToRegistry   name: 'nan',
+307 silly mapToRegistry   rawSpec: '',
+307 silly mapToRegistry   spec: 'latest',
+307 silly mapToRegistry   type: 'tag' }
+308 silly mapToRegistry uri https://registry.npmjs.org/nan
+309 silly fetchNamedPackageData node-pre-gyp
+310 silly mapToRegistry name node-pre-gyp
+311 silly mapToRegistry using default registry
+312 silly mapToRegistry registry https://registry.npmjs.org/
+313 silly mapToRegistry data Result {
+313 silly mapToRegistry   raw: 'node-pre-gyp',
+313 silly mapToRegistry   scope: null,
+313 silly mapToRegistry   escapedName: 'node-pre-gyp',
+313 silly mapToRegistry   name: 'node-pre-gyp',
+313 silly mapToRegistry   rawSpec: '',
+313 silly mapToRegistry   spec: 'latest',
+313 silly mapToRegistry   type: 'tag' }
+314 silly mapToRegistry uri https://registry.npmjs.org/node-pre-gyp
+315 verbose request uri https://registry.npmjs.org/nan
+316 verbose request no auth needed
+317 info attempt registry request try #1 at 1:47:12 AM
+318 verbose etag W/"597a1ce5-1fa1a"
+319 verbose lastModified Thu, 27 Jul 2017 17:03:33 GMT
+320 http request GET https://registry.npmjs.org/nan
+321 verbose request uri https://registry.npmjs.org/node-pre-gyp
+322 verbose request no auth needed
+323 info attempt registry request try #1 at 1:47:12 AM
+324 verbose etag W/"593b0f81-294a7"
+325 verbose lastModified Fri, 09 Jun 2017 21:13:37 GMT
+326 http request GET https://registry.npmjs.org/node-pre-gyp
+327 http 304 https://registry.npmjs.org/nan
+328 verbose headers { date: 'Sat, 26 Aug 2017 23:47:10 GMT',
+328 verbose headers   via: '1.1 varnish',
+328 verbose headers   'cache-control': 'max-age=300',
+328 verbose headers   etag: 'W/"597a1ce5-1fa1a"',
+328 verbose headers   age: '246',
+328 verbose headers   connection: 'keep-alive',
+328 verbose headers   'x-served-by': 'cache-hhn1528-HHN',
+328 verbose headers   'x-cache': 'HIT',
+328 verbose headers   'x-cache-hits': '3',
+328 verbose headers   'x-timer': 'S1503791231.570315,VS0,VE0',
+328 verbose headers   vary: 'Accept-Encoding, Accept' }
+329 silly get cb [ 304,
+329 silly get   { date: 'Sat, 26 Aug 2017 23:47:10 GMT',
+329 silly get     via: '1.1 varnish',
+329 silly get     'cache-control': 'max-age=300',
+329 silly get     etag: 'W/"597a1ce5-1fa1a"',
+329 silly get     age: '246',
+329 silly get     connection: 'keep-alive',
+329 silly get     'x-served-by': 'cache-hhn1528-HHN',
+329 silly get     'x-cache': 'HIT',
+329 silly get     'x-cache-hits': '3',
+329 silly get     'x-timer': 'S1503791231.570315,VS0,VE0',
+329 silly get     vary: 'Accept-Encoding, Accept' } ]
+330 verbose etag https://registry.npmjs.org/nan from cache
+331 verbose get saving nan to C:\Users\Maleta\AppData\Roaming\npm-cache\registry.npmjs.org\nan\.cache.json
+332 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+333 silly resolveWithNewModule nan@2.6.2 checking installable status
+334 silly cache add args [ 'nan@2.6.2', null ]
+335 verbose cache add spec nan@2.6.2
+336 silly cache add parsed spec Result {
+336 silly cache add   raw: 'nan@2.6.2',
+336 silly cache add   scope: null,
+336 silly cache add   escapedName: 'nan',
+336 silly cache add   name: 'nan',
+336 silly cache add   rawSpec: '2.6.2',
+336 silly cache add   spec: '2.6.2',
+336 silly cache add   type: 'version' }
+337 silly addNamed nan@2.6.2
+338 verbose addNamed "2.6.2" is a plain semver version for nan
+339 silly mapToRegistry name nan
+340 silly mapToRegistry using default registry
+341 silly mapToRegistry registry https://registry.npmjs.org/
+342 silly mapToRegistry data Result {
+342 silly mapToRegistry   raw: 'nan',
+342 silly mapToRegistry   scope: null,
+342 silly mapToRegistry   escapedName: 'nan',
+342 silly mapToRegistry   name: 'nan',
+342 silly mapToRegistry   rawSpec: '',
+342 silly mapToRegistry   spec: 'latest',
+342 silly mapToRegistry   type: 'tag' }
+343 silly mapToRegistry uri https://registry.npmjs.org/nan
+344 verbose addNameVersion registry:https://registry.npmjs.org/nan not in flight; fetching
+345 http 304 https://registry.npmjs.org/node-pre-gyp
+346 verbose headers { date: 'Sat, 26 Aug 2017 23:47:10 GMT',
+346 verbose headers   via: '1.1 varnish',
+346 verbose headers   'cache-control': 'max-age=300',
+346 verbose headers   etag: 'W/"593b0f81-294a7"',
+346 verbose headers   age: '33',
+346 verbose headers   connection: 'keep-alive',
+346 verbose headers   'x-served-by': 'cache-hhn1545-HHN',
+346 verbose headers   'x-cache': 'HIT',
+346 verbose headers   'x-cache-hits': '2',
+346 verbose headers   'x-timer': 'S1503791231.582294,VS0,VE0',
+346 verbose headers   vary: 'Accept-Encoding, Accept' }
+347 silly get cb [ 304,
+347 silly get   { date: 'Sat, 26 Aug 2017 23:47:10 GMT',
+347 silly get     via: '1.1 varnish',
+347 silly get     'cache-control': 'max-age=300',
+347 silly get     etag: 'W/"593b0f81-294a7"',
+347 silly get     age: '33',
+347 silly get     connection: 'keep-alive',
+347 silly get     'x-served-by': 'cache-hhn1545-HHN',
+347 silly get     'x-cache': 'HIT',
+347 silly get     'x-cache-hits': '2',
+347 silly get     'x-timer': 'S1503791231.582294,VS0,VE0',
+347 silly get     vary: 'Accept-Encoding, Accept' } ]
+348 verbose etag https://registry.npmjs.org/node-pre-gyp from cache
+349 verbose get saving node-pre-gyp to C:\Users\Maleta\AppData\Roaming\npm-cache\registry.npmjs.org\node-pre-gyp\.cache.json
+350 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+351 verbose get https://registry.npmjs.org/nan not expired, no request
+352 silly cache afterAdd nan@2.6.2
+353 verbose afterAdd C:\Users\Maleta\AppData\Roaming\npm-cache\nan\2.6.2\package\package.json not in flight; writing
+354 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+355 verbose afterAdd C:\Users\Maleta\AppData\Roaming\npm-cache\nan\2.6.2\package\package.json written
+356 silly resolveWithNewModule node-pre-gyp@0.6.36 checking installable status
+357 silly cache add args [ 'node-pre-gyp@0.6.36', null ]
+358 verbose cache add spec node-pre-gyp@0.6.36
+359 silly cache add parsed spec Result {
+359 silly cache add   raw: 'node-pre-gyp@0.6.36',
+359 silly cache add   scope: null,
+359 silly cache add   escapedName: 'node-pre-gyp',
+359 silly cache add   name: 'node-pre-gyp',
+359 silly cache add   rawSpec: '0.6.36',
+359 silly cache add   spec: '0.6.36',
+359 silly cache add   type: 'version' }
+360 silly addNamed node-pre-gyp@0.6.36
+361 verbose addNamed "0.6.36" is a plain semver version for node-pre-gyp
+362 silly mapToRegistry name node-pre-gyp
+363 silly mapToRegistry using default registry
+364 silly mapToRegistry registry https://registry.npmjs.org/
+365 silly mapToRegistry data Result {
+365 silly mapToRegistry   raw: 'node-pre-gyp',
+365 silly mapToRegistry   scope: null,
+365 silly mapToRegistry   escapedName: 'node-pre-gyp',
+365 silly mapToRegistry   name: 'node-pre-gyp',
+365 silly mapToRegistry   rawSpec: '',
+365 silly mapToRegistry   spec: 'latest',
+365 silly mapToRegistry   type: 'tag' }
+366 silly mapToRegistry uri https://registry.npmjs.org/node-pre-gyp
+367 verbose addNameVersion registry:https://registry.npmjs.org/node-pre-gyp not in flight; fetching
+368 verbose get https://registry.npmjs.org/node-pre-gyp not expired, no request
+369 silly cache afterAdd node-pre-gyp@0.6.36
+370 verbose afterAdd C:\Users\Maleta\AppData\Roaming\npm-cache\node-pre-gyp\0.6.36\package\package.json not in flight; writing
+371 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+372 verbose afterAdd C:\Users\Maleta\AppData\Roaming\npm-cache\node-pre-gyp\0.6.36\package\package.json written
+373 silly fetchNamedPackageData nopt
+374 silly mapToRegistry name nopt
+375 silly mapToRegistry using default registry
+376 silly mapToRegistry registry https://registry.npmjs.org/
+377 silly mapToRegistry data Result {
+377 silly mapToRegistry   raw: 'nopt',
+377 silly mapToRegistry   scope: null,
+377 silly mapToRegistry   escapedName: 'nopt',
+377 silly mapToRegistry   name: 'nopt',
+377 silly mapToRegistry   rawSpec: '',
+377 silly mapToRegistry   spec: 'latest',
+377 silly mapToRegistry   type: 'tag' }
+378 silly mapToRegistry uri https://registry.npmjs.org/nopt
+379 silly fetchNamedPackageData rc
+380 silly mapToRegistry name rc
+381 silly mapToRegistry using default registry
+382 silly mapToRegistry registry https://registry.npmjs.org/
+383 silly mapToRegistry data Result {
+383 silly mapToRegistry   raw: 'rc',
+383 silly mapToRegistry   scope: null,
+383 silly mapToRegistry   escapedName: 'rc',
+383 silly mapToRegistry   name: 'rc',
+383 silly mapToRegistry   rawSpec: '',
+383 silly mapToRegistry   spec: 'latest',
+383 silly mapToRegistry   type: 'tag' }
+384 silly mapToRegistry uri https://registry.npmjs.org/rc
+385 silly fetchNamedPackageData semver
+386 silly mapToRegistry name semver
+387 silly mapToRegistry using default registry
+388 silly mapToRegistry registry https://registry.npmjs.org/
+389 silly mapToRegistry data Result {
+389 silly mapToRegistry   raw: 'semver',
+389 silly mapToRegistry   scope: null,
+389 silly mapToRegistry   escapedName: 'semver',
+389 silly mapToRegistry   name: 'semver',
+389 silly mapToRegistry   rawSpec: '',
+389 silly mapToRegistry   spec: 'latest',
+389 silly mapToRegistry   type: 'tag' }
+390 silly mapToRegistry uri https://registry.npmjs.org/semver
+391 silly fetchNamedPackageData tar-pack
+392 silly mapToRegistry name tar-pack
+393 silly mapToRegistry using default registry
+394 silly mapToRegistry registry https://registry.npmjs.org/
+395 silly mapToRegistry data Result {
+395 silly mapToRegistry   raw: 'tar-pack',
+395 silly mapToRegistry   scope: null,
+395 silly mapToRegistry   escapedName: 'tar-pack',
+395 silly mapToRegistry   name: 'tar-pack',
+395 silly mapToRegistry   rawSpec: '',
+395 silly mapToRegistry   spec: 'latest',
+395 silly mapToRegistry   type: 'tag' }
+396 silly mapToRegistry uri https://registry.npmjs.org/tar-pack
+397 verbose request uri https://registry.npmjs.org/nopt
+398 verbose request no auth needed
+399 info attempt registry request try #1 at 1:47:12 AM
+400 verbose etag W/"5993c431-847a"
+401 verbose lastModified Wed, 16 Aug 2017 04:04:01 GMT
+402 http request GET https://registry.npmjs.org/nopt
+403 verbose request uri https://registry.npmjs.org/rc
+404 verbose request no auth needed
+405 info attempt registry request try #1 at 1:47:12 AM
+406 verbose etag W/"5995a799-bdb6"
+407 verbose lastModified Thu, 17 Aug 2017 14:26:33 GMT
+408 http request GET https://registry.npmjs.org/rc
+409 verbose request uri https://registry.npmjs.org/semver
+410 verbose request no auth needed
+411 info attempt registry request try #1 at 1:47:12 AM
+412 verbose etag W/"599e8dd4-126cd"
+413 verbose lastModified Thu, 24 Aug 2017 08:27:00 GMT
+414 http request GET https://registry.npmjs.org/semver
+415 verbose request uri https://registry.npmjs.org/tar-pack
+416 verbose request no auth needed
+417 info attempt registry request try #1 at 1:47:12 AM
+418 verbose etag W/"58516b0d-4c6b"
+419 verbose lastModified Wed, 14 Dec 2016 15:53:49 GMT
+420 http request GET https://registry.npmjs.org/tar-pack
+421 http 304 https://registry.npmjs.org/nopt
+422 verbose headers { date: 'Sat, 26 Aug 2017 23:47:10 GMT',
+422 verbose headers   via: '1.1 varnish',
+422 verbose headers   'cache-control': 'max-age=300',
+422 verbose headers   etag: 'W/"5993c431-847a"',
+422 verbose headers   age: '283',
+422 verbose headers   connection: 'keep-alive',
+422 verbose headers   'x-served-by': 'cache-hhn1542-HHN',
+422 verbose headers   'x-cache': 'HIT',
+422 verbose headers   'x-cache-hits': '5',
+422 verbose headers   'x-timer': 'S1503791231.707821,VS0,VE0',
+422 verbose headers   vary: 'Accept-Encoding, Accept' }
+423 silly get cb [ 304,
+423 silly get   { date: 'Sat, 26 Aug 2017 23:47:10 GMT',
+423 silly get     via: '1.1 varnish',
+423 silly get     'cache-control': 'max-age=300',
+423 silly get     etag: 'W/"5993c431-847a"',
+423 silly get     age: '283',
+423 silly get     connection: 'keep-alive',
+423 silly get     'x-served-by': 'cache-hhn1542-HHN',
+423 silly get     'x-cache': 'HIT',
+423 silly get     'x-cache-hits': '5',
+423 silly get     'x-timer': 'S1503791231.707821,VS0,VE0',
+423 silly get     vary: 'Accept-Encoding, Accept' } ]
+424 verbose etag https://registry.npmjs.org/nopt from cache
+425 verbose get saving nopt to C:\Users\Maleta\AppData\Roaming\npm-cache\registry.npmjs.org\nopt\.cache.json
+426 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+427 http 304 https://registry.npmjs.org/rc
+428 verbose headers { date: 'Sat, 26 Aug 2017 23:47:10 GMT',
+428 verbose headers   via: '1.1 varnish',
+428 verbose headers   'cache-control': 'max-age=300',
+428 verbose headers   etag: 'W/"5995a799-bdb6"',
+428 verbose headers   age: '219',
+428 verbose headers   connection: 'keep-alive',
+428 verbose headers   'x-served-by': 'cache-hhn1551-HHN',
+428 verbose headers   'x-cache': 'HIT',
+428 verbose headers   'x-cache-hits': '3',
+428 verbose headers   'x-timer': 'S1503791231.708133,VS0,VE0',
+428 verbose headers   vary: 'Accept-Encoding, Accept' }
+429 silly get cb [ 304,
+429 silly get   { date: 'Sat, 26 Aug 2017 23:47:10 GMT',
+429 silly get     via: '1.1 varnish',
+429 silly get     'cache-control': 'max-age=300',
+429 silly get     etag: 'W/"5995a799-bdb6"',
+429 silly get     age: '219',
+429 silly get     connection: 'keep-alive',
+429 silly get     'x-served-by': 'cache-hhn1551-HHN',
+429 silly get     'x-cache': 'HIT',
+429 silly get     'x-cache-hits': '3',
+429 silly get     'x-timer': 'S1503791231.708133,VS0,VE0',
+429 silly get     vary: 'Accept-Encoding, Accept' } ]
+430 verbose etag https://registry.npmjs.org/rc from cache
+431 verbose get saving rc to C:\Users\Maleta\AppData\Roaming\npm-cache\registry.npmjs.org\rc\.cache.json
+432 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+433 http 304 https://registry.npmjs.org/semver
+434 verbose headers { date: 'Sat, 26 Aug 2017 23:47:10 GMT',
+434 verbose headers   via: '1.1 varnish',
+434 verbose headers   'cache-control': 'max-age=300',
+434 verbose headers   etag: 'W/"599e8dd4-126cd"',
+434 verbose headers   age: '105',
+434 verbose headers   connection: 'keep-alive',
+434 verbose headers   'x-served-by': 'cache-hhn1541-HHN',
+434 verbose headers   'x-cache': 'HIT',
+434 verbose headers   'x-cache-hits': '6',
+434 verbose headers   'x-timer': 'S1503791231.722325,VS0,VE0',
+434 verbose headers   vary: 'Accept-Encoding, Accept' }
+435 silly get cb [ 304,
+435 silly get   { date: 'Sat, 26 Aug 2017 23:47:10 GMT',
+435 silly get     via: '1.1 varnish',
+435 silly get     'cache-control': 'max-age=300',
+435 silly get     etag: 'W/"599e8dd4-126cd"',
+435 silly get     age: '105',
+435 silly get     connection: 'keep-alive',
+435 silly get     'x-served-by': 'cache-hhn1541-HHN',
+435 silly get     'x-cache': 'HIT',
+435 silly get     'x-cache-hits': '6',
+435 silly get     'x-timer': 'S1503791231.722325,VS0,VE0',
+435 silly get     vary: 'Accept-Encoding, Accept' } ]
+436 verbose etag https://registry.npmjs.org/semver from cache
+437 verbose get saving semver to C:\Users\Maleta\AppData\Roaming\npm-cache\registry.npmjs.org\semver\.cache.json
+438 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+439 http 304 https://registry.npmjs.org/tar-pack
+440 verbose headers { date: 'Sat, 26 Aug 2017 23:47:10 GMT',
+440 verbose headers   via: '1.1 varnish',
+440 verbose headers   'cache-control': 'max-age=300',
+440 verbose headers   etag: 'W/"58516b0d-4c6b"',
+440 verbose headers   age: '148',
+440 verbose headers   connection: 'keep-alive',
+440 verbose headers   'x-served-by': 'cache-hhn1530-HHN',
+440 verbose headers   'x-cache': 'HIT',
+440 verbose headers   'x-cache-hits': '2',
+440 verbose headers   'x-timer': 'S1503791231.719055,VS0,VE0',
+440 verbose headers   vary: 'Accept-Encoding, Accept' }
+441 silly get cb [ 304,
+441 silly get   { date: 'Sat, 26 Aug 2017 23:47:10 GMT',
+441 silly get     via: '1.1 varnish',
+441 silly get     'cache-control': 'max-age=300',
+441 silly get     etag: 'W/"58516b0d-4c6b"',
+441 silly get     age: '148',
+441 silly get     connection: 'keep-alive',
+441 silly get     'x-served-by': 'cache-hhn1530-HHN',
+441 silly get     'x-cache': 'HIT',
+441 silly get     'x-cache-hits': '2',
+441 silly get     'x-timer': 'S1503791231.719055,VS0,VE0',
+441 silly get     vary: 'Accept-Encoding, Accept' } ]
+442 verbose etag https://registry.npmjs.org/tar-pack from cache
+443 verbose get saving tar-pack to C:\Users\Maleta\AppData\Roaming\npm-cache\registry.npmjs.org\tar-pack\.cache.json
+444 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+445 silly resolveWithNewModule rc@1.2.1 checking installable status
+446 silly cache add args [ 'rc@^1.1.7', null ]
+447 verbose cache add spec rc@^1.1.7
+448 silly cache add parsed spec Result {
+448 silly cache add   raw: 'rc@^1.1.7',
+448 silly cache add   scope: null,
+448 silly cache add   escapedName: 'rc',
+448 silly cache add   name: 'rc',
+448 silly cache add   rawSpec: '^1.1.7',
+448 silly cache add   spec: '>=1.1.7 <2.0.0',
+448 silly cache add   type: 'range' }
+449 silly addNamed rc@>=1.1.7 <2.0.0
+450 verbose addNamed ">=1.1.7 <2.0.0" is a valid semver range for rc
+451 silly addNameRange { name: 'rc', range: '>=1.1.7 <2.0.0', hasData: false }
+452 silly mapToRegistry name rc
+453 silly mapToRegistry using default registry
+454 silly mapToRegistry registry https://registry.npmjs.org/
+455 silly mapToRegistry data Result {
+455 silly mapToRegistry   raw: 'rc',
+455 silly mapToRegistry   scope: null,
+455 silly mapToRegistry   escapedName: 'rc',
+455 silly mapToRegistry   name: 'rc',
+455 silly mapToRegistry   rawSpec: '',
+455 silly mapToRegistry   spec: 'latest',
+455 silly mapToRegistry   type: 'tag' }
+456 silly mapToRegistry uri https://registry.npmjs.org/rc
+457 verbose addNameRange registry:https://registry.npmjs.org/rc not in flight; fetching
+458 verbose get https://registry.npmjs.org/rc not expired, no request
+459 silly addNameRange number 2 { name: 'rc', range: '>=1.1.7 <2.0.0', hasData: true }
+460 silly addNameRange versions [ 'rc',
+460 silly addNameRange   [ '0.0.1',
+460 silly addNameRange     '0.0.2',
+460 silly addNameRange     '0.0.3',
+460 silly addNameRange     '0.0.4',
+460 silly addNameRange     '0.0.5',
+460 silly addNameRange     '0.0.6',
+460 silly addNameRange     '0.0.7',
+460 silly addNameRange     '0.0.8',
+460 silly addNameRange     '0.1.0',
+460 silly addNameRange     '0.1.1',
+460 silly addNameRange     '0.1.2',
+460 silly addNameRange     '0.1.3',
+460 silly addNameRange     '0.2.0',
+460 silly addNameRange     '0.3.0',
+460 silly addNameRange     '0.3.1',
+460 silly addNameRange     '0.3.2',
+460 silly addNameRange     '0.3.3',
+460 silly addNameRange     '0.3.4',
+460 silly addNameRange     '0.3.5',
+460 silly addNameRange     '0.4.0',
+460 silly addNameRange     '0.5.0',
+460 silly addNameRange     '0.5.1',
+460 silly addNameRange     '0.5.2',
+460 silly addNameRange     '0.5.3',
+460 silly addNameRange     '0.5.4',
+460 silly addNameRange     '0.5.5',
+460 silly addNameRange     '0.6.0',
+460 silly addNameRange     '1.0.0',
+460 silly addNameRange     '1.0.1',
+460 silly addNameRange     '1.0.2',
+460 silly addNameRange     '1.0.3',
+460 silly addNameRange     '1.1.0',
+460 silly addNameRange     '1.1.1',
+460 silly addNameRange     '1.1.2',
+460 silly addNameRange     '1.1.3',
+460 silly addNameRange     '1.1.4',
+460 silly addNameRange     '1.1.5',
+460 silly addNameRange     '1.1.6',
+460 silly addNameRange     '1.1.7',
+460 silly addNameRange     '1.2.0',
+460 silly addNameRange     '1.2.1' ] ]
+461 silly addNamed rc@1.2.1
+462 verbose addNamed "1.2.1" is a plain semver version for rc
+463 silly resolveWithNewModule nopt@4.0.1 checking installable status
+464 silly cache add args [ 'nopt@^4.0.1', null ]
+465 verbose cache add spec nopt@^4.0.1
+466 silly cache add parsed spec Result {
+466 silly cache add   raw: 'nopt@^4.0.1',
+466 silly cache add   scope: null,
+466 silly cache add   escapedName: 'nopt',
+466 silly cache add   name: 'nopt',
+466 silly cache add   rawSpec: '^4.0.1',
+466 silly cache add   spec: '>=4.0.1 <5.0.0',
+466 silly cache add   type: 'range' }
+467 silly addNamed nopt@>=4.0.1 <5.0.0
+468 verbose addNamed ">=4.0.1 <5.0.0" is a valid semver range for nopt
+469 silly addNameRange { name: 'nopt', range: '>=4.0.1 <5.0.0', hasData: false }
+470 silly mapToRegistry name nopt
+471 silly mapToRegistry using default registry
+472 silly mapToRegistry registry https://registry.npmjs.org/
+473 silly mapToRegistry data Result {
+473 silly mapToRegistry   raw: 'nopt',
+473 silly mapToRegistry   scope: null,
+473 silly mapToRegistry   escapedName: 'nopt',
+473 silly mapToRegistry   name: 'nopt',
+473 silly mapToRegistry   rawSpec: '',
+473 silly mapToRegistry   spec: 'latest',
+473 silly mapToRegistry   type: 'tag' }
+474 silly mapToRegistry uri https://registry.npmjs.org/nopt
+475 verbose addNameRange registry:https://registry.npmjs.org/nopt not in flight; fetching
+476 verbose get https://registry.npmjs.org/nopt not expired, no request
+477 silly addNameRange number 2 { name: 'nopt', range: '>=4.0.1 <5.0.0', hasData: true }
+478 silly addNameRange versions [ 'nopt',
+478 silly addNameRange   [ '1.0.0',
+478 silly addNameRange     '1.0.1',
+478 silly addNameRange     '1.0.2',
+478 silly addNameRange     '1.0.3',
+478 silly addNameRange     '1.0.4',
+478 silly addNameRange     '1.0.5',
+478 silly addNameRange     '1.0.6',
+478 silly addNameRange     '1.0.7',
+478 silly addNameRange     '1.0.8',
+478 silly addNameRange     '1.0.9',
+478 silly addNameRange     '1.0.10',
+478 silly addNameRange     '2.0.0',
+478 silly addNameRange     '2.1.0',
+478 silly addNameRange     '2.1.1',
+478 silly addNameRange     '2.1.2',
+478 silly addNameRange     '2.2.0',
+478 silly addNameRange     '2.2.1',
+478 silly addNameRange     '3.0.0',
+478 silly addNameRange     '3.0.1',
+478 silly addNameRange     '3.0.2',
+478 silly addNameRange     '3.0.3',
+478 silly addNameRange     '3.0.4',
+478 silly addNameRange     '3.0.5',
+478 silly addNameRange     '3.0.6',
+478 silly addNameRange     '4.0.0',
+478 silly addNameRange     '4.0.1' ] ]
+479 silly addNamed nopt@4.0.1
+480 verbose addNamed "4.0.1" is a plain semver version for nopt
+481 silly resolveWithNewModule tar-pack@3.4.0 checking installable status
+482 silly cache add args [ 'tar-pack@^3.4.0', null ]
+483 verbose cache add spec tar-pack@^3.4.0
+484 silly cache add parsed spec Result {
+484 silly cache add   raw: 'tar-pack@^3.4.0',
+484 silly cache add   scope: null,
+484 silly cache add   escapedName: 'tar-pack',
+484 silly cache add   name: 'tar-pack',
+484 silly cache add   rawSpec: '^3.4.0',
+484 silly cache add   spec: '>=3.4.0 <4.0.0',
+484 silly cache add   type: 'range' }
+485 silly addNamed tar-pack@>=3.4.0 <4.0.0
+486 verbose addNamed ">=3.4.0 <4.0.0" is a valid semver range for tar-pack
+487 silly addNameRange { name: 'tar-pack', range: '>=3.4.0 <4.0.0', hasData: false }
+488 silly mapToRegistry name tar-pack
+489 silly mapToRegistry using default registry
+490 silly mapToRegistry registry https://registry.npmjs.org/
+491 silly mapToRegistry data Result {
+491 silly mapToRegistry   raw: 'tar-pack',
+491 silly mapToRegistry   scope: null,
+491 silly mapToRegistry   escapedName: 'tar-pack',
+491 silly mapToRegistry   name: 'tar-pack',
+491 silly mapToRegistry   rawSpec: '',
+491 silly mapToRegistry   spec: 'latest',
+491 silly mapToRegistry   type: 'tag' }
+492 silly mapToRegistry uri https://registry.npmjs.org/tar-pack
+493 verbose addNameRange registry:https://registry.npmjs.org/tar-pack not in flight; fetching
+494 silly resolveWithNewModule semver@5.4.1 checking installable status
+495 silly cache add args [ 'semver@^5.3.0', null ]
+496 verbose cache add spec semver@^5.3.0
+497 silly cache add parsed spec Result {
+497 silly cache add   raw: 'semver@^5.3.0',
+497 silly cache add   scope: null,
+497 silly cache add   escapedName: 'semver',
+497 silly cache add   name: 'semver',
+497 silly cache add   rawSpec: '^5.3.0',
+497 silly cache add   spec: '>=5.3.0 <6.0.0',
+497 silly cache add   type: 'range' }
+498 silly addNamed semver@>=5.3.0 <6.0.0
+499 verbose addNamed ">=5.3.0 <6.0.0" is a valid semver range for semver
+500 silly addNameRange { name: 'semver', range: '>=5.3.0 <6.0.0', hasData: false }
+501 silly mapToRegistry name semver
+502 silly mapToRegistry using default registry
+503 silly mapToRegistry registry https://registry.npmjs.org/
+504 silly mapToRegistry data Result {
+504 silly mapToRegistry   raw: 'semver',
+504 silly mapToRegistry   scope: null,
+504 silly mapToRegistry   escapedName: 'semver',
+504 silly mapToRegistry   name: 'semver',
+504 silly mapToRegistry   rawSpec: '',
+504 silly mapToRegistry   spec: 'latest',
+504 silly mapToRegistry   type: 'tag' }
+505 silly mapToRegistry uri https://registry.npmjs.org/semver
+506 verbose addNameRange registry:https://registry.npmjs.org/semver not in flight; fetching
+507 silly cache afterAdd rc@1.2.1
+508 verbose afterAdd C:\Users\Maleta\AppData\Roaming\npm-cache\rc\1.2.1\package\package.json not in flight; writing
+509 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+510 verbose get https://registry.npmjs.org/tar-pack not expired, no request
+511 silly addNameRange number 2 { name: 'tar-pack', range: '>=3.4.0 <4.0.0', hasData: true }
+512 silly addNameRange versions [ 'tar-pack',
+512 silly addNameRange   [ '1.0.0',
+512 silly addNameRange     '2.0.0',
+512 silly addNameRange     '2.0.1',
+512 silly addNameRange     '3.0.0',
+512 silly addNameRange     '3.1.0',
+512 silly addNameRange     '3.1.1',
+512 silly addNameRange     '3.1.2',
+512 silly addNameRange     '3.1.3',
+512 silly addNameRange     '3.1.4',
+512 silly addNameRange     '3.2.0',
+512 silly addNameRange     '3.3.0',
+512 silly addNameRange     '3.4.0' ] ]
+513 silly addNamed tar-pack@3.4.0
+514 verbose addNamed "3.4.0" is a plain semver version for tar-pack
+515 verbose get https://registry.npmjs.org/semver not expired, no request
+516 silly addNameRange number 2 { name: 'semver', range: '>=5.3.0 <6.0.0', hasData: true }
+517 silly addNameRange versions [ 'semver',
+517 silly addNameRange   [ '1.0.0',
+517 silly addNameRange     '1.0.1',
+517 silly addNameRange     '1.0.2',
+517 silly addNameRange     '1.0.3',
+517 silly addNameRange     '1.0.4',
+517 silly addNameRange     '1.0.5',
+517 silly addNameRange     '1.0.6',
+517 silly addNameRange     '1.0.7',
+517 silly addNameRange     '1.0.8',
+517 silly addNameRange     '1.0.9',
+517 silly addNameRange     '1.0.10',
+517 silly addNameRange     '1.0.11',
+517 silly addNameRange     '1.0.12',
+517 silly addNameRange     '1.0.13',
+517 silly addNameRange     '1.0.14',
+517 silly addNameRange     '1.1.0',
+517 silly addNameRange     '1.1.1',
+517 silly addNameRange     '1.1.2',
+517 silly addNameRange     '1.1.3',
+517 silly addNameRange     '1.1.4',
+517 silly addNameRange     '2.0.0-alpha',
+517 silly addNameRange     '2.0.0-beta',
+517 silly addNameRange     '2.0.1',
+517 silly addNameRange     '2.0.2',
+517 silly addNameRange     '2.0.3',
+517 silly addNameRange     '2.0.4',
+517 silly addNameRange     '2.0.5',
+517 silly addNameRange     '2.0.6',
+517 silly addNameRange     '2.0.7',
+517 silly addNameRange     '2.0.8',
+517 silly addNameRange     '2.0.9',
+517 silly addNameRange     '2.0.10',
+517 silly addNameRange     '2.0.11',
+517 silly addNameRange     '2.1.0',
+517 silly addNameRange     '2.2.0',
+517 silly addNameRange     '2.2.1',
+517 silly addNameRange     '2.3.0',
+517 silly addNameRange     '2.3.1',
+517 silly addNameRange     '2.3.2',
+517 silly addNameRange     '3.0.0',
+517 silly addNameRange     '3.0.1',
+517 silly addNameRange     '4.0.0',
+517 silly addNameRange     '4.0.2',
+517 silly addNameRange     '4.0.3',
+517 silly addNameRange     '4.1.0',
+517 silly addNameRange     '4.1.1',
+517 silly addNameRange     '4.2.0',
+517 silly addNameRange     '4.2.1',
+517 silly addNameRange     '4.2.2',
+517 silly addNameRange     '4.3.0',
+517 silly addNameRange     '4.3.1',
+517 silly addNameRange     '4.3.2',
+517 silly addNameRange     '4.3.3',
+517 silly addNameRange     '4.3.4',
+517 silly addNameRange     '4.3.5',
+517 silly addNameRange     '4.3.6',
+517 silly addNameRange     '5.0.0',
+517 silly addNameRange     '5.0.1',
+517 silly addNameRange     '5.0.2',
+517 silly addNameRange     '5.0.3',
+517 silly addNameRange     '5.1.0',
+517 silly addNameRange     '5.1.1',
+517 silly addNameRange     '5.2.0',
+517 silly addNameRange     '5.3.0',
+517 silly addNameRange     '5.4.0',
+517 silly addNameRange     '5.4.1' ] ]
+518 silly addNamed semver@5.4.1
+519 verbose addNamed "5.4.1" is a plain semver version for semver
+520 silly cache afterAdd nopt@4.0.1
+521 verbose afterAdd C:\Users\Maleta\AppData\Roaming\npm-cache\nopt\4.0.1\package\package.json not in flight; writing
+522 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+523 silly cache afterAdd tar-pack@3.4.0
+524 verbose afterAdd C:\Users\Maleta\AppData\Roaming\npm-cache\tar-pack\3.4.0\package\package.json not in flight; writing
+525 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+526 silly cache afterAdd semver@5.4.1
+527 verbose afterAdd C:\Users\Maleta\AppData\Roaming\npm-cache\semver\5.4.1\package\package.json not in flight; writing
+528 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+529 verbose afterAdd C:\Users\Maleta\AppData\Roaming\npm-cache\rc\1.2.1\package\package.json written
+530 verbose afterAdd C:\Users\Maleta\AppData\Roaming\npm-cache\nopt\4.0.1\package\package.json written
+531 verbose afterAdd C:\Users\Maleta\AppData\Roaming\npm-cache\semver\5.4.1\package\package.json written
+532 verbose afterAdd C:\Users\Maleta\AppData\Roaming\npm-cache\tar-pack\3.4.0\package\package.json written
+533 silly fetchNamedPackageData osenv
+534 silly mapToRegistry name osenv
+535 silly mapToRegistry using default registry
+536 silly mapToRegistry registry https://registry.npmjs.org/
+537 silly mapToRegistry data Result {
+537 silly mapToRegistry   raw: 'osenv',
+537 silly mapToRegistry   scope: null,
+537 silly mapToRegistry   escapedName: 'osenv',
+537 silly mapToRegistry   name: 'osenv',
+537 silly mapToRegistry   rawSpec: '',
+537 silly mapToRegistry   spec: 'latest',
+537 silly mapToRegistry   type: 'tag' }
+538 silly mapToRegistry uri https://registry.npmjs.org/osenv
+539 verbose request uri https://registry.npmjs.org/osenv
+540 verbose request no auth needed
+541 info attempt registry request try #1 at 1:47:12 AM
+542 verbose etag W/"5996de86-2a99"
+543 verbose lastModified Fri, 18 Aug 2017 12:33:10 GMT
+544 http request GET https://registry.npmjs.org/osenv
+545 http 304 https://registry.npmjs.org/osenv
+546 verbose headers { date: 'Sat, 26 Aug 2017 23:47:10 GMT',
+546 verbose headers   via: '1.1 varnish',
+546 verbose headers   'cache-control': 'max-age=300',
+546 verbose headers   etag: 'W/"5996de86-2a99"',
+546 verbose headers   age: '270',
+546 verbose headers   connection: 'keep-alive',
+546 verbose headers   'x-served-by': 'cache-hhn1532-HHN',
+546 verbose headers   'x-cache': 'HIT',
+546 verbose headers   'x-cache-hits': '3',
+546 verbose headers   'x-timer': 'S1503791231.817919,VS0,VE0',
+546 verbose headers   vary: 'Accept-Encoding, Accept' }
+547 silly get cb [ 304,
+547 silly get   { date: 'Sat, 26 Aug 2017 23:47:10 GMT',
+547 silly get     via: '1.1 varnish',
+547 silly get     'cache-control': 'max-age=300',
+547 silly get     etag: 'W/"5996de86-2a99"',
+547 silly get     age: '270',
+547 silly get     connection: 'keep-alive',
+547 silly get     'x-served-by': 'cache-hhn1532-HHN',
+547 silly get     'x-cache': 'HIT',
+547 silly get     'x-cache-hits': '3',
+547 silly get     'x-timer': 'S1503791231.817919,VS0,VE0',
+547 silly get     vary: 'Accept-Encoding, Accept' } ]
+548 verbose etag https://registry.npmjs.org/osenv from cache
+549 verbose get saving osenv to C:\Users\Maleta\AppData\Roaming\npm-cache\registry.npmjs.org\osenv\.cache.json
+550 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+551 silly resolveWithNewModule osenv@0.1.4 checking installable status
+552 silly cache add args [ 'osenv@^0.1.4', null ]
+553 verbose cache add spec osenv@^0.1.4
+554 silly cache add parsed spec Result {
+554 silly cache add   raw: 'osenv@^0.1.4',
+554 silly cache add   scope: null,
+554 silly cache add   escapedName: 'osenv',
+554 silly cache add   name: 'osenv',
+554 silly cache add   rawSpec: '^0.1.4',
+554 silly cache add   spec: '>=0.1.4 <0.2.0',
+554 silly cache add   type: 'range' }
+555 silly addNamed osenv@>=0.1.4 <0.2.0
+556 verbose addNamed ">=0.1.4 <0.2.0" is a valid semver range for osenv
+557 silly addNameRange { name: 'osenv', range: '>=0.1.4 <0.2.0', hasData: false }
+558 silly mapToRegistry name osenv
+559 silly mapToRegistry using default registry
+560 silly mapToRegistry registry https://registry.npmjs.org/
+561 silly mapToRegistry data Result {
+561 silly mapToRegistry   raw: 'osenv',
+561 silly mapToRegistry   scope: null,
+561 silly mapToRegistry   escapedName: 'osenv',
+561 silly mapToRegistry   name: 'osenv',
+561 silly mapToRegistry   rawSpec: '',
+561 silly mapToRegistry   spec: 'latest',
+561 silly mapToRegistry   type: 'tag' }
+562 silly mapToRegistry uri https://registry.npmjs.org/osenv
+563 verbose addNameRange registry:https://registry.npmjs.org/osenv not in flight; fetching
+564 verbose get https://registry.npmjs.org/osenv not expired, no request
+565 silly addNameRange number 2 { name: 'osenv', range: '>=0.1.4 <0.2.0', hasData: true }
+566 silly addNameRange versions [ 'osenv',
+566 silly addNameRange   [ '0.0.1',
+566 silly addNameRange     '0.0.2',
+566 silly addNameRange     '0.0.3',
+566 silly addNameRange     '0.1.0',
+566 silly addNameRange     '0.1.1',
+566 silly addNameRange     '0.1.2',
+566 silly addNameRange     '0.1.3',
+566 silly addNameRange     '0.1.4' ] ]
+567 silly addNamed osenv@0.1.4
+568 verbose addNamed "0.1.4" is a plain semver version for osenv
+569 silly cache afterAdd osenv@0.1.4
+570 verbose afterAdd C:\Users\Maleta\AppData\Roaming\npm-cache\osenv\0.1.4\package\package.json not in flight; writing
+571 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+572 verbose afterAdd C:\Users\Maleta\AppData\Roaming\npm-cache\osenv\0.1.4\package\package.json written
+573 silly fetchNamedPackageData os-homedir
+574 silly mapToRegistry name os-homedir
+575 silly mapToRegistry using default registry
+576 silly mapToRegistry registry https://registry.npmjs.org/
+577 silly mapToRegistry data Result {
+577 silly mapToRegistry   raw: 'os-homedir',
+577 silly mapToRegistry   scope: null,
+577 silly mapToRegistry   escapedName: 'os-homedir',
+577 silly mapToRegistry   name: 'os-homedir',
+577 silly mapToRegistry   rawSpec: '',
+577 silly mapToRegistry   spec: 'latest',
+577 silly mapToRegistry   type: 'tag' }
+578 silly mapToRegistry uri https://registry.npmjs.org/os-homedir
+579 silly fetchNamedPackageData os-tmpdir
+580 silly mapToRegistry name os-tmpdir
+581 silly mapToRegistry using default registry
+582 silly mapToRegistry registry https://registry.npmjs.org/
+583 silly mapToRegistry data Result {
+583 silly mapToRegistry   raw: 'os-tmpdir',
+583 silly mapToRegistry   scope: null,
+583 silly mapToRegistry   escapedName: 'os-tmpdir',
+583 silly mapToRegistry   name: 'os-tmpdir',
+583 silly mapToRegistry   rawSpec: '',
+583 silly mapToRegistry   spec: 'latest',
+583 silly mapToRegistry   type: 'tag' }
+584 silly mapToRegistry uri https://registry.npmjs.org/os-tmpdir
+585 verbose request uri https://registry.npmjs.org/os-homedir
+586 verbose request no auth needed
+587 info attempt registry request try #1 at 1:47:12 AM
+588 verbose etag W/"595baf0b-19ee"
+589 verbose lastModified Tue, 04 Jul 2017 15:06:51 GMT
+590 http request GET https://registry.npmjs.org/os-homedir
+591 verbose request uri https://registry.npmjs.org/os-tmpdir
+592 verbose request no auth needed
+593 info attempt registry request try #1 at 1:47:12 AM
+594 verbose etag W/"57edf00a-1497"
+595 verbose lastModified Fri, 30 Sep 2016 04:54:34 GMT
+596 http request GET https://registry.npmjs.org/os-tmpdir
+597 http 304 https://registry.npmjs.org/os-homedir
+598 verbose headers { date: 'Sat, 26 Aug 2017 23:47:10 GMT',
+598 verbose headers   via: '1.1 varnish',
+598 verbose headers   'cache-control': 'max-age=300',
+598 verbose headers   etag: 'W/"595baf0b-19ee"',
+598 verbose headers   age: '232',
+598 verbose headers   connection: 'keep-alive',
+598 verbose headers   'x-served-by': 'cache-hhn1537-HHN',
+598 verbose headers   'x-cache': 'HIT',
+598 verbose headers   'x-cache-hits': '2',
+598 verbose headers   'x-timer': 'S1503791231.882235,VS0,VE0',
+598 verbose headers   vary: 'Accept-Encoding, Accept' }
+599 silly get cb [ 304,
+599 silly get   { date: 'Sat, 26 Aug 2017 23:47:10 GMT',
+599 silly get     via: '1.1 varnish',
+599 silly get     'cache-control': 'max-age=300',
+599 silly get     etag: 'W/"595baf0b-19ee"',
+599 silly get     age: '232',
+599 silly get     connection: 'keep-alive',
+599 silly get     'x-served-by': 'cache-hhn1537-HHN',
+599 silly get     'x-cache': 'HIT',
+599 silly get     'x-cache-hits': '2',
+599 silly get     'x-timer': 'S1503791231.882235,VS0,VE0',
+599 silly get     vary: 'Accept-Encoding, Accept' } ]
+600 verbose etag https://registry.npmjs.org/os-homedir from cache
+601 verbose get saving os-homedir to C:\Users\Maleta\AppData\Roaming\npm-cache\registry.npmjs.org\os-homedir\.cache.json
+602 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+603 silly resolveWithNewModule os-homedir@1.0.2 checking installable status
+604 silly cache add args [ 'os-homedir@^1.0.0', null ]
+605 verbose cache add spec os-homedir@^1.0.0
+606 silly cache add parsed spec Result {
+606 silly cache add   raw: 'os-homedir@^1.0.0',
+606 silly cache add   scope: null,
+606 silly cache add   escapedName: 'os-homedir',
+606 silly cache add   name: 'os-homedir',
+606 silly cache add   rawSpec: '^1.0.0',
+606 silly cache add   spec: '>=1.0.0 <2.0.0',
+606 silly cache add   type: 'range' }
+607 silly addNamed os-homedir@>=1.0.0 <2.0.0
+608 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for os-homedir
+609 silly addNameRange { name: 'os-homedir', range: '>=1.0.0 <2.0.0', hasData: false }
+610 silly mapToRegistry name os-homedir
+611 silly mapToRegistry using default registry
+612 silly mapToRegistry registry https://registry.npmjs.org/
+613 silly mapToRegistry data Result {
+613 silly mapToRegistry   raw: 'os-homedir',
+613 silly mapToRegistry   scope: null,
+613 silly mapToRegistry   escapedName: 'os-homedir',
+613 silly mapToRegistry   name: 'os-homedir',
+613 silly mapToRegistry   rawSpec: '',
+613 silly mapToRegistry   spec: 'latest',
+613 silly mapToRegistry   type: 'tag' }
+614 silly mapToRegistry uri https://registry.npmjs.org/os-homedir
+615 verbose addNameRange registry:https://registry.npmjs.org/os-homedir not in flight; fetching
+616 http 304 https://registry.npmjs.org/os-tmpdir
+617 verbose headers { date: 'Sat, 26 Aug 2017 23:47:10 GMT',
+617 verbose headers   via: '1.1 varnish',
+617 verbose headers   'cache-control': 'max-age=300',
+617 verbose headers   etag: 'W/"57edf00a-1497"',
+617 verbose headers   age: '165',
+617 verbose headers   connection: 'keep-alive',
+617 verbose headers   'x-served-by': 'cache-hhn1523-HHN',
+617 verbose headers   'x-cache': 'HIT',
+617 verbose headers   'x-cache-hits': '5',
+617 verbose headers   'x-timer': 'S1503791231.899391,VS0,VE0',
+617 verbose headers   vary: 'Accept-Encoding, Accept' }
+618 silly get cb [ 304,
+618 silly get   { date: 'Sat, 26 Aug 2017 23:47:10 GMT',
+618 silly get     via: '1.1 varnish',
+618 silly get     'cache-control': 'max-age=300',
+618 silly get     etag: 'W/"57edf00a-1497"',
+618 silly get     age: '165',
+618 silly get     connection: 'keep-alive',
+618 silly get     'x-served-by': 'cache-hhn1523-HHN',
+618 silly get     'x-cache': 'HIT',
+618 silly get     'x-cache-hits': '5',
+618 silly get     'x-timer': 'S1503791231.899391,VS0,VE0',
+618 silly get     vary: 'Accept-Encoding, Accept' } ]
+619 verbose etag https://registry.npmjs.org/os-tmpdir from cache
+620 verbose get saving os-tmpdir to C:\Users\Maleta\AppData\Roaming\npm-cache\registry.npmjs.org\os-tmpdir\.cache.json
+621 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+622 verbose get https://registry.npmjs.org/os-homedir not expired, no request
+623 silly addNameRange number 2 { name: 'os-homedir', range: '>=1.0.0 <2.0.0', hasData: true }
+624 silly addNameRange versions [ 'os-homedir', [ '0.1.0', '1.0.0', '1.0.1', '1.0.2' ] ]
+625 silly addNamed os-homedir@1.0.2
+626 verbose addNamed "1.0.2" is a plain semver version for os-homedir
+627 silly cache afterAdd os-homedir@1.0.2
+628 verbose afterAdd C:\Users\Maleta\AppData\Roaming\npm-cache\os-homedir\1.0.2\package\package.json not in flight; writing
+629 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+630 silly resolveWithNewModule os-tmpdir@1.0.2 checking installable status
+631 silly cache add args [ 'os-tmpdir@^1.0.0', null ]
+632 verbose cache add spec os-tmpdir@^1.0.0
+633 silly cache add parsed spec Result {
+633 silly cache add   raw: 'os-tmpdir@^1.0.0',
+633 silly cache add   scope: null,
+633 silly cache add   escapedName: 'os-tmpdir',
+633 silly cache add   name: 'os-tmpdir',
+633 silly cache add   rawSpec: '^1.0.0',
+633 silly cache add   spec: '>=1.0.0 <2.0.0',
+633 silly cache add   type: 'range' }
+634 silly addNamed os-tmpdir@>=1.0.0 <2.0.0
+635 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for os-tmpdir
+636 silly addNameRange { name: 'os-tmpdir', range: '>=1.0.0 <2.0.0', hasData: false }
+637 silly mapToRegistry name os-tmpdir
+638 silly mapToRegistry using default registry
+639 silly mapToRegistry registry https://registry.npmjs.org/
+640 silly mapToRegistry data Result {
+640 silly mapToRegistry   raw: 'os-tmpdir',
+640 silly mapToRegistry   scope: null,
+640 silly mapToRegistry   escapedName: 'os-tmpdir',
+640 silly mapToRegistry   name: 'os-tmpdir',
+640 silly mapToRegistry   rawSpec: '',
+640 silly mapToRegistry   spec: 'latest',
+640 silly mapToRegistry   type: 'tag' }
+641 silly mapToRegistry uri https://registry.npmjs.org/os-tmpdir
+642 verbose addNameRange registry:https://registry.npmjs.org/os-tmpdir not in flight; fetching
+643 verbose get https://registry.npmjs.org/os-tmpdir not expired, no request
+644 silly addNameRange number 2 { name: 'os-tmpdir', range: '>=1.0.0 <2.0.0', hasData: true }
+645 silly addNameRange versions [ 'os-tmpdir', [ '1.0.0', '1.0.1', '1.0.2' ] ]
+646 silly addNamed os-tmpdir@1.0.2
+647 verbose addNamed "1.0.2" is a plain semver version for os-tmpdir
+648 verbose afterAdd C:\Users\Maleta\AppData\Roaming\npm-cache\os-homedir\1.0.2\package\package.json written
+649 silly cache afterAdd os-tmpdir@1.0.2
+650 verbose afterAdd C:\Users\Maleta\AppData\Roaming\npm-cache\os-tmpdir\1.0.2\package\package.json not in flight; writing
+651 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+652 verbose afterAdd C:\Users\Maleta\AppData\Roaming\npm-cache\os-tmpdir\1.0.2\package\package.json written
+653 silly fetchNamedPackageData minimist
+654 silly mapToRegistry name minimist
+655 silly mapToRegistry using default registry
+656 silly mapToRegistry registry https://registry.npmjs.org/
+657 silly mapToRegistry data Result {
+657 silly mapToRegistry   raw: 'minimist',
+657 silly mapToRegistry   scope: null,
+657 silly mapToRegistry   escapedName: 'minimist',
+657 silly mapToRegistry   name: 'minimist',
+657 silly mapToRegistry   rawSpec: '',
+657 silly mapToRegistry   spec: 'latest',
+657 silly mapToRegistry   type: 'tag' }
+658 silly mapToRegistry uri https://registry.npmjs.org/minimist
+659 verbose request uri https://registry.npmjs.org/minimist
+660 verbose request no auth needed
+661 info attempt registry request try #1 at 1:47:12 AM
+662 verbose etag W/"599ea84d-76e4"
+663 verbose lastModified Thu, 24 Aug 2017 10:19:57 GMT
+664 http request GET https://registry.npmjs.org/minimist
+665 http 304 https://registry.npmjs.org/minimist
+666 verbose headers { date: 'Sat, 26 Aug 2017 23:47:10 GMT',
+666 verbose headers   via: '1.1 varnish',
+666 verbose headers   'cache-control': 'max-age=300',
+666 verbose headers   etag: 'W/"599ea84d-76e4"',
+666 verbose headers   age: '49',
+666 verbose headers   connection: 'keep-alive',
+666 verbose headers   'x-served-by': 'cache-hhn1526-HHN',
+666 verbose headers   'x-cache': 'HIT',
+666 verbose headers   'x-cache-hits': '2',
+666 verbose headers   'x-timer': 'S1503791231.990525,VS0,VE0',
+666 verbose headers   vary: 'Accept-Encoding, Accept' }
+667 silly get cb [ 304,
+667 silly get   { date: 'Sat, 26 Aug 2017 23:47:10 GMT',
+667 silly get     via: '1.1 varnish',
+667 silly get     'cache-control': 'max-age=300',
+667 silly get     etag: 'W/"599ea84d-76e4"',
+667 silly get     age: '49',
+667 silly get     connection: 'keep-alive',
+667 silly get     'x-served-by': 'cache-hhn1526-HHN',
+667 silly get     'x-cache': 'HIT',
+667 silly get     'x-cache-hits': '2',
+667 silly get     'x-timer': 'S1503791231.990525,VS0,VE0',
+667 silly get     vary: 'Accept-Encoding, Accept' } ]
+668 verbose etag https://registry.npmjs.org/minimist from cache
+669 verbose get saving minimist to C:\Users\Maleta\AppData\Roaming\npm-cache\registry.npmjs.org\minimist\.cache.json
+670 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+671 silly resolveWithNewModule minimist@1.2.0 checking installable status
+672 silly cache add args [ 'minimist@^1.2.0', null ]
+673 verbose cache add spec minimist@^1.2.0
+674 silly cache add parsed spec Result {
+674 silly cache add   raw: 'minimist@^1.2.0',
+674 silly cache add   scope: null,
+674 silly cache add   escapedName: 'minimist',
+674 silly cache add   name: 'minimist',
+674 silly cache add   rawSpec: '^1.2.0',
+674 silly cache add   spec: '>=1.2.0 <2.0.0',
+674 silly cache add   type: 'range' }
+675 silly addNamed minimist@>=1.2.0 <2.0.0
+676 verbose addNamed ">=1.2.0 <2.0.0" is a valid semver range for minimist
+677 silly addNameRange { name: 'minimist', range: '>=1.2.0 <2.0.0', hasData: false }
+678 silly mapToRegistry name minimist
+679 silly mapToRegistry using default registry
+680 silly mapToRegistry registry https://registry.npmjs.org/
+681 silly mapToRegistry data Result {
+681 silly mapToRegistry   raw: 'minimist',
+681 silly mapToRegistry   scope: null,
+681 silly mapToRegistry   escapedName: 'minimist',
+681 silly mapToRegistry   name: 'minimist',
+681 silly mapToRegistry   rawSpec: '',
+681 silly mapToRegistry   spec: 'latest',
+681 silly mapToRegistry   type: 'tag' }
+682 silly mapToRegistry uri https://registry.npmjs.org/minimist
+683 verbose addNameRange registry:https://registry.npmjs.org/minimist not in flight; fetching
+684 verbose get https://registry.npmjs.org/minimist not expired, no request
+685 silly addNameRange number 2 { name: 'minimist', range: '>=1.2.0 <2.0.0', hasData: true }
+686 silly addNameRange versions [ 'minimist',
+686 silly addNameRange   [ '0.0.0',
+686 silly addNameRange     '0.0.1',
+686 silly addNameRange     '0.0.2',
+686 silly addNameRange     '0.0.3',
+686 silly addNameRange     '0.0.4',
+686 silly addNameRange     '0.0.5',
+686 silly addNameRange     '0.0.6',
+686 silly addNameRange     '0.0.7',
+686 silly addNameRange     '0.0.8',
+686 silly addNameRange     '0.0.9',
+686 silly addNameRange     '0.0.10',
+686 silly addNameRange     '0.1.0',
+686 silly addNameRange     '0.2.0',
+686 silly addNameRange     '1.0.0',
+686 silly addNameRange     '1.1.0',
+686 silly addNameRange     '1.1.1',
+686 silly addNameRange     '1.1.2',
+686 silly addNameRange     '1.1.3',
+686 silly addNameRange     '1.2.0' ] ]
+687 silly addNamed minimist@1.2.0
+688 verbose addNamed "1.2.0" is a plain semver version for minimist
+689 silly cache afterAdd minimist@1.2.0
+690 verbose afterAdd C:\Users\Maleta\AppData\Roaming\npm-cache\minimist\1.2.0\package\package.json not in flight; writing
+691 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+692 verbose afterAdd C:\Users\Maleta\AppData\Roaming\npm-cache\minimist\1.2.0\package\package.json written
+693 silly loadAllDepsIntoIdealTree Finishing
+694 silly loadIdealTree Finishing
+695 silly currentTree project-1@0.0.0
+695 silly currentTree +-- abbrev@1.1.0
+695 silly currentTree +-- accepts@1.3.4
+695 silly currentTree | +-- mime-db@1.29.0
+695 silly currentTree | `-- mime-types@2.1.16
+695 silly currentTree +-- addressparser@0.3.2
+695 silly currentTree +-- ajv@4.11.8
+695 silly currentTree +-- ansi-regex@2.1.1
+695 silly currentTree +-- aproba@1.1.2
+695 silly currentTree +-- are-we-there-yet@1.1.4
+695 silly currentTree +-- array-flatten@1.1.1
+695 silly currentTree +-- asap@2.0.6
+695 silly currentTree +-- asn1@0.2.3
+695 silly currentTree +-- assert-plus@0.2.0
+695 silly currentTree +-- asynckit@0.4.0
+695 silly currentTree +-- aws-sign2@0.6.0
+695 silly currentTree +-- aws4@1.6.0
+695 silly currentTree +-- babel-runtime@6.23.0
+695 silly currentTree +-- balanced-match@1.0.0
+695 silly currentTree +-- basic-auth@1.1.0
+695 silly currentTree +-- bcrypt-pbkdf@1.0.1
+695 silly currentTree +-- bignumber.js@4.0.2
+695 silly currentTree +-- block-stream@0.0.9
+695 silly currentTree +-- bluebird@2.10.2
+695 silly currentTree +-- body-parser@1.17.2
+695 silly currentTree | `-- debug@2.6.7
+695 silly currentTree +-- boom@2.10.1
+695 silly currentTree +-- bowser@1.7.1
+695 silly currentTree +-- brace-expansion@1.1.8
+695 silly currentTree +-- bson@0.2.22
+695 silly currentTree | `-- nan@1.8.4
+695 silly currentTree +-- buildmail@2.0.0
+695 silly currentTree | `-- needle@0.10.0
+695 silly currentTree +-- bytes@2.4.0
+695 silly currentTree +-- caseless@0.12.0
+695 silly currentTree +-- chain-function@1.0.0
+695 silly currentTree +-- change-emitter@0.1.6
+695 silly currentTree +-- client-sessions@0.8.0
+695 silly currentTree +-- clone@1.0.2
+695 silly currentTree +-- co@4.6.0
+695 silly currentTree +-- code-point-at@1.1.0
+695 silly currentTree +-- combined-stream@1.0.5
+695 silly currentTree +-- concat-map@0.0.1
+695 silly currentTree +-- console-control-strings@1.1.0
+695 silly currentTree +-- content-disposition@0.5.2
+695 silly currentTree +-- content-type@1.0.2
+695 silly currentTree +-- cookie-parser@1.4.3
+695 silly currentTree +-- cookie-session@2.0.0-beta.2
+695 silly currentTree +-- cookie-signature@1.0.6
+695 silly currentTree +-- cookie@0.3.1
+695 silly currentTree +-- cookies@0.7.0
+695 silly currentTree +-- core-js@2.4.1
+695 silly currentTree +-- core-util-is@1.0.2
+695 silly currentTree +-- cryptiles@2.0.5
+695 silly currentTree +-- css-in-js-utils@1.0.3
+695 silly currentTree +-- dashdash@1.14.1
+695 silly currentTree | `-- assert-plus@1.0.0
+695 silly currentTree +-- debug@2.6.8
+695 silly currentTree +-- deep-extend@0.4.2
+695 silly currentTree +-- delayed-stream@1.0.0
+695 silly currentTree +-- delegates@1.0.0
+695 silly currentTree +-- depd@1.1.0
+695 silly currentTree +-- destroy@1.0.4
+695 silly currentTree +-- dom-helpers@3.2.1
+695 silly currentTree +-- ecc-jsbn@0.1.1
+695 silly currentTree +-- ee-first@1.1.1
+695 silly currentTree +-- ejs@2.5.7
+695 silly currentTree +-- email-verification@0.4.6
+695 silly currentTree | `-- nodemailer@1.11.0
+695 silly currentTree +-- encodeurl@1.0.1
+695 silly currentTree +-- encoding@0.1.12
+695 silly currentTree +-- escape-html@1.0.3
+695 silly currentTree +-- etag@1.8.0
+695 silly currentTree +-- express@4.15.4
+695 silly currentTree | +-- depd@1.1.1
+695 silly currentTree | `-- qs@6.5.0
+695 silly currentTree +-- extend@3.0.1
+695 silly currentTree +-- extsprintf@1.3.0
+695 silly currentTree +-- fbjs@0.8.12
+695 silly currentTree | `-- core-js@1.2.7
+695 silly currentTree +-- finalhandler@1.0.4
+695 silly currentTree +-- forever-agent@0.6.1
+695 silly currentTree +-- form-data@2.1.4
+695 silly currentTree +-- forwarded@0.1.0
+695 silly currentTree +-- fresh@0.5.0
+695 silly currentTree +-- fs.realpath@1.0.0
+695 silly currentTree +-- fstream-ignore@1.0.5
+695 silly currentTree +-- fstream@1.0.11
+695 silly currentTree +-- gauge@2.7.4
+695 silly currentTree +-- getpass@0.1.7
+695 silly currentTree | `-- assert-plus@1.0.0
+695 silly currentTree +-- glob@7.1.2
+695 silly currentTree +-- graceful-fs@4.1.11
+695 silly currentTree +-- har-schema@1.0.5
+695 silly currentTree +-- har-validator@4.2.1
+695 silly currentTree +-- has-unicode@2.0.1
+695 silly currentTree +-- hawk@3.1.3
+695 silly currentTree +-- hoek@2.16.3
+695 silly currentTree +-- hoist-non-react-statics@1.2.0
+695 silly currentTree +-- hooks@0.2.1
+695 silly currentTree +-- http-errors@1.6.1
+695 silly currentTree +-- http-signature@1.1.1
+695 silly currentTree +-- hyphenate-style-name@1.0.2
+695 silly currentTree +-- iconv-lite@0.4.15
+695 silly currentTree +-- inflight@1.0.6
+695 silly currentTree +-- inherits@2.0.3
+695 silly currentTree +-- ini@1.3.4
+695 silly currentTree +-- inline-style-prefixer@3.0.6
+695 silly currentTree +-- ipaddr.js@1.4.0
+695 silly currentTree +-- is-fullwidth-code-point@1.0.0
+695 silly currentTree +-- is-stream@1.1.0
+695 silly currentTree +-- is-typedarray@1.0.0
+695 silly currentTree +-- isarray@1.0.0
+695 silly currentTree +-- isomorphic-fetch@2.2.1
+695 silly currentTree +-- isstream@0.1.2
+695 silly currentTree +-- js-tokens@3.0.2
+695 silly currentTree +-- jsbn@0.1.1
+695 silly currentTree +-- json-schema@0.2.3
+695 silly currentTree +-- json-stable-stringify@1.0.1
+695 silly currentTree +-- json-stringify-safe@5.0.1
+695 silly currentTree +-- jsonify@0.0.0
+695 silly currentTree +-- jsprim@1.4.1
+695 silly currentTree | `-- assert-plus@1.0.0
+695 silly currentTree +-- kerberos@0.0.11
+695 silly currentTree | `-- nan@1.8.4
+695 silly currentTree +-- keycode@2.1.9
+695 silly currentTree +-- keygrip@1.0.1
+695 silly currentTree +-- libbase64@0.1.0
+695 silly currentTree +-- libmime@1.2.0
+695 silly currentTree +-- libqp@1.1.0
+695 silly currentTree +-- line-reader@0.4.0
+695 silly currentTree +-- lodash.merge@4.6.0
+695 silly currentTree +-- lodash.throttle@4.1.1
+695 silly currentTree +-- loose-envify@1.3.1
+695 silly currentTree +-- mailcomposer@2.1.0
+695 silly currentTree +-- material-ui@0.18.6
+695 silly currentTree +-- media-typer@0.3.0
+695 silly currentTree +-- merge-descriptors@1.0.1
+695 silly currentTree +-- methods@1.1.2
+695 silly currentTree +-- mime-db@1.27.0
+695 silly currentTree +-- mime-types@2.1.15
+695 silly currentTree +-- mime@1.3.4
+695 silly currentTree +-- minimatch@3.0.4
+695 silly currentTree +-- minimist@0.0.8
+695 silly currentTree +-- mkdirp@0.5.1
+695 silly currentTree +-- mongodb@1.4.38
+695 silly currentTree | +-- readable-stream@2.3.3
+695 silly currentTree | `-- safe-buffer@5.1.1
+695 silly currentTree +-- mongoose@3.8.40
+695 silly currentTree | `-- ms@0.1.0
+695 silly currentTree +-- morgan@1.8.2
+695 silly currentTree +-- mpath@0.1.1
+695 silly currentTree +-- mpromise@0.4.3
+695 silly currentTree +-- mquery@1.10.0
+695 silly currentTree | +-- debug@2.2.0
+695 silly currentTree | `-- ms@0.7.1
+695 silly currentTree +-- ms@2.0.0
+695 silly currentTree +-- muri@1.1.0
+695 silly currentTree +-- mysql@2.14.1
+695 silly currentTree | `-- safe-buffer@5.1.1
+695 silly currentTree +-- needle@0.11.0
+695 silly currentTree +-- negotiator@0.6.1
+695 silly currentTree +-- node-fetch@1.7.1
+695 silly currentTree +-- nodemailer-direct-transport@1.1.0
+695 silly currentTree +-- nodemailer-smtp-transport@1.1.0
+695 silly currentTree +-- nodemailer-wellknown@0.1.10
+695 silly currentTree +-- nodemailer@4.0.1
+695 silly currentTree +-- npmlog@4.1.2
+695 silly currentTree +-- number-is-nan@1.0.1
+695 silly currentTree +-- oauth-sign@0.8.2
+695 silly currentTree +-- object-assign@4.1.1
+695 silly currentTree +-- on-finished@2.3.0
+695 silly currentTree +-- on-headers@1.0.1
+695 silly currentTree +-- once@1.4.0
+695 silly currentTree +-- parseurl@1.3.1
+695 silly currentTree +-- path-is-absolute@1.0.1
+695 silly currentTree +-- path-to-regexp@0.1.7
+695 silly currentTree +-- performance-now@0.2.0
+695 silly currentTree +-- process-nextick-args@1.0.7
+695 silly currentTree +-- promise@7.3.1
+695 silly currentTree +-- prop-types@15.5.10
+695 silly currentTree +-- proxy-addr@1.1.5
+695 silly currentTree +-- punycode@1.4.1
+695 silly currentTree +-- qs@6.4.0
+695 silly currentTree +-- rand-token@0.2.1
+695 silly currentTree +-- range-parser@1.2.0
+695 silly currentTree +-- raw-body@2.2.0
+695 silly currentTree +-- react-event-listener@0.4.5
+695 silly currentTree +-- react-transition-group@1.2.0
+695 silly currentTree +-- readable-stream@2.3.3
+695 silly currentTree | `-- safe-buffer@5.1.1
+695 silly currentTree +-- recompose@0.23.4
+695 silly currentTree +-- regenerator-runtime@0.10.5
+695 silly currentTree +-- regexp-clone@0.0.1
+695 silly currentTree +-- request@2.81.0
+695 silly currentTree +-- rimraf@2.6.1
+695 silly currentTree +-- safe-buffer@5.0.1
+695 silly currentTree +-- send@0.15.4
+695 silly currentTree | +-- depd@1.1.1
+695 silly currentTree | `-- http-errors@1.6.2
+695 silly currentTree +-- serve-favicon@2.4.3
+695 silly currentTree +-- serve-static@1.12.4
+695 silly currentTree +-- set-blocking@2.0.0
+695 silly currentTree +-- setimmediate@1.0.5
+695 silly currentTree +-- setprototypeof@1.0.3
+695 silly currentTree +-- signal-exit@3.0.2
+695 silly currentTree +-- simple-assign@0.1.0
+695 silly currentTree +-- sliced@0.0.5
+695 silly currentTree +-- smtp-connection@1.3.8
+695 silly currentTree +-- sntp@1.0.9
+695 silly currentTree +-- sqlstring@2.2.0
+695 silly currentTree +-- sshpk@1.13.1
+695 silly currentTree | `-- assert-plus@1.0.0
+695 silly currentTree +-- statuses@1.3.1
+695 silly currentTree +-- string_decoder@1.0.3
+695 silly currentTree | `-- safe-buffer@5.1.1
+695 silly currentTree +-- string-width@1.0.2
+695 silly currentTree +-- stringstream@0.0.5
+695 silly currentTree +-- strip-ansi@3.0.1
+695 silly currentTree +-- strip-json-comments@2.0.1
+695 silly currentTree +-- symbol-observable@1.0.4
+695 silly currentTree +-- tar@2.2.1
+695 silly currentTree +-- tough-cookie@2.3.2
+695 silly currentTree +-- tunnel-agent@0.6.0
+695 silly currentTree +-- tweetnacl@0.14.5
+695 silly currentTree +-- type-is@1.6.15
+695 silly currentTree +-- ua-parser-js@0.7.13
+695 silly currentTree +-- uid-number@0.0.6
+695 silly currentTree +-- unpipe@1.0.0
+695 silly currentTree +-- util-deprecate@1.0.2
+695 silly currentTree +-- utils-merge@1.0.0
+695 silly currentTree +-- uuid@3.1.0
+695 silly currentTree +-- vary@1.1.1
+695 silly currentTree +-- verror@1.10.0
+695 silly currentTree | `-- assert-plus@1.0.0
+695 silly currentTree +-- warning@3.0.0
+695 silly currentTree +-- whatwg-fetch@2.0.3
+695 silly currentTree +-- wide-align@1.1.2
+695 silly currentTree +-- wrappy@1.0.2
+695 silly currentTree `-- xoauth2@1.2.0
+696 silly idealTree project-1@0.0.0
+696 silly idealTree +-- abbrev@1.1.0
+696 silly idealTree +-- accepts@1.3.4
+696 silly idealTree | +-- mime-db@1.29.0
+696 silly idealTree | `-- mime-types@2.1.16
+696 silly idealTree +-- addressparser@0.3.2
+696 silly idealTree +-- ajv@4.11.8
+696 silly idealTree +-- ansi-regex@2.1.1
+696 silly idealTree +-- aproba@1.1.2
+696 silly idealTree +-- are-we-there-yet@1.1.4
+696 silly idealTree +-- array-flatten@1.1.1
+696 silly idealTree +-- asap@2.0.6
+696 silly idealTree +-- asn1@0.2.3
+696 silly idealTree +-- assert-plus@0.2.0
+696 silly idealTree +-- asynckit@0.4.0
+696 silly idealTree +-- aws-sign2@0.6.0
+696 silly idealTree +-- aws4@1.6.0
+696 silly idealTree +-- babel-runtime@6.23.0
+696 silly idealTree +-- balanced-match@1.0.0
+696 silly idealTree +-- basic-auth@1.1.0
+696 silly idealTree +-- bcrypt-pbkdf@1.0.1
+696 silly idealTree +-- bcrypt@1.0.3
+696 silly idealTree +-- bignumber.js@4.0.2
+696 silly idealTree +-- block-stream@0.0.9
+696 silly idealTree +-- bluebird@2.10.2
+696 silly idealTree +-- body-parser@1.17.2
+696 silly idealTree | `-- debug@2.6.7
+696 silly idealTree +-- boom@2.10.1
+696 silly idealTree +-- bowser@1.7.1
+696 silly idealTree +-- brace-expansion@1.1.8
+696 silly idealTree +-- bson@0.2.22
+696 silly idealTree | `-- nan@1.8.4
+696 silly idealTree +-- buildmail@2.0.0
+696 silly idealTree | `-- needle@0.10.0
+696 silly idealTree +-- bytes@2.4.0
+696 silly idealTree +-- caseless@0.12.0
+696 silly idealTree +-- chain-function@1.0.0
+696 silly idealTree +-- change-emitter@0.1.6
+696 silly idealTree +-- client-sessions@0.8.0
+696 silly idealTree +-- clone@1.0.2
+696 silly idealTree +-- co@4.6.0
+696 silly idealTree +-- code-point-at@1.1.0
+696 silly idealTree +-- combined-stream@1.0.5
+696 silly idealTree +-- concat-map@0.0.1
+696 silly idealTree +-- console-control-strings@1.1.0
+696 silly idealTree +-- content-disposition@0.5.2
+696 silly idealTree +-- content-type@1.0.2
+696 silly idealTree +-- cookie-parser@1.4.3
+696 silly idealTree +-- cookie-session@2.0.0-beta.2
+696 silly idealTree +-- cookie-signature@1.0.6
+696 silly idealTree +-- cookie@0.3.1
+696 silly idealTree +-- cookies@0.7.0
+696 silly idealTree +-- core-js@2.4.1
+696 silly idealTree +-- core-util-is@1.0.2
+696 silly idealTree +-- cryptiles@2.0.5
+696 silly idealTree +-- css-in-js-utils@1.0.3
+696 silly idealTree +-- dashdash@1.14.1
+696 silly idealTree | `-- assert-plus@1.0.0
+696 silly idealTree +-- debug@2.6.8
+696 silly idealTree +-- deep-extend@0.4.2
+696 silly idealTree +-- delayed-stream@1.0.0
+696 silly idealTree +-- delegates@1.0.0
+696 silly idealTree +-- depd@1.1.0
+696 silly idealTree +-- destroy@1.0.4
+696 silly idealTree +-- dom-helpers@3.2.1
+696 silly idealTree +-- ecc-jsbn@0.1.1
+696 silly idealTree +-- ee-first@1.1.1
+696 silly idealTree +-- ejs@2.5.7
+696 silly idealTree +-- email-verification@0.4.6
+696 silly idealTree | `-- nodemailer@1.11.0
+696 silly idealTree +-- encodeurl@1.0.1
+696 silly idealTree +-- encoding@0.1.12
+696 silly idealTree +-- escape-html@1.0.3
+696 silly idealTree +-- etag@1.8.0
+696 silly idealTree +-- express@4.15.4
+696 silly idealTree | +-- depd@1.1.1
+696 silly idealTree | `-- qs@6.5.0
+696 silly idealTree +-- extend@3.0.1
+696 silly idealTree +-- extsprintf@1.3.0
+696 silly idealTree +-- fbjs@0.8.12
+696 silly idealTree | `-- core-js@1.2.7
+696 silly idealTree +-- finalhandler@1.0.4
+696 silly idealTree +-- forever-agent@0.6.1
+696 silly idealTree +-- form-data@2.1.4
+696 silly idealTree +-- forwarded@0.1.0
+696 silly idealTree +-- fresh@0.5.0
+696 silly idealTree +-- fs.realpath@1.0.0
+696 silly idealTree +-- fstream-ignore@1.0.5
+696 silly idealTree +-- fstream@1.0.11
+696 silly idealTree +-- gauge@2.7.4
+696 silly idealTree +-- getpass@0.1.7
+696 silly idealTree | `-- assert-plus@1.0.0
+696 silly idealTree +-- glob@7.1.2
+696 silly idealTree +-- graceful-fs@4.1.11
+696 silly idealTree +-- har-schema@1.0.5
+696 silly idealTree +-- har-validator@4.2.1
+696 silly idealTree +-- has-unicode@2.0.1
+696 silly idealTree +-- hawk@3.1.3
+696 silly idealTree +-- hoek@2.16.3
+696 silly idealTree +-- hoist-non-react-statics@1.2.0
+696 silly idealTree +-- hooks@0.2.1
+696 silly idealTree +-- http-errors@1.6.1
+696 silly idealTree +-- http-signature@1.1.1
+696 silly idealTree +-- hyphenate-style-name@1.0.2
+696 silly idealTree +-- iconv-lite@0.4.15
+696 silly idealTree +-- inflight@1.0.6
+696 silly idealTree +-- inherits@2.0.3
+696 silly idealTree +-- ini@1.3.4
+696 silly idealTree +-- inline-style-prefixer@3.0.6
+696 silly idealTree +-- ipaddr.js@1.4.0
+696 silly idealTree +-- is-fullwidth-code-point@1.0.0
+696 silly idealTree +-- is-stream@1.1.0
+696 silly idealTree +-- is-typedarray@1.0.0
+696 silly idealTree +-- isarray@1.0.0
+696 silly idealTree +-- isomorphic-fetch@2.2.1
+696 silly idealTree +-- isstream@0.1.2
+696 silly idealTree +-- js-tokens@3.0.2
+696 silly idealTree +-- jsbn@0.1.1
+696 silly idealTree +-- json-schema@0.2.3
+696 silly idealTree +-- json-stable-stringify@1.0.1
+696 silly idealTree +-- json-stringify-safe@5.0.1
+696 silly idealTree +-- jsonify@0.0.0
+696 silly idealTree +-- jsprim@1.4.1
+696 silly idealTree | `-- assert-plus@1.0.0
+696 silly idealTree +-- kerberos@0.0.11
+696 silly idealTree | `-- nan@1.8.4
+696 silly idealTree +-- keycode@2.1.9
+696 silly idealTree +-- keygrip@1.0.1
+696 silly idealTree +-- libbase64@0.1.0
+696 silly idealTree +-- libmime@1.2.0
+696 silly idealTree +-- libqp@1.1.0
+696 silly idealTree +-- line-reader@0.4.0
+696 silly idealTree +-- lodash.merge@4.6.0
+696 silly idealTree +-- lodash.throttle@4.1.1
+696 silly idealTree +-- loose-envify@1.3.1
+696 silly idealTree +-- mailcomposer@2.1.0
+696 silly idealTree +-- material-ui@0.18.6
+696 silly idealTree +-- media-typer@0.3.0
+696 silly idealTree +-- merge-descriptors@1.0.1
+696 silly idealTree +-- methods@1.1.2
+696 silly idealTree +-- mime-db@1.27.0
+696 silly idealTree +-- mime-types@2.1.15
+696 silly idealTree +-- mime@1.3.4
+696 silly idealTree +-- minimatch@3.0.4
+696 silly idealTree +-- minimist@0.0.8
+696 silly idealTree +-- mkdirp@0.5.1
+696 silly idealTree +-- mongodb@1.4.38
+696 silly idealTree | +-- readable-stream@2.3.3
+696 silly idealTree | `-- safe-buffer@5.1.1
+696 silly idealTree +-- mongoose@3.8.40
+696 silly idealTree | `-- ms@0.1.0
+696 silly idealTree +-- morgan@1.8.2
+696 silly idealTree +-- mpath@0.1.1
+696 silly idealTree +-- mpromise@0.4.3
+696 silly idealTree +-- mquery@1.10.0
+696 silly idealTree | +-- debug@2.2.0
+696 silly idealTree | `-- ms@0.7.1
+696 silly idealTree +-- ms@2.0.0
+696 silly idealTree +-- muri@1.1.0
+696 silly idealTree +-- mysql@2.14.1
+696 silly idealTree | `-- safe-buffer@5.1.1
+696 silly idealTree +-- nan@2.6.2
+696 silly idealTree +-- needle@0.11.0
+696 silly idealTree +-- negotiator@0.6.1
+696 silly idealTree +-- node-fetch@1.7.1
+696 silly idealTree +-- node-pre-gyp@0.6.36
+696 silly idealTree +-- nodemailer-direct-transport@1.1.0
+696 silly idealTree +-- nodemailer-smtp-transport@1.1.0
+696 silly idealTree +-- nodemailer-wellknown@0.1.10
+696 silly idealTree +-- nodemailer@4.0.1
+696 silly idealTree +-- nopt@4.0.1
+696 silly idealTree +-- npmlog@4.1.2
+696 silly idealTree +-- number-is-nan@1.0.1
+696 silly idealTree +-- oauth-sign@0.8.2
+696 silly idealTree +-- object-assign@4.1.1
+696 silly idealTree +-- on-finished@2.3.0
+696 silly idealTree +-- on-headers@1.0.1
+696 silly idealTree +-- once@1.4.0
+696 silly idealTree +-- os-homedir@1.0.2
+696 silly idealTree +-- os-tmpdir@1.0.2
+696 silly idealTree +-- osenv@0.1.4
+696 silly idealTree +-- parseurl@1.3.1
+696 silly idealTree +-- path-is-absolute@1.0.1
+696 silly idealTree +-- path-to-regexp@0.1.7
+696 silly idealTree +-- performance-now@0.2.0
+696 silly idealTree +-- process-nextick-args@1.0.7
+696 silly idealTree +-- promise@7.3.1
+696 silly idealTree +-- prop-types@15.5.10
+696 silly idealTree +-- proxy-addr@1.1.5
+696 silly idealTree +-- punycode@1.4.1
+696 silly idealTree +-- qs@6.4.0
+696 silly idealTree +-- rand-token@0.2.1
+696 silly idealTree +-- range-parser@1.2.0
+696 silly idealTree +-- raw-body@2.2.0
+696 silly idealTree +-- rc@1.2.1
+696 silly idealTree | `-- minimist@1.2.0
+696 silly idealTree +-- react-event-listener@0.4.5
+696 silly idealTree +-- react-transition-group@1.2.0
+696 silly idealTree +-- readable-stream@2.3.3
+696 silly idealTree | `-- safe-buffer@5.1.1
+696 silly idealTree +-- recompose@0.23.4
+696 silly idealTree +-- regenerator-runtime@0.10.5
+696 silly idealTree +-- regexp-clone@0.0.1
+696 silly idealTree +-- request@2.81.0
+696 silly idealTree +-- rimraf@2.6.1
+696 silly idealTree +-- safe-buffer@5.0.1
+696 silly idealTree +-- semver@5.4.1
+696 silly idealTree +-- send@0.15.4
+696 silly idealTree | +-- depd@1.1.1
+696 silly idealTree | `-- http-errors@1.6.2
+696 silly idealTree +-- serve-favicon@2.4.3
+696 silly idealTree +-- serve-static@1.12.4
+696 silly idealTree +-- set-blocking@2.0.0
+696 silly idealTree +-- setimmediate@1.0.5
+696 silly idealTree +-- setprototypeof@1.0.3
+696 silly idealTree +-- signal-exit@3.0.2
+696 silly idealTree +-- simple-assign@0.1.0
+696 silly idealTree +-- sliced@0.0.5
+696 silly idealTree +-- smtp-connection@1.3.8
+696 silly idealTree +-- sntp@1.0.9
+696 silly idealTree +-- sqlstring@2.2.0
+696 silly idealTree +-- sshpk@1.13.1
+696 silly idealTree | `-- assert-plus@1.0.0
+696 silly idealTree +-- statuses@1.3.1
+696 silly idealTree +-- string_decoder@1.0.3
+696 silly idealTree | `-- safe-buffer@5.1.1
+696 silly idealTree +-- string-width@1.0.2
+696 silly idealTree +-- stringstream@0.0.5
+696 silly idealTree +-- strip-ansi@3.0.1
+696 silly idealTree +-- strip-json-comments@2.0.1
+696 silly idealTree +-- symbol-observable@1.0.4
+696 silly idealTree +-- tar-pack@3.4.0
+696 silly idealTree +-- tar@2.2.1
+696 silly idealTree +-- tough-cookie@2.3.2
+696 silly idealTree +-- tunnel-agent@0.6.0
+696 silly idealTree +-- tweetnacl@0.14.5
+696 silly idealTree +-- type-is@1.6.15
+696 silly idealTree +-- ua-parser-js@0.7.13
+696 silly idealTree +-- uid-number@0.0.6
+696 silly idealTree +-- unpipe@1.0.0
+696 silly idealTree +-- util-deprecate@1.0.2
+696 silly idealTree +-- utils-merge@1.0.0
+696 silly idealTree +-- uuid@3.1.0
+696 silly idealTree +-- vary@1.1.1
+696 silly idealTree +-- verror@1.10.0
+696 silly idealTree | `-- assert-plus@1.0.0
+696 silly idealTree +-- warning@3.0.0
+696 silly idealTree +-- whatwg-fetch@2.0.3
+696 silly idealTree +-- wide-align@1.1.2
+696 silly idealTree +-- wrappy@1.0.2
+696 silly idealTree `-- xoauth2@1.2.0
+697 silly generateActionsToTake Starting
+698 silly install generateActionsToTake
+699 silly generateActionsToTake Finishing
+700 silly diffTrees action count 11
+701 silly diffTrees add os-homedir@1.0.2
+702 silly diffTrees add os-tmpdir@1.0.2
+703 silly diffTrees add osenv@0.1.4
+704 silly diffTrees add nopt@4.0.1
+705 silly diffTrees add minimist@1.2.0
+706 silly diffTrees add rc@1.2.1
+707 silly diffTrees add semver@5.4.1
+708 silly diffTrees add tar-pack@3.4.0
+709 silly diffTrees add nan@2.6.2
+710 silly diffTrees add node-pre-gyp@0.6.36
+711 silly diffTrees add bcrypt@1.0.3
+712 silly decomposeActions action count 88
+713 silly decomposeActions fetch os-homedir@1.0.2
+714 silly decomposeActions extract os-homedir@1.0.2
+715 silly decomposeActions test os-homedir@1.0.2
+716 silly decomposeActions preinstall os-homedir@1.0.2
+717 silly decomposeActions build os-homedir@1.0.2
+718 silly decomposeActions install os-homedir@1.0.2
+719 silly decomposeActions postinstall os-homedir@1.0.2
+720 silly decomposeActions finalize os-homedir@1.0.2
+721 silly decomposeActions fetch os-tmpdir@1.0.2
+722 silly decomposeActions extract os-tmpdir@1.0.2
+723 silly decomposeActions test os-tmpdir@1.0.2
+724 silly decomposeActions preinstall os-tmpdir@1.0.2
+725 silly decomposeActions build os-tmpdir@1.0.2
+726 silly decomposeActions install os-tmpdir@1.0.2
+727 silly decomposeActions postinstall os-tmpdir@1.0.2
+728 silly decomposeActions finalize os-tmpdir@1.0.2
+729 silly decomposeActions fetch osenv@0.1.4
+730 silly decomposeActions extract osenv@0.1.4
+731 silly decomposeActions test osenv@0.1.4
+732 silly decomposeActions preinstall osenv@0.1.4
+733 silly decomposeActions build osenv@0.1.4
+734 silly decomposeActions install osenv@0.1.4
+735 silly decomposeActions postinstall osenv@0.1.4
+736 silly decomposeActions finalize osenv@0.1.4
+737 silly decomposeActions fetch nopt@4.0.1
+738 silly decomposeActions extract nopt@4.0.1
+739 silly decomposeActions test nopt@4.0.1
+740 silly decomposeActions preinstall nopt@4.0.1
+741 silly decomposeActions build nopt@4.0.1
+742 silly decomposeActions install nopt@4.0.1
+743 silly decomposeActions postinstall nopt@4.0.1
+744 silly decomposeActions finalize nopt@4.0.1
+745 silly decomposeActions fetch minimist@1.2.0
+746 silly decomposeActions extract minimist@1.2.0
+747 silly decomposeActions test minimist@1.2.0
+748 silly decomposeActions preinstall minimist@1.2.0
+749 silly decomposeActions build minimist@1.2.0
+750 silly decomposeActions install minimist@1.2.0
+751 silly decomposeActions postinstall minimist@1.2.0
+752 silly decomposeActions finalize minimist@1.2.0
+753 silly decomposeActions fetch rc@1.2.1
+754 silly decomposeActions extract rc@1.2.1
+755 silly decomposeActions test rc@1.2.1
+756 silly decomposeActions preinstall rc@1.2.1
+757 silly decomposeActions build rc@1.2.1
+758 silly decomposeActions install rc@1.2.1
+759 silly decomposeActions postinstall rc@1.2.1
+760 silly decomposeActions finalize rc@1.2.1
+761 silly decomposeActions fetch semver@5.4.1
+762 silly decomposeActions extract semver@5.4.1
+763 silly decomposeActions test semver@5.4.1
+764 silly decomposeActions preinstall semver@5.4.1
+765 silly decomposeActions build semver@5.4.1
+766 silly decomposeActions install semver@5.4.1
+767 silly decomposeActions postinstall semver@5.4.1
+768 silly decomposeActions finalize semver@5.4.1
+769 silly decomposeActions fetch tar-pack@3.4.0
+770 silly decomposeActions extract tar-pack@3.4.0
+771 silly decomposeActions test tar-pack@3.4.0
+772 silly decomposeActions preinstall tar-pack@3.4.0
+773 silly decomposeActions build tar-pack@3.4.0
+774 silly decomposeActions install tar-pack@3.4.0
+775 silly decomposeActions postinstall tar-pack@3.4.0
+776 silly decomposeActions finalize tar-pack@3.4.0
+777 silly decomposeActions fetch nan@2.6.2
+778 silly decomposeActions extract nan@2.6.2
+779 silly decomposeActions test nan@2.6.2
+780 silly decomposeActions preinstall nan@2.6.2
+781 silly decomposeActions build nan@2.6.2
+782 silly decomposeActions install nan@2.6.2
+783 silly decomposeActions postinstall nan@2.6.2
+784 silly decomposeActions finalize nan@2.6.2
+785 silly decomposeActions fetch node-pre-gyp@0.6.36
+786 silly decomposeActions extract node-pre-gyp@0.6.36
+787 silly decomposeActions test node-pre-gyp@0.6.36
+788 silly decomposeActions preinstall node-pre-gyp@0.6.36
+789 silly decomposeActions build node-pre-gyp@0.6.36
+790 silly decomposeActions install node-pre-gyp@0.6.36
+791 silly decomposeActions postinstall node-pre-gyp@0.6.36
+792 silly decomposeActions finalize node-pre-gyp@0.6.36
+793 silly decomposeActions fetch bcrypt@1.0.3
+794 silly decomposeActions extract bcrypt@1.0.3
+795 silly decomposeActions test bcrypt@1.0.3
+796 silly decomposeActions preinstall bcrypt@1.0.3
+797 silly decomposeActions build bcrypt@1.0.3
+798 silly decomposeActions install bcrypt@1.0.3
+799 silly decomposeActions postinstall bcrypt@1.0.3
+800 silly decomposeActions finalize bcrypt@1.0.3
+801 silly runTopLevelLifecycles Starting
+802 silly executeActions Starting
+803 silly install executeActions
+804 silly doSerial global-install 0
+805 silly doParallel fetch 11
+806 verbose correctMkdir C:\Users\Maleta\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+807 verbose lock using C:\Users\Maleta\AppData\Roaming\npm-cache\_locks\staging-b81a030fd02bc743.lock for F:\WebStormProject's\Project 1\node_modules\.staging
+808 silly doParallel extract 11
+809 silly extract os-homedir@1.0.2
+810 silly extract os-tmpdir@1.0.2
+811 silly extract osenv@0.1.4
+812 silly extract nopt@4.0.1
+813 silly extract minimist@1.2.0
+814 silly extract rc@1.2.1
+815 silly extract semver@5.4.1
+816 silly extract tar-pack@3.4.0
+817 silly extract nan@2.6.2
+818 silly extract node-pre-gyp@0.6.36
+819 silly extract bcrypt@1.0.3
+820 verbose unbuild node_modules\.staging\os-homedir-02ef379a
+821 verbose unbuild node_modules\.staging\os-tmpdir-82ba110f
+822 verbose unbuild node_modules\.staging\osenv-017d5eee
+823 verbose unbuild node_modules\.staging\tar-pack-851d711c
+824 verbose unbuild node_modules\.staging\minimist-8a1d3d6c
+825 verbose unbuild node_modules\.staging\nopt-be9e09b9
+826 verbose unbuild node_modules\.staging\rc-4e6c3efd
+827 verbose unbuild node_modules\.staging\semver-4178e17d
+828 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\os-homedir-02ef379a is being purged from base F:\WebStormProject's\Project 1
+829 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\os-homedir-02ef379a
+830 verbose unbuild node_modules\.staging\bcrypt-9109e619
+831 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\os-tmpdir-82ba110f is being purged from base F:\WebStormProject's\Project 1
+832 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\os-tmpdir-82ba110f
+833 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\osenv-017d5eee is being purged from base F:\WebStormProject's\Project 1
+834 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\osenv-017d5eee
+835 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\tar-pack-851d711c is being purged from base F:\WebStormProject's\Project 1
+836 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\tar-pack-851d711c
+837 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\minimist-8a1d3d6c is being purged from base F:\WebStormProject's\Project 1
+838 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\minimist-8a1d3d6c
+839 verbose unbuild node_modules\.staging\nan-3caf53f1
+840 verbose tar unpack C:\Users\Maleta\AppData\Roaming\npm-cache\os-homedir\1.0.2\package.tgz
+841 verbose tar unpacking to F:\WebStormProject's\Project 1\node_modules\.staging\os-homedir-02ef379a
+842 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\os-homedir-02ef379a is being purged
+843 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\os-homedir-02ef379a
+844 verbose tar unpack C:\Users\Maleta\AppData\Roaming\npm-cache\os-tmpdir\1.0.2\package.tgz
+845 verbose tar unpacking to F:\WebStormProject's\Project 1\node_modules\.staging\os-tmpdir-82ba110f
+846 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\os-tmpdir-82ba110f is being purged
+847 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\os-tmpdir-82ba110f
+848 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\nopt-be9e09b9 is being purged from base F:\WebStormProject's\Project 1
+849 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\nopt-be9e09b9
+850 verbose tar unpack C:\Users\Maleta\AppData\Roaming\npm-cache\osenv\0.1.4\package.tgz
+851 verbose tar unpacking to F:\WebStormProject's\Project 1\node_modules\.staging\osenv-017d5eee
+852 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\osenv-017d5eee is being purged
+853 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\osenv-017d5eee
+854 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\rc-4e6c3efd is being purged from base F:\WebStormProject's\Project 1
+855 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\rc-4e6c3efd
+856 verbose tar unpack C:\Users\Maleta\AppData\Roaming\npm-cache\tar-pack\3.4.0\package.tgz
+857 verbose tar unpacking to F:\WebStormProject's\Project 1\node_modules\.staging\tar-pack-851d711c
+858 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\tar-pack-851d711c is being purged
+859 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\tar-pack-851d711c
+860 verbose tar unpack C:\Users\Maleta\AppData\Roaming\npm-cache\minimist\1.2.0\package.tgz
+861 verbose tar unpacking to F:\WebStormProject's\Project 1\node_modules\.staging\minimist-8a1d3d6c
+862 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\minimist-8a1d3d6c is being purged
+863 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\minimist-8a1d3d6c
+864 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\semver-4178e17d is being purged from base F:\WebStormProject's\Project 1
+865 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\semver-4178e17d
+866 verbose unbuild node_modules\.staging\node-pre-gyp-31aaf9fd
+867 silly gunzTarPerm modes [ '777', '666' ]
+868 silly gunzTarPerm modes [ '777', '666' ]
+869 verbose tar unpack C:\Users\Maleta\AppData\Roaming\npm-cache\nopt\4.0.1\package.tgz
+870 verbose tar unpacking to F:\WebStormProject's\Project 1\node_modules\.staging\nopt-be9e09b9
+871 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\nopt-be9e09b9 is being purged
+872 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\nopt-be9e09b9
+873 silly gunzTarPerm modes [ '777', '666' ]
+874 verbose tar unpack C:\Users\Maleta\AppData\Roaming\npm-cache\rc\1.2.1\package.tgz
+875 verbose tar unpacking to F:\WebStormProject's\Project 1\node_modules\.staging\rc-4e6c3efd
+876 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\rc-4e6c3efd is being purged
+877 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\rc-4e6c3efd
+878 silly gunzTarPerm modes [ '777', '666' ]
+879 silly gunzTarPerm modes [ '777', '666' ]
+880 verbose tar unpack C:\Users\Maleta\AppData\Roaming\npm-cache\semver\5.4.1\package.tgz
+881 verbose tar unpacking to F:\WebStormProject's\Project 1\node_modules\.staging\semver-4178e17d
+882 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\semver-4178e17d is being purged
+883 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\semver-4178e17d
+884 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\bcrypt-9109e619 is being purged from base F:\WebStormProject's\Project 1
+885 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\bcrypt-9109e619
+886 silly gunzTarPerm modes [ '777', '666' ]
+887 silly gunzTarPerm modes [ '777', '666' ]
+888 silly gunzTarPerm modes [ '777', '666' ]
+889 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\nan-3caf53f1 is being purged from base F:\WebStormProject's\Project 1
+890 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\nan-3caf53f1
+891 verbose tar unpack C:\Users\Maleta\AppData\Roaming\npm-cache\bcrypt\1.0.3\package.tgz
+892 verbose tar unpacking to F:\WebStormProject's\Project 1\node_modules\.staging\bcrypt-9109e619
+893 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\bcrypt-9109e619 is being purged
+894 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\bcrypt-9109e619
+895 verbose tar unpack C:\Users\Maleta\AppData\Roaming\npm-cache\nan\2.6.2\package.tgz
+896 verbose tar unpacking to F:\WebStormProject's\Project 1\node_modules\.staging\nan-3caf53f1
+897 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\nan-3caf53f1 is being purged
+898 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\nan-3caf53f1
+899 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\node-pre-gyp-31aaf9fd is being purged from base F:\WebStormProject's\Project 1
+900 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\node-pre-gyp-31aaf9fd
+901 silly gunzTarPerm modes [ '777', '666' ]
+902 silly gunzTarPerm modes [ '777', '666' ]
+903 verbose tar unpack C:\Users\Maleta\AppData\Roaming\npm-cache\node-pre-gyp\0.6.36\package.tgz
+904 verbose tar unpacking to F:\WebStormProject's\Project 1\node_modules\.staging\node-pre-gyp-31aaf9fd
+905 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\node-pre-gyp-31aaf9fd is being purged
+906 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\node-pre-gyp-31aaf9fd
+907 silly gunzTarPerm modes [ '777', '666' ]
+908 silly gunzTarPerm extractEntry package.json
+909 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+910 silly gunzTarPerm extractEntry package.json
+911 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+912 silly gunzTarPerm extractEntry package.json
+913 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+914 silly gunzTarPerm extractEntry package.json
+915 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+916 silly gunzTarPerm extractEntry package.json
+917 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+918 silly gunzTarPerm extractEntry package.json
+919 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+920 silly gunzTarPerm extractEntry package.json
+921 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+922 silly gunzTarPerm extractEntry package.json
+923 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+924 silly gunzTarPerm extractEntry package.json
+925 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+926 silly gunzTarPerm extractEntry index.js
+927 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+928 silly gunzTarPerm extractEntry license
+929 silly gunzTarPerm modified mode [ 'license', 420, 438 ]
+930 silly gunzTarPerm extractEntry package.json
+931 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+932 silly gunzTarPerm extractEntry index.js
+933 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+934 silly gunzTarPerm extractEntry license
+935 silly gunzTarPerm modified mode [ 'license', 420, 438 ]
+936 silly gunzTarPerm extractEntry package.json
+937 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+938 silly gunzTarPerm extractEntry .npmignore
+939 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+940 silly gunzTarPerm extractEntry README.md
+941 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+942 silly gunzTarPerm extractEntry .npmignore
+943 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+944 silly gunzTarPerm extractEntry README.md
+945 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+946 silly gunzTarPerm extractEntry LICENSE
+947 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+948 silly gunzTarPerm extractEntry index.js
+949 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+950 silly gunzTarPerm extractEntry .npmignore
+951 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+952 silly gunzTarPerm extractEntry README.md
+953 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+954 silly gunzTarPerm extractEntry .npmignore
+955 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+956 silly gunzTarPerm extractEntry README.md
+957 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+958 silly gunzTarPerm extractEntry README.md
+959 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+960 silly gunzTarPerm extractEntry LICENSE
+961 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+962 silly gunzTarPerm extractEntry .npmignore
+963 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+964 silly gunzTarPerm extractEntry README.md
+965 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+966 silly gunzTarPerm extractEntry README.md
+967 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+968 silly gunzTarPerm extractEntry include_dirs.js
+969 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+970 silly gunzTarPerm extractEntry README.md
+971 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+972 silly gunzTarPerm extractEntry LICENSE
+973 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+974 silly gunzTarPerm extractEntry readme.md
+975 silly gunzTarPerm modified mode [ 'readme.md', 420, 438 ]
+976 silly gunzTarPerm extractEntry readme.md
+977 silly gunzTarPerm modified mode [ 'readme.md', 420, 438 ]
+978 silly gunzTarPerm extractEntry LICENSE
+979 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+980 silly gunzTarPerm extractEntry osenv.js
+981 silly gunzTarPerm modified mode [ 'osenv.js', 420, 438 ]
+982 silly gunzTarPerm extractEntry LICENSE
+983 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+984 silly gunzTarPerm extractEntry index.js
+985 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+986 silly gunzTarPerm extractEntry .travis.yml
+987 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+988 silly gunzTarPerm extractEntry example/parse.js
+989 silly gunzTarPerm modified mode [ 'example/parse.js', 420, 438 ]
+990 silly gunzTarPerm extractEntry browser.js
+991 silly gunzTarPerm modified mode [ 'browser.js', 420, 438 ]
+992 silly gunzTarPerm extractEntry index.js
+993 silly gunzTarPerm modified mode [ 'index.js', 493, 511 ]
+994 silly gunzTarPerm extractEntry semver.js
+995 silly gunzTarPerm modified mode [ 'semver.js', 420, 438 ]
+996 silly gunzTarPerm extractEntry LICENSE
+997 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+998 silly gunzTarPerm extractEntry bin/nopt.js
+999 silly gunzTarPerm modified mode [ 'bin/nopt.js', 493, 511 ]
+1000 silly gunzTarPerm extractEntry LICENSE
+1001 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+1002 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+1003 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 438 ]
+1004 silly gunzTarPerm extractEntry LICENSE.md
+1005 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+1006 silly gunzTarPerm extractEntry doc/new.md
+1007 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 438 ]
+1008 silly gunzTarPerm extractEntry cloudformation/travis.template
+1009 silly gunzTarPerm modified mode [ 'cloudformation/travis.template', 420, 438 ]
+1010 silly gunzTarPerm extractEntry appveyor.yml
+1011 silly gunzTarPerm modified mode [ 'appveyor.yml', 420, 438 ]
+1012 silly gunzTarPerm extractEntry bin/node-pre-gyp
+1013 silly gunzTarPerm modified mode [ 'bin/node-pre-gyp', 493, 511 ]
+1014 silly gunzTarPerm extractEntry doc/asyncworker.md
+1015 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 438 ]
+1016 silly gunzTarPerm extractEntry .travis.yml
+1017 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+1018 silly gunzTarPerm extractEntry test/unix.js
+1019 silly gunzTarPerm modified mode [ 'test/unix.js', 420, 438 ]
+1020 silly gunzTarPerm extractEntry bin/node-pre-gyp.cmd
+1021 silly gunzTarPerm modified mode [ 'bin/node-pre-gyp.cmd', 420, 438 ]
+1022 silly gunzTarPerm extractEntry .travis.yml
+1023 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+1024 silly gunzTarPerm extractEntry LICENSE.APACHE2
+1025 silly gunzTarPerm modified mode [ 'LICENSE.APACHE2', 420, 438 ]
+1026 silly gunzTarPerm extractEntry LICENSE.BSD
+1027 silly gunzTarPerm modified mode [ 'LICENSE.BSD', 420, 438 ]
+1028 silly gunzTarPerm extractEntry readme.markdown
+1029 silly gunzTarPerm modified mode [ 'readme.markdown', 420, 438 ]
+1030 silly gunzTarPerm extractEntry test/all_bool.js
+1031 silly gunzTarPerm modified mode [ 'test/all_bool.js', 420, 438 ]
+1032 silly gunzTarPerm extractEntry test/default_bool.js
+1033 silly gunzTarPerm modified mode [ 'test/default_bool.js', 420, 438 ]
+1034 silly gunzTarPerm extractEntry test/dotted.js
+1035 silly gunzTarPerm modified mode [ 'test/dotted.js', 420, 438 ]
+1036 silly gunzTarPerm extractEntry test/kv_short.js
+1037 silly gunzTarPerm modified mode [ 'test/kv_short.js', 420, 438 ]
+1038 silly gunzTarPerm extractEntry test/long.js
+1039 silly gunzTarPerm modified mode [ 'test/long.js', 420, 438 ]
+1040 silly gunzTarPerm extractEntry test/dash.js
+1041 silly gunzTarPerm modified mode [ 'test/dash.js', 420, 438 ]
+1042 silly gunzTarPerm extractEntry test/parse.js
+1043 silly gunzTarPerm modified mode [ 'test/parse.js', 420, 438 ]
+1044 silly gunzTarPerm extractEntry test/parse_modified.js
+1045 silly gunzTarPerm modified mode [ 'test/parse_modified.js', 420, 438 ]
+1046 silly gunzTarPerm extractEntry test/short.js
+1047 silly gunzTarPerm modified mode [ 'test/short.js', 420, 438 ]
+1048 silly gunzTarPerm extractEntry test/stop_early.js
+1049 silly gunzTarPerm modified mode [ 'test/stop_early.js', 420, 438 ]
+1050 silly gunzTarPerm extractEntry test/unknown.js
+1051 silly gunzTarPerm modified mode [ 'test/unknown.js', 420, 438 ]
+1052 silly gunzTarPerm extractEntry test/bool.js
+1053 silly gunzTarPerm modified mode [ 'test/bool.js', 420, 438 ]
+1054 silly gunzTarPerm extractEntry test/whitespace.js
+1055 silly gunzTarPerm modified mode [ 'test/whitespace.js', 420, 438 ]
+1056 silly gunzTarPerm extractEntry test/num.js
+1057 silly gunzTarPerm modified mode [ 'test/num.js', 420, 438 ]
+1058 silly gunzTarPerm extractEntry bin/semver
+1059 silly gunzTarPerm modified mode [ 'bin/semver', 493, 511 ]
+1060 silly gunzTarPerm extractEntry range.bnf
+1061 silly gunzTarPerm modified mode [ 'range.bnf', 420, 438 ]
+1062 silly gunzTarPerm extractEntry .travis.yml
+1063 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+1064 silly gunzTarPerm extractEntry CHANGELOG.md
+1065 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+1066 silly gunzTarPerm extractEntry bcrypt.js
+1067 silly gunzTarPerm modified mode [ 'bcrypt.js', 420, 438 ]
+1068 silly gunzTarPerm extractEntry Makefile
+1069 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+1070 silly gunzTarPerm extractEntry doc/callback.md
+1071 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 438 ]
+1072 silly gunzTarPerm extractEntry doc/converters.md
+1073 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 438 ]
+1074 silly gunzTarPerm extractEntry contributing.md
+1075 silly gunzTarPerm modified mode [ 'contributing.md', 420, 438 ]
+1076 silly gunzTarPerm extractEntry lib/build.js
+1077 silly gunzTarPerm modified mode [ 'lib/build.js', 420, 438 ]
+1078 silly gunzTarPerm extractEntry test/index.js
+1079 silly gunzTarPerm modified mode [ 'test/index.js', 420, 438 ]
+1080 silly gunzTarPerm extractEntry test/fixtures/packed-file.txt
+1081 silly gunzTarPerm modified mode [ 'test/fixtures/packed-file.txt', 420, 438 ]
+1082 silly gunzTarPerm extractEntry test/windows.js
+1083 silly gunzTarPerm modified mode [ 'test/windows.js', 420, 438 ]
+1084 silly gunzTarPerm extractEntry x.tap
+1085 silly gunzTarPerm modified mode [ 'x.tap', 420, 438 ]
+1086 silly gunzTarPerm extractEntry lib/utils.js
+1087 silly gunzTarPerm modified mode [ 'lib/utils.js', 420, 438 ]
+1088 silly gunzTarPerm extractEntry LICENSE.MIT
+1089 silly gunzTarPerm modified mode [ 'LICENSE.MIT', 420, 438 ]
+1090 silly gunzTarPerm extractEntry test/ini.js
+1091 silly gunzTarPerm modified mode [ 'test/ini.js', 420, 438 ]
+1092 silly gunzTarPerm extractEntry test/nested-env-vars.js
+1093 silly gunzTarPerm modified mode [ 'test/nested-env-vars.js', 420, 438 ]
+1094 silly gunzTarPerm extractEntry test/test.js
+1095 silly gunzTarPerm modified mode [ 'test/test.js', 420, 438 ]
+1096 silly gunzTarPerm extractEntry .travis.yml
+1097 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+1098 silly gunzTarPerm extractEntry appveyor.yml
+1099 silly gunzTarPerm modified mode [ 'appveyor.yml', 420, 438 ]
+1100 silly gunzTarPerm extractEntry examples/my-program.js
+1101 silly gunzTarPerm modified mode [ 'examples/my-program.js', 493, 511 ]
+1102 silly gunzTarPerm extractEntry doc/errors.md
+1103 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 438 ]
+1104 silly gunzTarPerm extractEntry doc/json.md
+1105 silly gunzTarPerm modified mode [ 'doc/json.md', 436, 438 ]
+1106 silly gunzTarPerm extractEntry lib/install.js
+1107 silly gunzTarPerm modified mode [ 'lib/install.js', 420, 438 ]
+1108 silly gunzTarPerm extractEntry lib/node-pre-gyp.js
+1109 silly gunzTarPerm modified mode [ 'lib/node-pre-gyp.js', 420, 438 ]
+1110 silly gunzTarPerm extractEntry test/fixtures/packed.tar
+1111 silly gunzTarPerm modified mode [ 'test/fixtures/packed.tar', 420, 438 ]
+1112 silly gunzTarPerm extractEntry test/fixtures/packed.tar.gz
+1113 silly gunzTarPerm modified mode [ 'test/fixtures/packed.tar.gz', 420, 438 ]
+1114 silly gunzTarPerm extractEntry lib/nopt.js
+1115 silly gunzTarPerm modified mode [ 'lib/nopt.js', 420, 438 ]
+1116 silly gunzTarPerm extractEntry test/basic.js
+1117 silly gunzTarPerm modified mode [ 'test/basic.js', 420, 438 ]
+1118 silly gunzTarPerm extractEntry CHANGELOG.md
+1119 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+1120 silly gunzTarPerm extractEntry binding.gyp
+1121 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+1122 silly gunzTarPerm extractEntry doc/maybe_types.md
+1123 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 438 ]
+1124 silly gunzTarPerm extractEntry doc/methods.md
+1125 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 438 ]
+1126 silly gunzTarPerm extractEntry test/fixtures/to-pack/bar.txt
+1127 silly gunzTarPerm modified mode [ 'test/fixtures/to-pack/bar.txt', 420, 438 ]
+1128 silly gunzTarPerm extractEntry test/fixtures/to-pack/foo.txt
+1129 silly gunzTarPerm modified mode [ 'test/fixtures/to-pack/foo.txt', 420, 438 ]
+1130 silly gunzTarPerm extractEntry lib/package.js
+1131 silly gunzTarPerm modified mode [ 'lib/package.js', 420, 438 ]
+1132 silly gunzTarPerm extractEntry lib/pre-binding.js
+1133 silly gunzTarPerm modified mode [ 'lib/pre-binding.js', 420, 438 ]
+1134 silly gunzTarPerm extractEntry examples/async_compare.js
+1135 silly gunzTarPerm modified mode [ 'examples/async_compare.js', 420, 438 ]
+1136 silly gunzTarPerm extractEntry examples/forever_gen_salt.js
+1137 silly gunzTarPerm modified mode [ 'examples/forever_gen_salt.js', 420, 438 ]
+1138 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\os-homedir-02ef379a\node_modules is being purged
+1139 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\os-homedir-02ef379a\node_modules
+1140 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\os-tmpdir-82ba110f\node_modules is being purged
+1141 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\os-tmpdir-82ba110f\node_modules
+1142 silly gunzTarPerm extractEntry doc/buffers.md
+1143 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 438 ]
+1144 silly gunzTarPerm extractEntry doc/node_misc.md
+1145 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 438 ]
+1146 silly gunzTarPerm extractEntry lib/info.js
+1147 silly gunzTarPerm modified mode [ 'lib/info.js', 420, 438 ]
+1148 silly gunzTarPerm extractEntry lib/rebuild.js
+1149 silly gunzTarPerm modified mode [ 'lib/rebuild.js', 420, 438 ]
+1150 silly gunzTarPerm extractEntry lib/promises.js
+1151 silly gunzTarPerm modified mode [ 'lib/promises.js', 420, 438 ]
+1152 silly gunzTarPerm extractEntry test/async.js
+1153 silly gunzTarPerm modified mode [ 'test/async.js', 420, 438 ]
+1154 silly gunzTarPerm extractEntry doc/object_wrappers.md
+1155 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 438 ]
+1156 silly gunzTarPerm extractEntry doc/persistent.md
+1157 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 438 ]
+1158 silly gunzTarPerm extractEntry test/promise.js
+1159 silly gunzTarPerm modified mode [ 'test/promise.js', 420, 438 ]
+1160 silly gunzTarPerm extractEntry test/repetitions.js
+1161 silly gunzTarPerm modified mode [ 'test/repetitions.js', 420, 438 ]
+1162 silly gunzTarPerm extractEntry lib/reinstall.js
+1163 silly gunzTarPerm modified mode [ 'lib/reinstall.js', 420, 438 ]
+1164 silly gunzTarPerm extractEntry lib/reveal.js
+1165 silly gunzTarPerm modified mode [ 'lib/reveal.js', 420, 438 ]
+1166 silly gunzTarPerm extractEntry doc/scopes.md
+1167 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 438 ]
+1168 silly gunzTarPerm extractEntry doc/script.md
+1169 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 438 ]
+1170 silly gunzTarPerm extractEntry test/sync.js
+1171 silly gunzTarPerm modified mode [ 'test/sync.js', 420, 438 ]
+1172 silly gunzTarPerm extractEntry ISSUE_TEMPLATE.md
+1173 silly gunzTarPerm modified mode [ 'ISSUE_TEMPLATE.md', 420, 438 ]
+1174 silly gunzTarPerm extractEntry lib/testbinary.js
+1175 silly gunzTarPerm modified mode [ 'lib/testbinary.js', 420, 438 ]
+1176 silly gunzTarPerm extractEntry lib/testpackage.js
+1177 silly gunzTarPerm modified mode [ 'lib/testpackage.js', 420, 438 ]
+1178 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\semver-4178e17d\node_modules is being purged
+1179 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\semver-4178e17d\node_modules
+1180 silly gunzTarPerm extractEntry doc/string_bytes.md
+1181 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 438 ]
+1182 silly gunzTarPerm extractEntry doc/v8_internals.md
+1183 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 438 ]
+1184 silly gunzTarPerm extractEntry lib/configure.js
+1185 silly gunzTarPerm modified mode [ 'lib/configure.js', 420, 438 ]
+1186 silly gunzTarPerm extractEntry lib/unpublish.js
+1187 silly gunzTarPerm modified mode [ 'lib/unpublish.js', 420, 438 ]
+1188 silly gunzTarPerm extractEntry src/bcrypt.cc
+1189 silly gunzTarPerm modified mode [ 'src/bcrypt.cc', 420, 438 ]
+1190 silly gunzTarPerm extractEntry src/bcrypt_node.cc
+1191 silly gunzTarPerm modified mode [ 'src/bcrypt_node.cc', 420, 438 ]
+1192 silly gunzTarPerm extractEntry doc/v8_misc.md
+1193 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 438 ]
+1194 silly gunzTarPerm extractEntry nan.h
+1195 silly gunzTarPerm modified mode [ 'nan.h', 436, 438 ]
+1196 silly gunzTarPerm extractEntry src/blowfish.cc
+1197 silly gunzTarPerm modified mode [ 'src/blowfish.cc', 420, 438 ]
+1198 silly gunzTarPerm extractEntry src/node_blf.h
+1199 silly gunzTarPerm modified mode [ 'src/node_blf.h', 420, 438 ]
+1200 silly gunzTarPerm extractEntry lib/clean.js
+1201 silly gunzTarPerm modified mode [ 'lib/clean.js', 420, 438 ]
+1202 silly gunzTarPerm extractEntry lib/publish.js
+1203 silly gunzTarPerm modified mode [ 'lib/publish.js', 420, 438 ]
+1204 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\osenv-017d5eee\node_modules is being purged
+1205 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\osenv-017d5eee\node_modules
+1206 silly gunzTarPerm extractEntry nan_callbacks.h
+1207 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 438 ]
+1208 silly gunzTarPerm extractEntry lib/util/compile.js
+1209 silly gunzTarPerm modified mode [ 'lib/util/compile.js', 420, 438 ]
+1210 silly gunzTarPerm extractEntry lib/util/handle_gyp_opts.js
+1211 silly gunzTarPerm modified mode [ 'lib/util/handle_gyp_opts.js', 420, 438 ]
+1212 silly gunzTarPerm extractEntry werker.yml
+1213 silly gunzTarPerm modified mode [ 'werker.yml', 420, 438 ]
+1214 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+1215 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 438 ]
+1216 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+1217 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 438 ]
+1218 silly gunzTarPerm extractEntry nan_converters.h
+1219 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 438 ]
+1220 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+1221 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 438 ]
+1222 silly gunzTarPerm extractEntry lib/util/s3_setup.js
+1223 silly gunzTarPerm modified mode [ 'lib/util/s3_setup.js', 420, 438 ]
+1224 silly gunzTarPerm extractEntry lib/util/versioning.js
+1225 silly gunzTarPerm modified mode [ 'lib/util/versioning.js', 420, 438 ]
+1226 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\nopt-be9e09b9\node_modules is being purged
+1227 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\nopt-be9e09b9\node_modules
+1228 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+1229 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 438 ]
+1230 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+1231 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 438 ]
+1232 silly gunzTarPerm extractEntry nan_json.h
+1233 silly gunzTarPerm modified mode [ 'nan_json.h', 436, 438 ]
+1234 silly gunzTarPerm extractEntry lib/util/abi_crosswalk.json
+1235 silly gunzTarPerm modified mode [ 'lib/util/abi_crosswalk.json', 420, 438 ]
+1236 silly gunzTarPerm extractEntry lib/util/nw-pre-gyp/package.json
+1237 silly gunzTarPerm modified mode [ 'lib/util/nw-pre-gyp/package.json', 420, 438 ]
+1238 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\tar-pack-851d711c\node_modules is being purged
+1239 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\tar-pack-851d711c\node_modules
+1240 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+1241 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 438 ]
+1242 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\rc-4e6c3efd\node_modules is being purged
+1243 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\rc-4e6c3efd\node_modules
+1244 silly gunzTarPerm extractEntry lib/util/nw-pre-gyp/index.html
+1245 silly gunzTarPerm modified mode [ 'lib/util/nw-pre-gyp/index.html', 420, 438 ]
+1246 silly gunzTarPerm extractEntry template-name.diff
+1247 silly gunzTarPerm modified mode [ 'template-name.diff', 420, 438 ]
+1248 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+1249 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 438 ]
+1250 silly gunzTarPerm extractEntry nan_new.h
+1251 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 438 ]
+1252 silly gunzTarPerm extractEntry CHANGELOG.md
+1253 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+1254 silly gunzTarPerm extractEntry nan_object_wrap.h
+1255 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 438 ]
+1256 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+1257 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 438 ]
+1258 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+1259 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 438 ]
+1260 silly gunzTarPerm extractEntry nan_private.h
+1261 silly gunzTarPerm modified mode [ 'nan_private.h', 436, 438 ]
+1262 silly gunzTarPerm extractEntry nan_string_bytes.h
+1263 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 438 ]
+1264 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+1265 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 438 ]
+1266 silly gunzTarPerm extractEntry nan_weak.h
+1267 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 438 ]
+1268 silly gunzTarPerm extractEntry CHANGELOG.md
+1269 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+1270 silly gunzTarPerm extractEntry tools/package.json
+1271 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 438 ]
+1272 silly gunzTarPerm extractEntry tools/README.md
+1273 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 438 ]
+1274 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\minimist-8a1d3d6c\node_modules is being purged
+1275 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\minimist-8a1d3d6c\node_modules
+1276 silly gunzTarPerm extractEntry tools/1to2.js
+1277 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 511 ]
+1278 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\bcrypt-9109e619\node_modules is being purged
+1279 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\bcrypt-9109e619\node_modules
+1280 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\node-pre-gyp-31aaf9fd\node_modules is being purged
+1281 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\node-pre-gyp-31aaf9fd\node_modules
+1282 silly gentlyRm F:\WebStormProject's\Project 1\node_modules\.staging\nan-3caf53f1\node_modules is being purged
+1283 verbose gentlyRm don't care about contents; nuking F:\WebStormProject's\Project 1\node_modules\.staging\nan-3caf53f1\node_modules
+1284 silly doParallel preinstall 11
+1285 silly preinstall os-homedir@1.0.2 F:\WebStormProject's\Project 1\node_modules\.staging\os-homedir-02ef379a
+1286 info lifecycle os-homedir@1.0.2~preinstall: os-homedir@1.0.2
+1287 silly preinstall os-tmpdir@1.0.2 F:\WebStormProject's\Project 1\node_modules\.staging\os-tmpdir-82ba110f
+1288 info lifecycle os-tmpdir@1.0.2~preinstall: os-tmpdir@1.0.2
+1289 silly preinstall osenv@0.1.4 F:\WebStormProject's\Project 1\node_modules\.staging\osenv-017d5eee
+1290 info lifecycle osenv@0.1.4~preinstall: osenv@0.1.4
+1291 silly preinstall nopt@4.0.1 F:\WebStormProject's\Project 1\node_modules\.staging\nopt-be9e09b9
+1292 info lifecycle nopt@4.0.1~preinstall: nopt@4.0.1
+1293 silly preinstall minimist@1.2.0 F:\WebStormProject's\Project 1\node_modules\.staging\minimist-8a1d3d6c
+1294 info lifecycle minimist@1.2.0~preinstall: minimist@1.2.0
+1295 silly preinstall rc@1.2.1 F:\WebStormProject's\Project 1\node_modules\.staging\rc-4e6c3efd
+1296 info lifecycle rc@1.2.1~preinstall: rc@1.2.1
+1297 silly preinstall semver@5.4.1 F:\WebStormProject's\Project 1\node_modules\.staging\semver-4178e17d
+1298 info lifecycle semver@5.4.1~preinstall: semver@5.4.1
+1299 silly preinstall tar-pack@3.4.0 F:\WebStormProject's\Project 1\node_modules\.staging\tar-pack-851d711c
+1300 info lifecycle tar-pack@3.4.0~preinstall: tar-pack@3.4.0
+1301 silly preinstall nan@2.6.2 F:\WebStormProject's\Project 1\node_modules\.staging\nan-3caf53f1
+1302 info lifecycle nan@2.6.2~preinstall: nan@2.6.2
+1303 silly preinstall node-pre-gyp@0.6.36 F:\WebStormProject's\Project 1\node_modules\.staging\node-pre-gyp-31aaf9fd
+1304 info lifecycle node-pre-gyp@0.6.36~preinstall: node-pre-gyp@0.6.36
+1305 silly preinstall bcrypt@1.0.3 F:\WebStormProject's\Project 1\node_modules\.staging\bcrypt-9109e619
+1306 info lifecycle bcrypt@1.0.3~preinstall: bcrypt@1.0.3
+1307 silly lifecycle os-homedir@1.0.2~preinstall: no script for preinstall, continuing
+1308 silly lifecycle os-tmpdir@1.0.2~preinstall: no script for preinstall, continuing
+1309 silly lifecycle osenv@0.1.4~preinstall: no script for preinstall, continuing
+1310 silly lifecycle nopt@4.0.1~preinstall: no script for preinstall, continuing
+1311 silly lifecycle minimist@1.2.0~preinstall: no script for preinstall, continuing
+1312 silly lifecycle rc@1.2.1~preinstall: no script for preinstall, continuing
+1313 silly lifecycle semver@5.4.1~preinstall: no script for preinstall, continuing
+1314 silly lifecycle tar-pack@3.4.0~preinstall: no script for preinstall, continuing
+1315 silly lifecycle nan@2.6.2~preinstall: no script for preinstall, continuing
+1316 silly lifecycle node-pre-gyp@0.6.36~preinstall: no script for preinstall, continuing
+1317 silly lifecycle bcrypt@1.0.3~preinstall: no script for preinstall, continuing
+1318 silly doReverseSerial remove 0
+1319 silly doSerial move 0
+1320 silly doSerial finalize 11
+1321 silly finalize F:\WebStormProject's\Project 1\node_modules\os-homedir
+1322 silly finalize F:\WebStormProject's\Project 1\node_modules\os-tmpdir
+1323 silly finalize F:\WebStormProject's\Project 1\node_modules\osenv
+1324 silly finalize F:\WebStormProject's\Project 1\node_modules\nopt
+1325 silly finalize F:\WebStormProject's\Project 1\node_modules\rc\node_modules\minimist
+1326 silly finalize F:\WebStormProject's\Project 1\node_modules\rc
+1327 silly finalize F:\WebStormProject's\Project 1\node_modules\semver
+1328 silly finalize F:\WebStormProject's\Project 1\node_modules\tar-pack
+1329 silly finalize F:\WebStormProject's\Project 1\node_modules\nan
+1330 silly finalize F:\WebStormProject's\Project 1\node_modules\node-pre-gyp
+1331 silly finalize F:\WebStormProject's\Project 1\node_modules\bcrypt
+1332 silly doSerial build 11
+1333 silly build os-homedir@1.0.2
+1334 info linkStuff os-homedir@1.0.2
+1335 silly linkStuff os-homedir@1.0.2 has F:\WebStormProject's\Project 1\node_modules as its parent node_modules
+1336 verbose linkBins os-homedir@1.0.2
+1337 verbose linkMans os-homedir@1.0.2
+1338 silly build os-tmpdir@1.0.2
+1339 info linkStuff os-tmpdir@1.0.2
+1340 silly linkStuff os-tmpdir@1.0.2 has F:\WebStormProject's\Project 1\node_modules as its parent node_modules
+1341 verbose linkBins os-tmpdir@1.0.2
+1342 verbose linkMans os-tmpdir@1.0.2
+1343 silly build osenv@0.1.4
+1344 info linkStuff osenv@0.1.4
+1345 silly linkStuff osenv@0.1.4 has F:\WebStormProject's\Project 1\node_modules as its parent node_modules
+1346 verbose linkBins osenv@0.1.4
+1347 verbose linkMans osenv@0.1.4
+1348 silly build nopt@4.0.1
+1349 info linkStuff nopt@4.0.1
+1350 silly linkStuff nopt@4.0.1 has F:\WebStormProject's\Project 1\node_modules as its parent node_modules
+1351 verbose linkBins nopt@4.0.1
+1352 verbose link bins [ { nopt: './bin/nopt.js' },
+1352 verbose link bins   'F:\\WebStormProject\'s\\Project 1\\node_modules\\.bin',
+1352 verbose link bins   false ]
+1353 verbose linkMans nopt@4.0.1
+1354 silly build minimist@1.2.0
+1355 info linkStuff minimist@1.2.0
+1356 silly linkStuff minimist@1.2.0 has F:\WebStormProject's\Project 1\node_modules\rc\node_modules as its parent node_modules
+1357 verbose linkBins minimist@1.2.0
+1358 verbose linkMans minimist@1.2.0
+1359 silly build rc@1.2.1
+1360 info linkStuff rc@1.2.1
+1361 silly linkStuff rc@1.2.1 has F:\WebStormProject's\Project 1\node_modules as its parent node_modules
+1362 verbose linkBins rc@1.2.1
+1363 verbose link bins [ { rc: './index.js' },
+1363 verbose link bins   'F:\\WebStormProject\'s\\Project 1\\node_modules\\.bin',
+1363 verbose link bins   false ]
+1364 verbose linkMans rc@1.2.1
+1365 silly build semver@5.4.1
+1366 info linkStuff semver@5.4.1
+1367 silly linkStuff semver@5.4.1 has F:\WebStormProject's\Project 1\node_modules as its parent node_modules
+1368 verbose linkBins semver@5.4.1
+1369 verbose link bins [ { semver: './bin/semver' },
+1369 verbose link bins   'F:\\WebStormProject\'s\\Project 1\\node_modules\\.bin',
+1369 verbose link bins   false ]
+1370 verbose linkMans semver@5.4.1
+1371 silly build tar-pack@3.4.0
+1372 info linkStuff tar-pack@3.4.0
+1373 silly linkStuff tar-pack@3.4.0 has F:\WebStormProject's\Project 1\node_modules as its parent node_modules
+1374 verbose linkBins tar-pack@3.4.0
+1375 verbose linkMans tar-pack@3.4.0
+1376 silly build nan@2.6.2
+1377 info linkStuff nan@2.6.2
+1378 silly linkStuff nan@2.6.2 has F:\WebStormProject's\Project 1\node_modules as its parent node_modules
+1379 verbose linkBins nan@2.6.2
+1380 verbose linkMans nan@2.6.2
+1381 silly build node-pre-gyp@0.6.36
+1382 info linkStuff node-pre-gyp@0.6.36
+1383 silly linkStuff node-pre-gyp@0.6.36 has F:\WebStormProject's\Project 1\node_modules as its parent node_modules
+1384 verbose linkBins node-pre-gyp@0.6.36
+1385 verbose link bins [ { 'node-pre-gyp': './bin/node-pre-gyp' },
+1385 verbose link bins   'F:\\WebStormProject\'s\\Project 1\\node_modules\\.bin',
+1385 verbose link bins   false ]
+1386 verbose linkMans node-pre-gyp@0.6.36
+1387 silly build bcrypt@1.0.3
+1388 info linkStuff bcrypt@1.0.3
+1389 silly linkStuff bcrypt@1.0.3 has F:\WebStormProject's\Project 1\node_modules as its parent node_modules
+1390 verbose linkBins bcrypt@1.0.3
+1391 verbose linkMans bcrypt@1.0.3
+1392 silly doSerial global-link 0
+1393 silly doParallel update-linked 0
+1394 silly doSerial install 11
+1395 silly install os-homedir@1.0.2 F:\WebStormProject's\Project 1\node_modules\.staging\os-homedir-02ef379a
+1396 info lifecycle os-homedir@1.0.2~install: os-homedir@1.0.2
+1397 silly lifecycle os-homedir@1.0.2~install: no script for install, continuing
+1398 silly install os-tmpdir@1.0.2 F:\WebStormProject's\Project 1\node_modules\.staging\os-tmpdir-82ba110f
+1399 info lifecycle os-tmpdir@1.0.2~install: os-tmpdir@1.0.2
+1400 silly lifecycle os-tmpdir@1.0.2~install: no script for install, continuing
+1401 silly install osenv@0.1.4 F:\WebStormProject's\Project 1\node_modules\.staging\osenv-017d5eee
+1402 info lifecycle osenv@0.1.4~install: osenv@0.1.4
+1403 silly lifecycle osenv@0.1.4~install: no script for install, continuing
+1404 silly install nopt@4.0.1 F:\WebStormProject's\Project 1\node_modules\.staging\nopt-be9e09b9
+1405 info lifecycle nopt@4.0.1~install: nopt@4.0.1
+1406 silly lifecycle nopt@4.0.1~install: no script for install, continuing
+1407 silly install minimist@1.2.0 F:\WebStormProject's\Project 1\node_modules\.staging\minimist-8a1d3d6c
+1408 info lifecycle minimist@1.2.0~install: minimist@1.2.0
+1409 silly lifecycle minimist@1.2.0~install: no script for install, continuing
+1410 silly install rc@1.2.1 F:\WebStormProject's\Project 1\node_modules\.staging\rc-4e6c3efd
+1411 info lifecycle rc@1.2.1~install: rc@1.2.1
+1412 silly lifecycle rc@1.2.1~install: no script for install, continuing
+1413 silly install semver@5.4.1 F:\WebStormProject's\Project 1\node_modules\.staging\semver-4178e17d
+1414 info lifecycle semver@5.4.1~install: semver@5.4.1
+1415 silly lifecycle semver@5.4.1~install: no script for install, continuing
+1416 silly install tar-pack@3.4.0 F:\WebStormProject's\Project 1\node_modules\.staging\tar-pack-851d711c
+1417 info lifecycle tar-pack@3.4.0~install: tar-pack@3.4.0
+1418 silly lifecycle tar-pack@3.4.0~install: no script for install, continuing
+1419 silly install nan@2.6.2 F:\WebStormProject's\Project 1\node_modules\.staging\nan-3caf53f1
+1420 info lifecycle nan@2.6.2~install: nan@2.6.2
+1421 silly lifecycle nan@2.6.2~install: no script for install, continuing
+1422 silly install node-pre-gyp@0.6.36 F:\WebStormProject's\Project 1\node_modules\.staging\node-pre-gyp-31aaf9fd
+1423 info lifecycle node-pre-gyp@0.6.36~install: node-pre-gyp@0.6.36
+1424 silly lifecycle node-pre-gyp@0.6.36~install: no script for install, continuing
+1425 silly install bcrypt@1.0.3 F:\WebStormProject's\Project 1\node_modules\.staging\bcrypt-9109e619
+1426 info lifecycle bcrypt@1.0.3~install: bcrypt@1.0.3
+1427 verbose lifecycle bcrypt@1.0.3~install: unsafe-perm in lifecycle true
+1428 verbose lifecycle bcrypt@1.0.3~install: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;F:\WebStormProject's\Project 1\node_modules\bcrypt\node_modules\.bin;F:\WebStormProject's\Project 1\node_modules\.bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Maleta\AppData\Local\Microsoft\WindowsApps;C:\Users\Maleta\AppData\Roaming\npm
+1429 verbose lifecycle bcrypt@1.0.3~install: CWD: F:\WebStormProject's\Project 1\node_modules\bcrypt
+1430 silly lifecycle bcrypt@1.0.3~install: Args: [ '/d /s /c', 'node-pre-gyp install --fallback-to-build' ]
+1431 silly lifecycle bcrypt@1.0.3~install: Returned: code: 1  signal: null
+1432 info lifecycle bcrypt@1.0.3~install: Failed to exec install script
+1433 verbose unlock done using C:\Users\Maleta\AppData\Roaming\npm-cache\_locks\staging-b81a030fd02bc743.lock for F:\WebStormProject's\Project 1\node_modules\.staging
+1434 silly rollbackFailedOptional Starting
+1435 silly rollbackFailedOptional Finishing
+1436 silly runTopLevelLifecycles Finishing
+1437 silly install printInstalled
+1438 warn material-ui@0.18.6 requires a peer of react@^15.4.0 but none was installed.
+1439 verbose If you need help, you may report this error at:
+1439 verbose     <https://github.com/npm/npm/issues>
+1440 warn material-ui@0.18.6 requires a peer of react-dom@^15.4.0 but none was installed.
+1441 verbose If you need help, you may report this error at:
+1441 verbose     <https://github.com/npm/npm/issues>
+1442 warn material-ui@0.18.6 requires a peer of react-tap-event-plugin@^2.0.1 but none was installed.
+1443 verbose If you need help, you may report this error at:
+1443 verbose     <https://github.com/npm/npm/issues>
+1444 warn react-event-listener@0.4.5 requires a peer of react@^0.14.0 || ^15.0.0 but none was installed.
+1445 verbose If you need help, you may report this error at:
+1445 verbose     <https://github.com/npm/npm/issues>
+1446 warn react-transition-group@1.2.0 requires a peer of react@^15.0.0 but none was installed.
+1447 verbose If you need help, you may report this error at:
+1447 verbose     <https://github.com/npm/npm/issues>
+1448 warn react-transition-group@1.2.0 requires a peer of react-dom@^15.0.0 but none was installed.
+1449 verbose If you need help, you may report this error at:
+1449 verbose     <https://github.com/npm/npm/issues>
+1450 warn recompose@0.23.4 requires a peer of react@^0.14.0 || ^15.0.0 but none was installed.
+1451 verbose If you need help, you may report this error at:
+1451 verbose     <https://github.com/npm/npm/issues>
+1452 verbose stack Error: bcrypt@1.0.3 install: `node-pre-gyp install --fallback-to-build`
+1452 verbose stack Exit status 1
+1452 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+1452 verbose stack     at emitTwo (events.js:106:13)
+1452 verbose stack     at EventEmitter.emit (events.js:191:7)
+1452 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+1452 verbose stack     at emitTwo (events.js:106:13)
+1452 verbose stack     at ChildProcess.emit (events.js:191:7)
+1452 verbose stack     at maybeClose (internal/child_process.js:891:16)
+1452 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+1453 verbose pkgid bcrypt@1.0.3
+1454 verbose cwd F:\WebStormProject's\Project 1
+1455 error Windows_NT 10.0.15063
+1456 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "update" "--scripts-prepend-node-path=auto"
+1457 error node v6.11.2
+1458 error npm  v3.10.10
+1459 error code ELIFECYCLE
+1460 error bcrypt@1.0.3 install: `node-pre-gyp install --fallback-to-build`
+1460 error Exit status 1
+1461 error Failed at the bcrypt@1.0.3 install script 'node-pre-gyp install --fallback-to-build'.
+1461 error Make sure you have the latest version of node.js and npm installed.
+1461 error If you do, this is most likely a problem with the bcrypt package,
+1461 error not with npm itself.
+1461 error Tell the author that this fails on your system:
+1461 error     node-pre-gyp install --fallback-to-build
+1461 error You can get information on how to open an issue for this project with:
+1461 error     npm bugs bcrypt
+1461 error Or if that isn't available, you can get their info via:
+1461 error     npm owner ls bcrypt
+1461 error There is likely additional logging output above.
+1462 verbose exit [ 1, true ]

@@ -1,0 +1,12 @@
+<nav>
+    <div class="nav-wrapper">
+        <a href="/" class="brand-logo center"><img style="width: 130px"
+                                                   src="https://vignette1.wikia.nocookie.net/disney/images/8/8b/Starwars-logo.png/revision/latest?cb=20141129122237"></a>
+        <ul id="nav-mobile" class="left  hide-on-med-and-down">
+            <li><a ng-show="<%= !session %>" href="login">Login</a></li>
+            <li><a ng-show="<%= !session %>" href="register">Registration</a></li>
+            <li ng-show="<%= session %>"><a href="logout">Logout</a></li>
+            <li ng-show="<%= session %>"><a href="profile">Profile</a></li>
+        </ul>
+    </div>
+</nav>

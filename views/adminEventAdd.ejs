@@ -1,0 +1,81 @@
+<div id="homebackgroudn" class="card">
+
+    <div class="row">
+        <div id="homebackgroudn" class="col s10 offset-s1">
+
+
+            <div class="input-field col s12">
+                <input ng-model="event.eNaziv" id="event.eNaziv" type="text" class="validate">
+                <label for="event.eNaziv">Naziv dogadja</label>
+            </div>
+
+            <div class="input-field col s12">
+                <input ng-model="event.eOpis" id="event.eOpis" type="text" class="validate">
+                <label for="event.eOpis">Detaljan opis</label>
+            </div>
+
+            <!--<div class="input-field col s12">-->
+            <!--<input ng-model="event.ocena" id="event.ocena" type="text" class="validate">-->
+            <!--<label for="event.ocena">Ocena</label>-->
+            <!--</div>-->
+
+
+            <div class="input-field col s6">
+                <input ng-model="event.eCena" id="event.eCena" type="text" class="validate">
+                <label for="event.eCena">Cena</label>
+            </div>
+
+
+
+            <!--<div class="input-field col s6 right">-->
+            <!--<select ng-model="event.lokacija">-->
+            <!--<option value="" disabled selected>Lokacija</option>-->
+            <!--<option value="Beograd">Beograd</option>-->
+            <!--<option value="Novi Sad">Novi Sad</option>-->
+            <!--<option value="Nis">Nis</option>-->
+            <!--<option value="Kragujev">Kragujevac</option>-->
+            <!--<option value="Subotica">Subotica</option>-->
+            <!--</select>-->
+            <!--</div>-->
+
+
+            <div class="col s6">
+                <label for="date">Datum OD</label>
+                <input ng-model="event.eDatum" name="date" type="date" class="datepicker"/>
+            </div>
+
+            <div class="col s6 right">
+                <label for="textarea1">Duzina trajanja</label>
+                <input ng-model="event.eDatumDani" placeholder="( u danima )" id="first_name"
+                       type="text"
+                       class="validate">
+            </div>
+
+            <div class="col s6 offset-s3">
+                <input style="color: black" id="pac-input" class="controls" type="text" placeholder="Search Box">
+                <div id="map1" class="map"></div>
+            </div>
+
+            <div class="col s12 center">
+                <button ng-click="send();" class="btn-large waves-effect waves-light" type="submit"
+                        name="action">Submit
+                    <i class="material-icons right"></i>
+                </button>
+            </div>
+
+        </div>
+
+        <script>
+            $('.datepicker').pickadate({
+                selectMonths: true, // Creates a dropdown to control month
+                selectYears: 15 // Creates a dropdown of 15 years to control year
+            });
+        </script>
+
+    </div>
+</div>
+
+
+
+
+

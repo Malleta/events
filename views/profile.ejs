@@ -1,0 +1,45 @@
+<html ng-app="myApp">
+<head>
+
+    <% include partials/head.ejs%>
+
+</head>
+
+
+<body ng-controller="myCtrl" ng-cloak>
+
+<!--NaviBar-->
+
+<% include partials/naviBar.ejs%>
+
+
+<!--Body-->
+
+<div class="row">
+
+    <div id="homebackgroudn" class="col s10 offset-s1">
+
+        <div class="col s10 center offset-s1">
+            <div class="card darken-1">
+                <div class="card-content white-text">
+                    <span class="card-title">{{res.uFirstName}} {{res.uLastName}}</span>
+                    <p>{{res.uLocation}}</p>
+                </div>
+                <div class="card-action">
+                    <div class="row">
+                        <p class="col s12">eMail: <b>{{res.uEmail}}</b></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!--Footer-->
+<% include partials/footer.ejs%>
+<!---->
+
+</body>
+</html>

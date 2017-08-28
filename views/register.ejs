@@ -1,0 +1,82 @@
+<html ng-app="myApp">
+<head>
+
+    <% include partials/head.ejs%>
+
+</head>
+
+
+<body ng-controller="myCtrl" ng-cloak class="row">
+
+<% include partials/naviBar.ejs%>
+
+
+<div id="homebackgroudn" class="col s6 offset-s3" style="margin-top: 3rem">
+    <form name="registrationForm" class="col s12">
+        <div class="row">
+            <div class="input-field col s6">
+                <input name="firstName" id="First" type="text" class="validate" name="firstName"
+                       ng-model="formData.firstName" required>
+                <span ng-show="registrationForm.firstName.$dirty && registrationForm.firstName.$error.required">First Name is required</span>
+                <label for="First">First Name</label>
+            </div>
+            <div class="input-field col s6">
+                <input name="lastName" id="last_name" type="text" class="validate" ng-model="formData.lastName"
+                       required>
+                <span ng-show="registrationForm.lastName.$dirty && registrationForm.lastName.$error.required">Last Name is required</span>
+                <label for="last_name">Last Name</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <select ng-model="formData.location">
+                    <option value="" disabled selected>Lokacija</option>
+                    <option value="Beograd">Beograd</option>
+                    <option value="Novi Sad">Novi Sad</option>
+                    <option value="Nis">Nis</option>
+                    <option value="Kragujev">Kragujev</option>
+                    <option value="Subotica">Subotica</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="input-field col s12">
+                <input name="email" id="email" type="email" class="validate" ng-model="formData.email" required>
+                <span ng-show="registrationForm.email.$dirty && registrationForm.email.$error.required">Email is required.</span>
+                <span ng-show="registrationForm.email.$dirty && registrationForm.email.$error.email">Invalid Email address.</span>
+                <label for="email">Email</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <input name="password" id="password" type="password" class="validate" ng-model="formData.password"
+                       required>
+                <span ng-show="registrationForm.password.$dirty && registrationForm.password.$error.required">Password is required.</span>
+                <label for="password">Password</label>
+            </div>
+        </div>
+    </form>
+
+
+    <div class="col s12 center">
+        <button ng-click="send()" class="btn waves-effect waves-light " type="submit" name="action">Submit
+        </button>
+    </div>
+
+</div>
+
+<!--Footer-->
+<% include partials/footer.ejs%>
+<!---->
+
+<script>
+    $(document).ready(function() {
+        $('select').material_select();
+    });
+</script>
+
+</body>
+
+
+</html>

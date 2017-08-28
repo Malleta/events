@@ -1,0 +1,17 @@
+<div id="homebackgroudn" class="card">
+
+    <div class="row">
+        <div id="homebackgroudn" class="col s10 offset-s1">
+            <div input-field>
+                <select ng-model="select.value" material-select>
+                    <option ng-repeat="e in allEvents" value="{{e.eId}}">{{e.eNaziv}}</option>
+                </select>
+            </div>
+            <div class="col s12 center">
+                <button ng-click="delete()" class="btn-large waves-effect waves-light" type="submit"
+                        name="action">Obrisi<i class="material-icons right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

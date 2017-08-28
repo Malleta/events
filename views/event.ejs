@@ -1,0 +1,42 @@
+<html ng-app="myApp">
+<head>
+    <% include partials/head.ejs %>
+</head>
+
+
+<body ng-controller="myCtrl" ng-cloak>
+
+<!--NaviBar-->
+
+
+<% include partials/naviBar.ejs %>
+
+<!--Body-->
+
+<div class="row">
+    <div id="homebackgroudn" class="col s10 offset-s1">
+        <div class="card darken-1">
+            <div class="card-content white-text">
+                <span class="card-title">{{res.eNaziv}}</span>
+                <span>{{res.eOpis}}</span>
+                <span>{{res.eId}}</span>
+            </div>
+            <div class="card-action">
+                <div class="row">
+                    <span class="col s6 left">Datum: <b>{{res.eDatum}}</b></span>
+                    <span class="col s6 right">Cena: <b>{{res.eCena}}</b></span>
+                </div>
+            </div>
+        </div>
+        <div style="color: black" id="mapUpdate" class="map"></div>
+    </div>
+</div>
+
+<!--Footer-->
+<% include partials/footer.ejs %>
+<!---->
+
+<!--<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSWkOxOxjJRavxCM1jYX1sX8AwLwwYyFE&callback=initMap"></script>-->
+
+</body>
+</html>

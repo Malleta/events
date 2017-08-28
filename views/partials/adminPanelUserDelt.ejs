@@ -1,0 +1,15 @@
+<div class="row">
+    <div id="homebackgroudn" class="col s10 offset-s1">
+
+            <div input-field>
+                <select ng-model="select.valueUser" material-select>
+                    <option ng-repeat="e in allUsers" value="{{e.uID}}">{{e.uFirstName}} {{e.uLastName}}</option>
+                </select>
+            </div>
+            <div class="col s12 center">
+                <button ng-click="deleteUser()" class="btn-large waves-effect waves-light" type="submit"
+                        name="action">Obrisi<i class="material-icons right"></i>
+                </button>
+            </div>
+    </div>
+</div>

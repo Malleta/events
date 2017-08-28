@@ -1,0 +1,190 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: url("http://content.pulse.ea.com/content/legacy/starwars-ea-com/en_GB/starwars/battlefront/news-articles/star-wars-battlefront-trophies-revealed/_jcr_content/featuredImage/renditions/rendition1.img.jpg");
+  color: white;
+  margin-bottom: 0px !important;
+
+}
+
+a {
+  color: #FFCC00;
+}
+
+.nav-wrapper, .nav-content, .tab {
+  background-color: black!important;
+}
+
+
+#homebackgroudn{
+  margin-top: 3rem;
+  background-color: rgba(0, 0, 0, .4);
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+/**
+ * Demo Styles
+ */
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.demo {
+  margin: 0 auto;
+  padding-top: 64px;
+  max-width: 640px;
+  width: 94%;
+}
+
+.demo h1 {
+  margin-top: 0;
+}
+
+/**
+ * Footer Styles
+ */
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #CC0000;
+  text-align: center;
+}
+
+ul{
+  color: #000;
+}
+
+.collection{
+  background: black;
+}
+
+.card{
+  background: #5100a3;
+}
+
+.tab{
+  background: #5100a3;
+}
+
+.waves-light{
+  background: #5100a3;
+}
+
+.brand-logo{
+  margin-top: 4px;
+}
+
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+.btn{
+  margin-bottom: 2rem;
+}
+.btn-large{
+  margin-bottom: 2rem;
+}
+
+/*Google MAPS*/
+
+.map {
+  height: 70%;
+  margin-bottom: 2rem;
+}
+
+#description {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#infowindow-content .title {
+  font-weight: bold;
+}
+
+#infowindow-content {
+  display: none;
+}
+
+.map #infowindow-content {
+  display: inline;
+}
+
+.pac-card {
+  margin: 10px 10px 0 0;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  font-family: Roboto;
+}
+
+#pac-container {
+  padding-bottom: 12px;
+  margin-right: 12px;
+}
+
+.pac-controls {
+  display: inline-block;
+  padding: 5px 11px;
+}
+
+.pac-controls label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 400px;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+#title {
+  color: #fff;
+  background-color: #4d90fe;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 6px 12px;
+}
+#target {
+  width: 345px;
+}
+
+
+

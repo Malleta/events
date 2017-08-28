@@ -1,0 +1,42 @@
+<html ng-app="myApp">
+<head>
+
+    <% include partials/head.ejs%>
+
+</head>
+
+
+<body ng-controller="myCtrl" ng-cloak class="row">
+
+<% include partials/naviBar.ejs%>
+
+
+<div id="homebackgroudn" class="col s6 offset-s3" style="margin-top: 3rem">
+    <form class="col s12">
+        <div class="row">
+            <div class="input-field col s12">
+                <input id="email" type="email" class="validate" ng-model="uEmail">
+                <label for="email">Email</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <input id="password" type="password" class="validate" ng-model="uPassword">
+                <label for="password">Password</label>
+            </div>
+        </div>
+    </form>
+
+    <div class="col s12 center">
+        <button ng-click="check()" class="waves-effect waves-light btn" type="submit" name="action">Login
+        </button>
+    </div>
+
+</div>
+
+<!--Footer-->
+<% include partials/footer.ejs%>
+<!---->
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<html ng-app="myApp">
+<head>
+
+    <% include partials/head.ejs %>
+
+</head>
+
+
+<body ng-controller="myCtrl">
+
+<nav>
+    <div class="nav-wrapper">
+        <a href="/" class="brand-logo center"><img style="width: 130px"
+                                                   src="https://vignette1.wikia.nocookie.net/disney/images/8/8b/Starwars-logo.png/revision/latest?cb=20141129122237"></a>
+        <a href="#" class="brand-logo right">ADMIN PANEL</a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="/">Home</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+
+<div id="homebackgroudn" class="card">
+    <div class="card-tabs" >
+        <ul class="tabs tabs-fixed-width" style="overflow:hidden">
+            <li class="tab"><a class="active" href="#eAdd"><b>Dodavanje događaja</b></a></li>
+            <li class="tab"><a href="#eDelete"><b>Brisanje događaja</b></a></li>
+            <li class="tab"><a ng-click="updateMap();" href="#eModify"><b>Promena događaja</b></a></li>
+            <li class="tab" style="background: midnightblue"><a href="#userDelete"><b>Brisanje korisnika</b></a></li>
+        </ul>
+    </div>
+    <div class="card-content black dark-4">
+        <div id="eAdd">
+            <% include partials/adminPanelAdd.ejs %>
+        </div>
+        <div id="eDelete">
+            <% include partials/adminPanelDelt.ejs %>
+        </div>
+        <div id="userDelete">
+            <% include partials/adminPanelUserDelt.ejs %>
+        </div>
+        <div id="eModify">
+            <% include partials/adminPanelModf.ejs %>
+        </div>
+
+    </div>
+</div>
+
+<!--Google Map API-->
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAKePW8gq1LnMBftBImC1b8uAt0GxYu8I&libraries=places&callback=initAutocomplete"
+        async defer></script>
+<!--       -->
+
+<% include partials/footer.ejs %>
+
+</body>
+
+
+</html>
