@@ -165,9 +165,11 @@ router.get('/adminPanelUpdate', function (req, res) {
 });
 
 router.get('/getEvent', function (req, res) {
-
-    connection.query(`SELECT * FROM event WHERE eId = '${req.query.eId}'`, function (error, rows, fields) {
+    console.log(req.query.eID);
+    connection.query(`SELECT * FROM event WHERE eID = '${req.query.eID}'`, function (error, rows, fields) {
         if (error) throw error;
+
+
         res.json(rows[0]);
     });
 });

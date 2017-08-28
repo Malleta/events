@@ -1,6 +1,7 @@
 var app = angular.module('myApp', ['ui.materialize']);
 
 app.controller('myCtrl', ['$scope', '$http', function ($scope, $http) {
+
     $scope.event = {
         eNaziv: '',
         eOpis: '',
@@ -46,18 +47,10 @@ app.controller('myCtrl', ['$scope', '$http', function ($scope, $http) {
             searchBox.addListener('places_changed', function () {
                 var places = searchBox.getPlaces();
 
-
-                    //todo mapa ne dobija parametre
-                    var eventlat =  places[0].geometry.location.lat();
                     $scope.event.lat = places[0].geometry.location.lat();
                     $scope.event.lng = places[0].geometry.location.lng();
                     $scope.event.eLokacija = places[0].formatted_address;
-                $scope.$apply();
 
-
-
-
-                console.log('aaa1',places[0].geometry.location.lat(),eventlat);
 
                 if (places.length == 0) {
                     return;
@@ -116,7 +109,6 @@ app.controller('myCtrl', ['$scope', '$http', function ($scope, $http) {
     $scope.select = {};
 
     $scope.send = function () {
-        console.log($scope.event);
 
 
         $http.post('/api/adminPanelSend', {}, {params: $scope.event})
@@ -184,12 +176,11 @@ app.controller('myCtrl', ['$scope', '$http', function ($scope, $http) {
         });
 
     $scope.$watch('select.value', function (nVal) {
-
-        $http.get('/api/getEvent', {params: {eId: nVal}})
-
+    console.log(nVal)
+        $http.get('/api/getEvent', {params: {eID: nVal}})
             .then(function (res) {
                 $scope.event = res.data;
-
+                console.log('resd', res.data);
             });
 
     });
@@ -200,4 +191,11 @@ app.controller('myCtrl', ['$scope', '$http', function ($scope, $http) {
 
             .then(function (res) {
                 $scope.formData = res.data;
-          
+            });
+
+    });
+
+
+
+}]);
+
