@@ -2,6 +2,7 @@ let express = require('express');
 let router = express.Router();
 let fs = require('fs');
 let mysql = require('mysql');
+let email = require('./../handlers/mail');
 
 
 
@@ -53,21 +54,22 @@ router.post('/login', function (req, res, next) {
         if (error) {
             return
         }
+        if(rows[0].uActivation === '1'){
+            if (rows.length > 0) {
+                if (rows[0].uPassword === req.query.uPassword) {
 
-        if (rows.length > 0) {
-            if (rows[0].uPassword === req.query.uPassword) {
+                    delete rows[0].uPassword;
+                    req.session.user = rows[0];
 
-                delete rows[0].uPassword;
-                req.session.user = rows[0];
-
-                console.log('Login', req.session.user);
-
-                res.json({msg: "Ok"});
+                    res.json({status: true, msg: "Ok"});
+                } else {
+                    res.json({status: false, msg: "Passwords do not match.."});
+                }
             } else {
-                res.json({msg: "Passwords do not match.."});
+                res.json({status: false, msg: "Not vaild email adress."});
             }
         } else {
-            res.json({msg: "Not vaild email adress."});
+            res.json({status: false, msg: "Aktivirajte svoj nalog."});
         }
     });
 
@@ -88,6 +90,15 @@ router.post('/register', function (req, res) {
     connection.query('INSERT INTO users SET ?;', conf, function (error, results, fields) {
         if (error) throw error;
 
+        email.send({
+            subject: 'Aktiviranje naloga',
+            from: 'no-replay@events.rs',
+            to: conf.uEmail,
+            templateName: 'professorRegistration',
+            templateVariables: {
+                uID: conf.uID
+            }
+        });
         res.json({msg: "OK"});
 
     });
@@ -95,11 +106,22 @@ router.post('/register', function (req, res) {
 
 });
 
+router.post('/activation', function (req, res) {
+    console.log(req.query);
+    connection.query(`UPDATE users SET uActivation = '1' WHERE uID = '${req.query.uID}';`, function (error, results, fields) {
+        if (error) throw error;
+
+        res.json({status: true, msg: "Aktivacija uspesna!"});
+
+    });
+
+});
+
 router.post('/adminPanelSend', function (req, res) {
 
 
     let event = {
-        eId: randomID(10),
+        eID: randomID(10),
         eNaziv: req.query.eNaziv,
         eOpis: req.query.eOpis,
         eOcena: req.query.eOcena,
@@ -141,7 +163,6 @@ router.get('/adminPanelDeleteUser', function (req, res) {
     let tempVal = req.query.conf;
     tempVal = JSON.parse(tempVal);
 
-console.log('aaa', tempVal)
     connection.query(`DELETE FROM users WHERE uID = '${tempVal.uID}';`, function (error, results, fields) {
         if (error) throw error;
 
@@ -165,7 +186,6 @@ router.get('/adminPanelUpdate', function (req, res) {
 });
 
 router.get('/getEvent', function (req, res) {
-    console.log(req.query.eID);
     connection.query(`SELECT * FROM event WHERE eID = '${req.query.eID}'`, function (error, rows, fields) {
         if (error) throw error;
 
@@ -213,5 +233,59 @@ router.get('/checkSession', function (req, res) {
     }
 
 });
+
+//
+router.post('/commentSend', function (req, res) {
+
+
+    let comment = {
+        eID: req.query.eID,
+        uID: req.session.user.uID,
+        uFirstName: req.session.user.uFirstName,
+        uComment: req.query.uComment,
+    };
+
+
+    connection.query('INSERT INTO comments SET ?', comment, function (error, results, fields) {
+        if (error) throw error;
+        res.json({status: true, msg: "Komentar postavljen"});
+    });
+
+});
+
+router.get('/getComments', function (req, res) {
+
+    connection.query(`SELECT * FROM comments WHERE eID = '${req.query.eID}'`, function (error, rows, fields) {
+        if (error) throw error;
+        res.json(rows);
+    });
+});
+
+router.post('/uReviewSend', function (req, res) {
+
+    let comment = {
+        eID: req.query.eID,
+        uID: req.session.user.uID,
+        uReview: req.query.uReview,
+    };
+
+
+    connection.query('INSERT INTO review SET ?', comment, function (error, results, fields) {
+        if (error) throw error;
+        res.json({status: true, msg: "Ocena postavljen"});
+    });
+
+});
+
+router.get('/getReview', function (req, res) {
+
+    connection.query(`SELECT uReview FROM review WHERE eID = '${req.query.eID}'`, function (error, rows, fields) {
+        if (error) throw error;
+        console.log(rows);
+        res.json(rows);
+    });
+});
+
+
 
 module.exports = router;

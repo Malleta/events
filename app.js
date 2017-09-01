@@ -12,45 +12,14 @@ let login = require('./routes/login');
 let register = require('./routes/register');
 let profile = require('./routes/profile');
 let event = require('./routes/event');
+let reg = require('./routes/regRoute');
+
 
 let adminPanel = require('./routes/adminPanel');
 let adminEventAdd = require('./routes/adminEventAdd');
 let adminEventDelete = require('./routes/adminEventDelete');
 let adminEventModify = require('./routes/adminEventModify');
 let adminUserDelete = require('./routes/adminUser');
-
-let nodemailer = require('nodemailer');
-let xoauth2 = require('xoauth2');
-
-let transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: {
-        xoauth2: xoauth2.createXOAuth2Generator({
-            user: 'maleta96@gmail.com',
-            clientId: '181247855834-rhh6tmvo0pvdrrk7osml7n4u5q7et6ec.apps.googleusercontent.com',
-            clientSecret: 'fn6r4wtSD8ADqTXv6ae5_E30',
-            refreshToken: '1/aZMly9iEnHTJuIjq4e9jfzx43eBsuWo08io7h6UChpg'
-        })
-    }
-});
-
-//todo mail
-let mailOptions = {
-    from: 'Nikola <maleta96@gmail.com>',
-    to: 'nmaletic15@raf.rs',
-    subject: 'Nodemailer test',
-    text: 'Hello World!!'
-};
-
-transporter.sendMail(mailOptions, function (err, res) {
-    if(err){
-        console.log('Error');
-    } else {
-        console.log('Email Sent');
-    }
-});
-
-
 
 let app = express();
 
@@ -89,6 +58,8 @@ app.use('/adminPanel', adminPanel);
 app.use('/profile', checkSessionNot, profile);
 
 app.use('/event', event);
+app.use('/reg', reg);
+
 app.use('/adminEventAdd', adminEventAdd);
 app.use('/adminEventDelete', adminEventDelete);
 app.use('/adminEventModify', adminEventModify);

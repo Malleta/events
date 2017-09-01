@@ -14,12 +14,46 @@
     <div class="row">
         <div id="homebackgroudn" class="col s10 offset-s1">
             <div id="map" style="margin-top: 1rem" class="map col s12"></div>
-
             <div ng-repeat="x in event">
                 <div class="col s12 m6">
                     <div class="card blue-grey darken-1">
                         <div class="card-content white-text">
-                            <span class="card-title">{{x.eNaziv}}</span>
+                            <span class="card-title">{{x.eNaziv}}
+                            <div ng-repeat="y in reviews" class="rating-stars col s3 right">
+                                            <input type="radio" name="stars" id="star-null">
+                                            <input ng-disabled="true" ng-model="{{y.uReview}}" type="radio" name="stars" id="star-1" value="1" data-start="1" checked="">
+                                            <input ng-disabled="true" ng-model="{{y.uReview}}" type="radio" name="stars" id="star-2" value="2" data-start="2" checked="">
+                                            <input ng-disabled="true" ng-model="{{y.uReview}}" type="radio" name="stars" id="star-3" value="3" data-start="3" checked="">
+                                            <input ng-disabled="true" ng-model="{{y.uReview}}" type="radio" name="stars" id="star-4" value="4" data-start="4" checked="">
+                                            <input ng-disabled="true" ng-model="{{y.uReview}}" type="radio" name="stars" id="star-5" value="5" checked="">
+                                            <section>
+                                                <label for="star-1">
+                                                    <svg width="255" height="240" viewBox="0 0 51 48">
+                                                        <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"></path>
+                                                    </svg>
+                                                </label>
+                                                <label for="star-2">
+                                                    <svg width="255" height="240" viewBox="0 0 51 48">
+                                                        <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"></path>
+                                                    </svg>
+                                                </label>
+                                                <label for="star-3">
+                                                    <svg width="255" height="240" viewBox="0 0 51 48">
+                                                        <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"></path>
+                                                    </svg>
+                                                </label>
+                                                <label for="star-4">
+                                                    <svg width="255" height="240" viewBox="0 0 51 48">
+                                                        <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"></path>
+                                                    </svg>
+                                                </label>
+                                                <label for="star-5">
+                                                    <svg width="255" height="240" viewBox="0 0 51 48">
+                                                        <path d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"></path>
+                                                    </svg>
+                                                </label>
+                                            </section>
+                                        </div></span>
                             <p>{{x.eOpis | cut:true:200:' . . .'}}</p>
                         </div>
                         <div class="card-action">

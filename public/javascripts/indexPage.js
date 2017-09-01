@@ -37,17 +37,15 @@ app.controller('myCtrl', ['$scope', '$http', function ($scope, $http) {
         lng: ""
     };
 
-
     $http.get('/api/index', {}, {params: $scope.event})
         .then(function (res) {
             $scope.event = res.data;
-            console.log($scope.event);
 
             let locations = [];
             $scope.event.forEach(function (item) {
-                console.log(parseFloat(item.lat),item.lat);
                 locations.push({lat: parseFloat(item.lat), lng: parseFloat(item.lng)})
             });
+
             initMap(locations);
         });
 
@@ -81,6 +79,5 @@ app.controller('myCtrl', ['$scope', '$http', function ($scope, $http) {
         let markerCluster = new MarkerClusterer(map, markers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
     }
-//    todo prekopirati initMAP u event
 
 }]);
