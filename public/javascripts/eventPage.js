@@ -8,6 +8,10 @@ app.controller('myCtrl', ['$scope', '$http', '$window', function ($scope, $http,
     $scope.comment = {
         eID: window.location.href.match(/\w{10}$/g),
         uComment: "",
+    };
+
+    $scope.review = {
+        eID: window.location.href.match(/\w{10}$/g),
         uReview: ""
     };
 
@@ -28,7 +32,6 @@ app.controller('myCtrl', ['$scope', '$http', '$window', function ($scope, $http,
         .then(function (res) {
             if(res.data){
                 $scope.comment = res.data;
-                $scope.disabled = true;
 
                 let allReview = 0;
                 let count = 0;
@@ -36,7 +39,15 @@ app.controller('myCtrl', ['$scope', '$http', '$window', function ($scope, $http,
                     allReview = allReview + parseInt(item.uReview);
                     count++;
                 });
-                $scope.uReview = parseInt(allReview/count);
+                $scope.review.uReview = parseInt(allReview/count);
+            }
+        });
+
+    $http.get('/api/getReviewCheck', {params: {eID: window.location.href.match(/\w{10}$/g)}})
+        .then(function (res) {
+            console.log(res.data.length>0)
+            if(res.data.length>0){
+                $scope.disabled = true;
             }
         });
 
@@ -45,7 +56,7 @@ app.controller('myCtrl', ['$scope', '$http', '$window', function ($scope, $http,
 
 
     $scope.send = function () {
-        $http.post('/api/commentSend', {}, {params: $scope.comment})
+        $http.post('/api/commentSend', {}, {params: $scope.review})
             .then(function (res) {
                 res = res.data;
                 if (res.status) {
@@ -58,7 +69,7 @@ app.controller('myCtrl', ['$scope', '$http', '$window', function ($scope, $http,
     };
 
     $scope.uReviewSend = function () {
-        $http.post('/api/uReviewSend', {}, {params: $scope.comment})
+        $http.post('/api/uReviewSend', {}, {params: $scope.review})
             .then(function (res) {
                 res = res.data;
                 if (res.status) {

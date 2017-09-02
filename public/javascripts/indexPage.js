@@ -34,7 +34,8 @@ app.controller('myCtrl', ['$scope', '$http', function ($scope, $http) {
         eDatumDani: "",
         eLokacija: "",
         lat: "",
-        lng: ""
+        lng: "",
+        latlng: ""
     };
 
     $http.get('/api/index', {}, {params: $scope.event})
@@ -46,6 +47,106 @@ app.controller('myCtrl', ['$scope', '$http', function ($scope, $http) {
                 locations.push({lat: parseFloat(item.lat), lng: parseFloat(item.lng)})
             });
 
+/*            var sort_by;
+            (function() {
+                // utility functions
+                var default_cmp = function(a, b) {
+                        if (a == b) return 0;
+                        return a < b ? -1 : 1;
+                    },
+                    getCmpFunc = function(primer, reverse) {
+                        var cmp = default_cmp;
+                        if (primer) {
+                            cmp = function(a, b) {
+                                return default_cmp(primer(a), primer(b));
+                            };
+                        }
+                        if (reverse) {
+                            return function(a, b) {
+                                return -1 * cmp(a, b);
+                            };
+                        }
+                        return cmp;
+                    };
+
+                // actual implementation
+                sort_by = function() {
+                    var fields = [],
+                        n_fields = arguments.length,
+                        field, name, reverse, cmp;
+
+                    // preprocess sorting options
+                    for (var i = 0; i < n_fields; i++) {
+                        field = arguments[i];
+                        if (typeof field === 'string') {
+                            name = field;
+                            cmp = default_cmp;
+                        }
+                        else {
+                            name = field.name;
+                            cmp = getCmpFunc(field.primer, field.reverse);
+                        }
+                        fields.push({
+                            name: name,
+                            cmp: cmp
+                        });
+                    }
+
+                    return function(A, B) {
+                        var a, b, name, cmp, result;
+                        for (var i = 0, l = n_fields; i < l; i++) {
+                            result = 0;
+                            field = fields[i];
+                            name = field.name;
+                            cmp = field.cmp;
+
+                            result = cmp(A[name], B[name]);
+                            if (result !== 0) break;
+                        }
+                        return result;
+                    }
+                }
+            }());*/
+
+            $scope.price = function () {
+                $scope.event = $scope.event.sort(function(a, b) {
+                    return b.eCena - a.eCena;
+                });
+            };
+
+            $scope.date = function () {
+
+                $scope.event.forEach(function (items, index) {
+                    $scope.event[index].eDatum = $scope.event[index].eDatum.replace(/,/g , "");
+                });
+
+                $scope.event =  $scope.event.sort(function(a, b) {
+                    let dateA = new Date(a.eDatum), dateB = new Date(b.eDatum);
+                    console.log(dateA, dateB);
+                    return dateA - dateB;
+                });
+            };
+
+            $scope.location = function () {
+
+                $http.get('/api/getUserID')
+                    .then(function (res) {
+                        $scope.userID = res.data;
+                        $scope.userID = parseFloat($scope.userID.lat) + parseFloat($scope.userID.lng);
+
+                        $scope.event.forEach(function (items, index) {
+                            $scope.event[index].latlng = parseFloat($scope.event[index].lat) + parseFloat($scope.event[index].lng);
+                        });
+
+                        $scope.event = $scope.event.sort(function(a, b) {
+                            return Math.abs(a.latlng - $scope.userID) - Math.abs(b.latlng - $scope.userID);
+                        });
+                        $scope.event.forEach(function (items, index) {
+                            console.log($scope.event[index].latlng, '=', $scope.userID)
+                        });
+                    });
+            };
+
             initMap(locations);
         });
 
@@ -53,6 +154,8 @@ app.controller('myCtrl', ['$scope', '$http', function ($scope, $http) {
         .then(function (res) {
             $scope.checkSession = !!res.data;
         });
+
+
 
     let initMap = function initMap(locations) {
 

@@ -80,11 +80,14 @@ router.post('/register', function (req, res) {
 
     let conf = {
         uID: randomID(10),
+        uStatus: 'User',
         uFirstName: req.query.firstName,
         uLastName: req.query.lastName,
         uLocation: req.query.location,
         uEmail: req.query.email,
-        uPassword: req.query.password
+        uPassword: req.query.password,
+        lat: req.query.lat,
+        lng: req.query.lng
     };
 
     connection.query('INSERT INTO users SET ?;', conf, function (error, results, fields) {
@@ -269,7 +272,7 @@ router.post('/uReviewSend', function (req, res) {
         uReview: req.query.uReview,
     };
 
-
+    console.log(comment)
     connection.query('INSERT INTO review SET ?', comment, function (error, results, fields) {
         if (error) throw error;
         res.json({status: true, msg: "Ocena postavljen"});
@@ -281,10 +284,26 @@ router.get('/getReview', function (req, res) {
 
     connection.query(`SELECT uReview FROM review WHERE eID = '${req.query.eID}'`, function (error, rows, fields) {
         if (error) throw error;
-        console.log(rows);
         res.json(rows);
     });
 });
+
+router.get('/getReviewCheck', function (req, res) {
+
+    connection.query(`SELECT * FROM review WHERE eID = '${req.query.eID}' AND uID = '${req.session.user.uID}'`, function (error, rows, fields) {
+        if (error) throw error;
+        res.json(rows);
+    });
+});
+
+router.get('/getUserID', function (req, res) {
+
+    connection.query(`SELECT * FROM users WHERE uID = '${req.session.user.uID}'`, function (error, rows, fields) {
+        if (error) throw error;
+        res.json(rows[0]);
+    });
+});
+
 
 
 
